@@ -1,3 +1,7 @@
+echo ""
+echo "------------------ Instalador de Pacotes ------------------"
+echo ""
+
 packets=(
         "curl" 
         "vim"
@@ -35,10 +39,11 @@ echo "Lista dos pacotes pré definidos:"
 for packet in "${packets[@]}"; do
     echo "- $packet"
 done
+
+echo ""
 echo "Deseja instalar os pacotes pré definidos? [y/n]"
 read answerPackets
 echo ""
-
 
 if [ "$answerPackets" = "y" ]; then
     sudo apt update && sudo apt upgrade

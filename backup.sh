@@ -29,5 +29,6 @@ else
     exit 1
 fi
 
+echo ""
 echo "Backup realizado com sucesso!"
 echo ""
