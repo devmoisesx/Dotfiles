@@ -35,20 +35,20 @@ packets=(
     )
 
 echo "Lista dos pacotes pré definidos:"
-for packet in "${packets[@]}"; do
-    echo "- $packet"
+for package in "${packages[@]}"; do
+    echo "- $package"
 done
 
 echo ""
 echo "Deseja instalar os pacotes pré definidos? [y/n]"
-read answerPackets
+read answerPackages
 echo ""
 
-if [ "$answerPackets" = "y" ]; then
+if [ "$answerPackages" = "y" ]; then
     sudo apt update && sudo apt upgrade
-    for packet in "${packets[@]}"; do
-        echo "Instalando $packet..."
-        sudo apt install -y "$packet"
+    for package in "${packages[@]}"; do
+        echo "Instalando $package..."
+        sudo apt install -y "$package"
     done
 
     #Install Visual Studio Code
@@ -128,7 +128,7 @@ if [ "$answerPackets" = "y" ]; then
     echo ""
     echo "Todos os pacotes foram instalados!"
     echo ""
-elif [ "$answerPackets" = "n" ]; then
+elif [ "$answerPackages" = "n" ]; then
     echo "Ok! Nenhum pacote será instalado!"
 else
     echo "Opção inválida! Use 'y' para sim ou 'n' para não."

@@ -30,13 +30,13 @@ echo ""
 
 echo ""
 echo "Deseja instalar os pacotes pré definidos? [y/n]"
-read answerInstallPackets
+read answerInstallPackages
 echo ""
 
-if [ "$answerInstallPackets" = "y" ]; then
+if [ "$answerInstallPackages" = "y" ]; then
     echo "Inicializando script para instalar os pacotes..."
-    ./install_packets.sh
-elif [ "$answerInstallPackets" = "n" ]; then
+    ./install_package.sh
+elif [ "$answerInstallPackages" = "n" ]; then
     echo "Ok! pacotes não instalados."
 else
     echo "Opção inválida! Use 'y' para sim ou 'n' para não."
