@@ -42,3 +42,16 @@ else
     echo "Opção inválida! Use 'y' para sim ou 'n' para não."
 fi
 
+echo ""
+echo "Deseja instalar e auto configurar o ZSH junto com o OH-MY-ZSH? [y/n]"
+read answerInstallZSH
+echo ""
+
+if [ "$answerInstallZSH" = "y" ]; then
+    echo "Inicializando script..."
+    ./install_zsh.sh
+elif [ "$answerInstallZSH" = "n" ]; then
+    echo "Ok! zsh não será instalado."
+else
+    echo "Opção inválida! Use 'y' para sim ou 'n' para não."
+fi
