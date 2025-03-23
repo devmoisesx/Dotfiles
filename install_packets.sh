@@ -17,7 +17,6 @@ packets=(
         "obsidian"
         "discord"
         "lutris"
-        "zsh"
         "postman"
         "rnote"
         "radeontop"
