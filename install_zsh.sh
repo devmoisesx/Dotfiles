@@ -52,7 +52,6 @@ if [ "$answer" = "y" ]; then
     echo 'export PATH="$PATH:/home/moises/.lmstudio/bin"' >> ~/.zshrc
 
     source ~/.zshrc
-    exec zsh
 
     # define zsh como shell principal
     chsh -s $(which zsh)
