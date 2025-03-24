@@ -2,39 +2,39 @@ echo ""
 echo "------------------ Instalador de Pacotes ------------------"
 echo ""
 
-packets=(
-        "curl" 
-        "vim"
-        "git"
-        "htop"
-        "sunshine"
-        "moonlight"
-        "rustdesk"
-        "vlc"
-        "alacritty"
-        "gnome-screenshot"
-        "draw.io"
-        "obsidian"
-        "discord"
-        "lutris"
-        "postman"
-        "rnote"
-        "radeontop"
-        "fasfetch"
-        "zfs-zed"
-        "warp-terminal"
-        "docker"
-        "wmdocker"
-        "wine"
-        "gnome-tweaks"
-        "lsd"
-        "libreoffice"
-        "gedit"
-        "thefuck"
-        "bat"
-        "python3"
-        "python3-pip"
-    )
+# packets=(
+#         "curl" 
+#         "vim"
+#         "git"
+#         "htop"
+#         "sunshine"
+#         "moonlight"
+#         "rustdesk"
+#         "vlc"
+#         "alacritty"
+#         "gnome-screenshot"
+#         "draw.io"
+#         "obsidian"
+#         "discord"
+#         "lutris"
+#         "postman"
+#         "rnote"
+#         "radeontop"
+#         "fasfetch"
+#         "zfs-zed"
+#         "warp-terminal"
+#         "docker"
+#         "wmdocker"
+#         "wine"
+#         "gnome-tweaks"
+#         "lsd"
+#         "libreoffice"
+#         "gedit"
+#         "thefuck"
+#         "bat"
+#         "python3"
+#         "python3-pip"
+#     )
 
 echo "Lista dos pacotes pré definidos:"
 for package in "${packages[@]}"; do
@@ -48,10 +48,12 @@ echo ""
 
 if [ "$answerPackages" = "y" ]; then
     sudo apt update && sudo apt upgrade
-    for package in "${packages[@]}"; do
-        echo "Instalando $package..."
-        sudo apt install -y "$package"
-    done
+    sudo apt install -y curl vim git htop sunshine moonlight rustdesk vlc alacritty gnome-screenshot draw.io obsidian discord lutris postman rnote radeontop fasfetch zfs-zed warp-terminal docker wmdocker wine gnome-tweaks lsd libreoffice gedit thefuck bat python3 python3-pip
+
+    # for package in "${packages[@]}"; do
+    #     echo "Instalando $package..."
+    #     sudo apt install -y "$package"
+    # done
 
     # instalar o pyenv
     curl https://pyenv.run | bash
