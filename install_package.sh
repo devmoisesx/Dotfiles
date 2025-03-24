@@ -32,7 +32,8 @@ packets=(
         "gedit"
         "thefuck"
         "bat"
-
+        "python3"
+        "python3-pip"
     )
 
 echo "Lista dos pacotes pré definidos:"
@@ -54,6 +55,12 @@ if [ "$answerPackages" = "y" ]; then
 
     # instalar o pyenv
     curl https://pyenv.run | bash
+
+    touch ~/.zshrc
+    echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.zshrc
+    echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
+    echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+    echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
 
     #Install Visual Studio Code
     sudo snap install --classic code
@@ -90,16 +97,10 @@ if [ "$answerPackages" = "y" ]; then
     ./nerd-fonts/install.sh
     rm -rf nerd-fonts
 
-    touch ~/.zshrc
-    echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.zshrc
-    echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
-    echo 'eval "$(pyenv init -)"' >> ~/.zshrc
-    echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
+    # source ~/.zshrc
 
-    source ~/.zshrc
-
-    # instalar o python
-    pyenv install 3.13
+    # # instalar o python
+    # pyenv install 3.13
 
     echo set nu >> ~/.vim_runtime/my_configs.vim
 
