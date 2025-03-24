@@ -73,6 +73,14 @@ if [ "$answerPackages" = "y" ]; then
     mkdir -p ~/.local/bin
     ln -s /usr/bin/batcat ~/.local/bin/bat 
 
+    # instalar o nodejs
+    curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+    sudo apt install -y nodejs
+
+    # instalar o java
+    sudo apt install -y openjdk-17-jdk
+    sudo apt install -y maven
+
     #install zsh/vim fonts
     git clone --depth=1 https://github.com/powerline/fonts.git
     ./fonts/install.sh
