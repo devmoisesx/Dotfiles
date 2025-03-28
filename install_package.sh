@@ -2,45 +2,6 @@ echo ""
 echo "------------------ Instalador de Pacotes ------------------"
 echo ""
 
-# packets=(
-#         "curl" 
-#         "vim"
-#         "git"
-#         "htop"
-#         "sunshine"
-#         "moonlight"
-#         "rustdesk"
-#         "vlc"
-#         "alacritty"
-#         "gnome-screenshot"
-#         "draw.io"
-#         "obsidian"
-#         "discord"
-#         "lutris"
-#         "postman"
-#         "rnote"
-#         "radeontop"
-#         "fasfetch"
-#         "zfs-zed"
-#         "warp-terminal"
-#         "docker"
-#         "wmdocker"
-#         "wine"
-#         "gnome-tweaks"
-#         "lsd"
-#         "libreoffice"
-#         "gedit"
-#         "thefuck"
-#         "bat"
-#         "python3"
-#         "python3-pip"
-#     )
-
-echo "Lista dos pacotes pré definidos:"
-for package in "${packages[@]}"; do
-    echo "- $package"
-done
-
 echo ""
 echo "Deseja instalar os pacotes pré definidos? [y/n]"
 read answerPackages
@@ -48,12 +9,7 @@ echo ""
 
 if [ "$answerPackages" = "y" ]; then
     sudo apt update && sudo apt upgrade
-    sudo apt install -y curl vim git htop sunshine moonlight rustdesk vlc alacritty gnome-screenshot draw.io obsidian discord lutris postman rnote radeontop fasfetch zfs-zed warp-terminal docker wmdocker wine gnome-tweaks lsd libreoffice gedit thefuck bat python3 python3-pip
-
-    # for package in "${packages[@]}"; do
-    #     echo "Instalando $package..."
-    #     sudo apt install -y "$package"
-    # done
+    sudo apt install curl vim git htop sunshine rustdesk vlc gnome-screenshot draw.io lutris radeontop zfs-zed warp-terminal docker wmdocker wine gnome-tweaks eza libreoffice gedit thefuck bat micro python3 tmux
 
     # instalar o pyenv
     curl https://pyenv.run | bash
@@ -63,6 +19,21 @@ if [ "$answerPackages" = "y" ]; then
     echo 'eval "$(pyenv init --path)"' >> ~/.zshrc
     echo 'eval "$(pyenv init -)"' >> ~/.zshrc
     echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
+
+    # instalar moonlight
+    sudo snap install moonlight
+
+    # instalar obsidian
+    sudo snap install obsidian --classic
+
+    # install discord
+    sudo snap install discord
+
+    # install postman
+    sudo snap install postman
+
+    sudo snap install ghostty
+    sudo snap install alacritty
 
     #Install Visual Studio Code
     sudo snap install --classic code
@@ -103,6 +74,13 @@ if [ "$answerPackages" = "y" ]; then
 
     # # instalar o python
     # pyenv install 3.13
+
+    # instalar fzf
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf ~/.fzf/install
+
+    # instalar zoxide
+    curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+    echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
 
     echo set nu >> ~/.vim_runtime/my_configs.vim
 
