@@ -1,0 +1,20 @@
+[user]
+	name = devmoisesx
+	email = secondmox91@gmail.com
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[core]
+	editor = code
+[Alias]
+   l = log --graph --pretty=format:'%C(yellow)%h%Creset %C(yellow)%cd%Creset%C(auto)%d%Creset %C(cyan)<%an>%Creset \n\t%s\n' --date=short
+    ac = !git add -A && git commit -m
+    a = add -A
+    s = status -s --column
+    sb = status -sbu --column
+    si = status -sbu --ignored
+    b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+    la = "!git config -l | grep alias | cut -c 7-"
+[maintenance]
+	repo = /home/moises/Repos/znap
+	repo = /home/moises/Repos/marlonrichert/zsh-autocomplete

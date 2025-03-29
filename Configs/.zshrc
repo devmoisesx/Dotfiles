@@ -1,9 +1,12 @@
-
 alias l="ls -la"
 alias le="eza --icons --hyperlink --sort type"
-alias lt="eza --icons --hyperlink --sort type -a"
-alias bat="batcat"
+alias la="eza --icons --hyperlink --sort type -ga"
+alias lt="eza --icons --hyperlink --sort type -1T"
+alias lta="eza --icons --hyperlink --sort type -1Ta"
+alias bat="batcat --color=always "
+alias batd="batcat -d --color=always "
 alias cd="z"
+alias cdh="cd ~"
 
 # source /path/to/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 skip_global_compinit=1
@@ -46,6 +49,7 @@ export PATH="$PATH:/home/moises/.lmstudio/bin"
 eval $(thefuck --alias)
 source $ZSH/oh-my-zsh.sh
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
 
 # Set up fzf key bindings and fuzzy completion
 # source <(fzf --zsh)

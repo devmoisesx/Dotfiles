@@ -9,7 +9,7 @@ echo ""
 
 if [ "$answerPackages" = "y" ]; then
     sudo apt update && sudo apt upgrade
-    sudo apt install curl vim git htop sunshine rustdesk vlc gnome-screenshot draw.io lutris radeontop zfs-zed warp-terminal docker wmdocker wine gnome-tweaks eza libreoffice gedit thefuck bat micro python3 tmux
+    sudo apt install -y curl vim git htop zsh sunshine rustdesk vlc gnome-screenshot draw.io lutris radeontop zfs-zed warp-terminal docker wmdocker wine gnome-tweaks eza libreoffice gedit thefuck bat micro python3 tmux 
 
     # instalar o pyenv
     curl https://pyenv.run | bash
@@ -83,6 +83,11 @@ if [ "$answerPackages" = "y" ]; then
     echo 'eval "$(zoxide init zsh)"' >> ~/.zshrc
 
     echo set nu >> ~/.vim_runtime/my_configs.vim
+
+    # instala o Starship
+    curl -sS https://starship.rs/install.sh | sh
+
+    starship preset nerd-font-symbols -o ~/.config/starship.toml
 
     echo ""
     echo "Todos os pacotes foram instalados!"
