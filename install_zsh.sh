@@ -15,43 +15,30 @@ if [ "$answer" = "y" ]; then
     #install oh-my-zsh
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-    sed -i 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"agnoster\"/g' .zshrc
-    echo 'alias ls="lsd -1"' >> ~/.zshrc
-    echo 'alias c="code ."' >> ~/.zshrc
-    echo 'alias bat="batcat"' >> ~/.zshrc
-    echo 'skip_global_compinit=1' >> ~/.zshrc
-    echo 'export ZSH_AUTOCOMPLETE_ADD_SEMICOLON=false' >> ~/.zshrc
-
-    # Adicionar plugins ao .zshrc
-    echo 'plugins=(
-        git
-        sudo
-        history
-    )' >> ~/.zshrc
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+    git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+    git clone https://github.com/z-shell/F-Sy-H.git \
+    ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/F-Sy-H
+    git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
+    git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
 
     # Instalar gerenciador de plugins
-    curl -sL zplug.sh/installer | zsh
-    source ~/.zplug/init.zsh
+    # curl -sL zplug.sh/installer | zsh
+    # source ~/.zplug/init.zsh
 
     # Instalar plugins adicionais
-    zplug "zsh-users/zsh-autosuggestions"
-    zplug "zsh-users/zsh-history-substring-search"
-    zplug "unixorn/web-search"
-    zplug "rupa/z"
-    zplug "F-Sy-H/zsh-fsyh"
-    zplug "garethflowers/you-should-use"
-    zplug "zsh-users/zsh-autocomplete"
-    zplug "zsh-users/zsh-command-not-found"
+    # zinit load "zsh-users/zsh-autosuggestions"
+    # zinit load "zsh-users/zsh-history-substring-search"
+    # zinit load "unixorn/web-search"
+    # zinit load "rupa/z"
+    # zinit load z-shell/F-Sy-H 
+    # zinit load MichaelAquilina/zsh-you-should-use
+    # zinit load marlonrichert/zsh-autocomplete
+    # zinit load "zsh-users/zsh-command-not-found"
 
-    zplug install
-    zplug update
-    zplug load --verbose
-
-    echo 'eval $(thefuck --alias)' >> ~/.zshrc
-    echo 'source $ZSH/oh-my-zsh.sh' >> ~/.zshrc
-    echo 'export PATH="$PATH:/home/moises/.lmstudio/bin"' >> ~/.zshrc
-
-    source ~/.zshrc
+    # zinit load install
+    # zinit update
+    # zinit self-update
 
     # define zsh como shell principal
     chsh -s $(which zsh)

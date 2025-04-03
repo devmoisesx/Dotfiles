@@ -9,7 +9,7 @@ echo ""
 
 if [ "$answerPackages" = "y" ]; then
     sudo apt update && sudo apt upgrade
-    sudo apt install -y curl vim git htop zsh sunshine rustdesk vlc gnome-screenshot draw.io lutris radeontop zfs-zed warp-terminal docker wmdocker wine gnome-tweaks eza libreoffice gedit thefuck bat micro python3 tmux 
+    sudo apt install -y curl vim git htop zsh vlc gnome-screenshot lutris radeontop zfs-zed wmdocker wine gnome-tweaks eza libreoffice gedit bat micro python3 tmux python3-dev python3-pip python3-setuptools alacritty
 
     # instalar o pyenv
     curl https://pyenv.run | bash
@@ -23,6 +23,10 @@ if [ "$answerPackages" = "y" ]; then
     # instalar moonlight
     sudo snap install moonlight
 
+    sudo snap install drawio
+
+    pip3 install thefuck --user
+
     # instalar obsidian
     sudo snap install obsidian --classic
 
@@ -32,8 +36,8 @@ if [ "$answerPackages" = "y" ]; then
     # install postman
     sudo snap install postman
 
-    sudo snap install ghostty
-    sudo snap install alacritty
+    sudo snap install ghostty --classic
+    sudo snap install alacritty --classic
 
     #Install Visual Studio Code
     sudo snap install --classic code
@@ -76,7 +80,8 @@ if [ "$answerPackages" = "y" ]; then
     # pyenv install 3.13
 
     # instalar fzf
-    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf ~/.fzf/install
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 
     # instalar zoxide
     curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh

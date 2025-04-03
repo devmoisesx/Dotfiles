@@ -60,6 +60,25 @@ else
 fi
 
 echo ""
+echo "Deseja instalar e auto configurar o ZSH junto com o OH-MY-ZSH? [y/n]"
+read answerInstallZSH
+echo ""
+
+if [ "$answerInstallZSH" = "y" ]; then
+    echo "Inicializando script..."
+    ./install_zsh.sh
+elif [ "$answerInstallZSH" = "n" ]; then
+    echo "Ok! zsh não será instalado."
+else
+    echo "Opção inválida! Use 'y' para sim ou 'n' para não."
+fi
+
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt autoclean -y
+sudo apt autoremove -y
+
+echo ""
 echo "Deseja reiniciar o sistema? [y/n]"
 read answerReboot
 echo ""
@@ -72,17 +91,3 @@ elif [ "$answerReboot" = "n" ]; then
 else
     echo "Opção inválida! Use 'y' para sim ou 'n' para não."
 fi
-
-# echo ""
-# echo "Deseja instalar e auto configurar o ZSH junto com o OH-MY-ZSH? [y/n]"
-# read answerInstallZSH
-# echo ""
-
-# if [ "$answerInstallZSH" = "y" ]; then
-#     echo "Inicializando script..."
-#     ./install_zsh.sh
-# elif [ "$answerInstallZSH" = "n" ]; then
-#     echo "Ok! zsh não será instalado."
-# else
-#     echo "Opção inválida! Use 'y' para sim ou 'n' para não."
-# fi

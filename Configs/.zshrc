@@ -32,6 +32,8 @@ plugins=(
     # zsh-autocomplete
 )
 
+source $ZSH/oh-my-zsh.sh
+
 export LANG=pt_BR.UTF-8
 
 if [[ -n $SSH_CONNECTION ]]; then
