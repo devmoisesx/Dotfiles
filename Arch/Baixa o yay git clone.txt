@@ -1,0 +1,34 @@
+# Baixa o yay
+git clone https://aur.archlinux.org/yay
+
+cd yay
+
+makepkg -si
+
+# Instala o snap
+yay -Sy snapd
+
+# Configurações Hyprland
+## Instalar:
+Hyprpaper
+
+
+## Keybinds
+
+
+## Teclado
+kb_layout = br
+kb_variant = abnt2
+
+# Passo a passo
+Instala o arch junto com o Hyprland
+Instala o yay
+Atualiza os mirrors, pacotes e atualizacoes
+Instala: Hyprpaper, waybar, pipewire junto com wireplumber, swaync e qt5-wayland qt6-wayland e xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk
+Pacotes acima colocar para inicializar junto do sistema
+Instala nwg-shell, nwg-shell-settings, nwg-bar e nwg-clipman
+Instalar alguma fonte da nerdfonts
+Configurar waybar
+Baixar o pavucontrol
+Baixar e ativar o networkmanager
+Baixar o grim, slurp e wl-clipboard

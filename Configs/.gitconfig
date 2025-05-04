@@ -1,9 +1,6 @@
 [user]
 	name = devmoisesx
 	email = secondmox91@gmail.com
-[credential "https://github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
 [core]
 	editor = code
 [Alias]
