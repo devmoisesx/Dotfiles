@@ -32,3 +32,14 @@ Configurar waybar
 Baixar o pavucontrol
 Baixar e ativar o networkmanager
 Baixar o grim, slurp e wl-clipboard
+pulseaudio-ctl
+swayidle
+waypaper
+nwg-displays
+xwaylandvideobridge
+intellij-idea-community-edition
+spotdl
+astrovim
+avante.nvim
+polkit-kde-agent
+wlogout

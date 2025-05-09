@@ -2,17 +2,16 @@ sudo pacman -Syu
 sudo pacman -S --needed git base-devel
 
 # install yay
-# git clone https://aur.archlinux.org/yay.git
-# cd yay
-# makepkg -si
-# yay --version
-# yay -Syu
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+yay --version
+yay -Syu
 
 # install packages
-yay -Sy curl vim git htop zsh vlc snapd neovim gnome-screenshot wmdocker libreoffice gedit bat micro python3 tmux python3-dev python3-pip python3-pipx python3-setuptools alacritty waybar hyprpaper flatpack gnome-audio-locator gnome-calculator gnome-calendar gnome-clocks gnome-connections gnome-disk-utility gnome-disks gnome-doc-utils gnome-font-viewer gnome-photos gnome-music gnome-software gnome-system-monitor --noconfirm --removemake
+yay -Sy hyprland nwg-shell nwg-shell-settings nwg-clipman snapd pavucontrol nwg-bar qt5-wayland qt6-wayland curl vim git htop zsh vlc snapd neovim grim slurp wmdocker libreoffice gedit bat micro python tmux alacritty waybar hyprpaper flatpack gnome-audio-locator gnome-calculator gnome-calendar gnome-clocks gnome-connections gnome-disk-utility gnome-disks gnome-doc-utils gnome-font-viewer gnome-photos gnome-music gnome-software gnome-system-monitor eza bat --noconfirm --removemake
 
 sudo pacman -S swaync pipewire wireplumber 
-
 
 systemctl --user enable pipewire
 systemctl --user enable wireplumber
@@ -28,6 +27,9 @@ systemctl --user start xdg-desktop-portal-hyprland xdg-desktop-portal-gtk
 
 systemctl --user enable hyprpolkitagent
 systemctl --user start hyprpolkitagent
+
+sudo systemctl enable --now snapd.socket
+sudo ln -s /var/lib/snapd/snap /snap
 
 # install moonlight
 sudo snap install moonlight
