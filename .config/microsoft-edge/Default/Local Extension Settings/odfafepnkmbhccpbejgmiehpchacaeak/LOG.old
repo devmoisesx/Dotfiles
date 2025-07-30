@@ -1,0 +1,31 @@
+2025/07/29-15:08:13.344 dd8 Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/Local Extension Settings/odfafepnkmbhccpbejgmiehpchacaeak/MANIFEST-000001
+2025/07/29-15:08:13.344 dd8 Recovering log #550
+2025/07/29-15:08:13.348 dd8 Reusing old log /home/moises/.config/microsoft-edge/Default/Local Extension Settings/odfafepnkmbhccpbejgmiehpchacaeak/000550.log 
+2025/07/29-16:08:51.616 dd8 Level-0 table #554: started
+2025/07/29-16:08:51.639 dd8 Level-0 table #554: 4236532 bytes OK
+2025/07/29-16:08:51.653 dd8 Delete type=0 #550
+2025/07/29-16:09:48.775 dd7 Level-0 table #556: started
+2025/07/29-16:09:48.828 dd7 Level-0 table #556: 8578772 bytes OK
+2025/07/29-16:09:48.844 dd7 Delete type=0 #553
+2025/07/29-16:09:48.849 dd7 Compacting 4@0 + 4@1 files
+2025/07/29-16:09:48.882 dd7 Generated table #557@0: 4 keys, 2432096 bytes
+2025/07/29-16:09:48.906 dd7 Generated table #558@0: 8 keys, 3136759 bytes
+2025/07/29-16:09:48.939 dd7 Generated table #559@0: 2 keys, 2536490 bytes
+2025/07/29-16:09:48.997 dd7 Generated table #560@0: 2 keys, 5453260 bytes
+2025/07/29-16:09:49.015 dd7 Generated table #561@0: 9 keys, 1423080 bytes
+2025/07/29-16:09:49.015 dd7 Compacted 4@0 + 4@1 files => 14981685 bytes
+2025/07/29-16:09:49.028 dd7 compacted to: files[ 0 5 5 0 0 0 0 ]
+2025/07/29-16:09:49.030 dd7 Delete type=2 #547
+2025/07/29-16:09:49.030 dd7 Delete type=2 #549
+2025/07/29-16:09:49.030 dd7 Delete type=2 #551
+2025/07/29-16:09:49.030 dd7 Delete type=2 #554
+2025/07/29-16:09:49.030 dd7 Delete type=2 #545
+2025/07/29-16:09:49.030 dd7 Delete type=2 #556
+2025/07/29-16:09:49.030 dd7 Delete type=2 #546
+2025/07/29-16:09:49.030 dd7 Delete type=2 #544
+2025/07/29-16:09:49.037 dd7 Compacting 1@1 + 1@2 files
+2025/07/29-16:09:49.090 dd7 Generated table #562@1: 2 keys, 5453260 bytes
+2025/07/29-16:09:49.091 dd7 Compacted 1@1 + 1@2 files => 5453260 bytes
+2025/07/29-16:09:49.104 dd7 compacted to: files[ 0 4 5 0 0 0 0 ]
+2025/07/29-16:09:49.105 dd7 Delete type=2 #501
+2025/07/29-16:09:49.105 dd7 Delete type=2 #560

@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon/ty+128.png",
+         "16": "icon/ty+16.png",
+         "48": "icon/ty+48.png"
+      },
+      "default_title": "Typing Practice"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "contentScript.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Transform any webpage into a typing practice session with original formatting. Practice typing while reading whatever you want.",
+   "icons": {
+      "128": "icon/ty+128.png",
+      "16": "icon/ty+16.png",
+      "48": "icon/ty+48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAriczHR4cYdXgbn/9ybYah7lPE0bsQKHwYpcMl5vm0gbxu35IFLhjo6mDVgAaOAG5gAwkiQfoEDX4szZD9OSwjy5rsYWd+zh4KTRd738y93uuR9HdQrQPPyXwQTWU7EJLvtHvJg1n6KdDGx/vmdQSuJUZ4l2eYrhSq5wbw72QwL9fxSdX/gRU6QGBt38OjZAuzd6AmrckJolfEbBd/foFmzuO1ltpBGPvE2MOCxB+27W/s/fRseZRyuUvZQxL19A0N9g65RMJkjOjnhBF8ln2qO7dPMyj3XtNLCzmK+9ibnoqFaLoQB4ncpUlacJq9EfYOWZR81BFarOng+5yR8K/tQIDAQAB",
+   "manifest_version": 3,
+   "name": "Typing Practice",
+   "permissions": [ "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "contentScript.css", "contentScript.js.map" ]
+   } ]
+}

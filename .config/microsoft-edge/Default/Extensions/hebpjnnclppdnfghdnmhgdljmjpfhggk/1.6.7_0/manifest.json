@@ -1,0 +1,35 @@
+{
+   "author": "Unhook",
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon-128.png",
+      "default_popup": "popup.html",
+      "default_title": "Unhook"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/content.css" ],
+      "js": [ "js/content.js" ],
+      "matches": [ "https://www.youtube.com/*", "https://m.youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Hide YouTube related videos, shorts, comments, suggestions wall, homepage recommendations, trending, and other distractions.",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj2R5EGEkPZ1Bi4AYI1S4YZcLdIINwp+7omBOS7/wLBl396wvB9G4mj3cmCreqS21/AUJNvgrSh230XpQwwK/zHAMsKlAxEpOSNDnR13Lg9LUZRh8wDGxRvjvsVDznRkLsMs6o4f8fYUGMTxtsG7yhelWc7TlnXz5L+2QUE+A41PPtjwS0h5/UV4S4z+zTnod2HMul9ZUOwHk9P6QMceuftkmEu3NGY4ULxJeHlRTqrRX3Zor/tCe1AAmV4bmidcx9TXogfLO3iWqS+VzsWv50igicDz+MffTUWffz5VAMp0QchXyitxMI2qrCVWpCAy1+FTn0/KwPe+SJmOG71wU/QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "49",
+   "name": "Unhook - Remove YouTube Recommended & Shorts",
+   "permissions": [ "storage", "webRequest", "https://www.youtube.com/*", "https://m.youtube.com/*" ],
+   "short_name": "Unhook",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.6.7",
+   "web_accessible_resources": [ "js/unhook-yt.js" ]
+}

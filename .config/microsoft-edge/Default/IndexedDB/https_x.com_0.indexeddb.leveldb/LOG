@@ -1,0 +1,22 @@
+2025/07/29-19:18:21.132 97a Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_x.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/29-19:18:21.132 97a Recovering log #67
+2025/07/29-19:18:21.153 97a Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_x.com_0.indexeddb.leveldb/000067.log 
+2025/07/29-19:18:53.226 97b Level-0 table #71: started
+2025/07/29-19:18:53.247 97b Level-0 table #71: 746768 bytes OK
+2025/07/29-19:18:53.262 97b Delete type=0 #67
+2025/07/29-19:18:53.262 97b Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01'\x00u\x00s\x00e\x00r\x00:\x001\x004\x001\x006\x004\x009\x007\x007\x001\x002\x000\x002\x003\x009\x007\x003\x008\x009\x000\x00:\x00r\x00w\x00e\x00b\x00.\x00s\x00e\x00e\x00n\x00i\x00d\x00s\x00v\x002' @ 40671 : 1
+2025/07/29-19:18:53.263 97b Compacting 1@0 + 1@1 files
+2025/07/29-19:18:53.309 97b Generated table #72@0: 533 keys, 79902 bytes
+2025/07/29-19:18:53.309 97b Compacted 1@0 + 1@1 files => 79902 bytes
+2025/07/29-19:18:53.335 97b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/29-19:18:53.336 97b Delete type=2 #71
+2025/07/29-19:18:53.336 97b Delete type=2 #68
+2025/07/29-19:18:53.336 97b Manual compaction at level-0 from '\x00\x01\x01\x02\x01'\x00u\x00s\x00e\x00r\x00:\x001\x004\x001\x006\x004\x009\x007\x007\x001\x002\x000\x002\x003\x009\x007\x003\x008\x009\x000\x00:\x00r\x00w\x00e\x00b\x00.\x00s\x00e\x00e\x00n\x00i\x00d\x00s\x00v\x002' @ 40671 : 1 .. (end); will stop at (end)
+2025/07/29-19:18:53.336 97b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x002\x01\x04' @ 40009 : 1
+2025/07/29-19:18:53.336 97b Compacting 1@1 + 1@2 files
+2025/07/29-19:18:53.347 97b Generated table #73@1: 68 keys, 74675 bytes
+2025/07/29-19:18:53.347 97b Compacted 1@1 + 1@2 files => 74675 bytes
+2025/07/29-19:18:53.361 97b compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/29-19:18:53.361 97b Delete type=2 #66
+2025/07/29-19:18:53.361 97b Delete type=2 #72
+2025/07/29-19:18:53.361 97b Manual compaction at level-1 from '\x00\x03\x00\x002\x01\x04' @ 40009 : 1 .. (end); will stop at (end)

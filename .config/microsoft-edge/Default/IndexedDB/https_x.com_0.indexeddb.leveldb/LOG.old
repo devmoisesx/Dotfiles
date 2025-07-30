@@ -1,0 +1,12 @@
+2025/07/28-19:08:57.586 9c5 Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_x.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/28-19:08:57.586 9c5 Recovering log #63
+2025/07/28-19:08:57.625 9c5 Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_x.com_0.indexeddb.leveldb/000063.log 
+2025/07/28-19:15:04.420 974 Compacting 1@1 + 1@2 files
+2025/07/28-19:15:04.469 974 Generated table #66@1: 71 keys, 94631 bytes
+2025/07/28-19:15:04.469 974 Compacted 1@1 + 1@2 files => 94631 bytes
+2025/07/28-19:15:04.483 974 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/28-19:15:04.484 974 Delete type=2 #61
+2025/07/28-19:15:04.485 974 Delete type=2 #64
+2025/07/28-19:26:22.500 974 Level-0 table #68: started
+2025/07/28-19:26:22.524 974 Level-0 table #68: 2936985 bytes OK
+2025/07/28-19:26:22.538 974 Delete type=0 #63

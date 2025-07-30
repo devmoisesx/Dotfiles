@@ -1,0 +1,11 @@
+@import '@assets/scss/mixins/animationMixins';
+
+@include keyframe(fade-in) {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

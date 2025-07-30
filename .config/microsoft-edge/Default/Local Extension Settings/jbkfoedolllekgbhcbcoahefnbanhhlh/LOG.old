@@ -1,0 +1,12 @@
+2025/07/29-15:08:12.845 e09 Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/Local Extension Settings/jbkfoedolllekgbhcbcoahefnbanhhlh/MANIFEST-000001
+2025/07/29-15:08:12.846 e09 Recovering log #15
+2025/07/29-15:08:12.936 e09 Reusing old log /home/moises/.config/microsoft-edge/Default/Local Extension Settings/jbkfoedolllekgbhcbcoahefnbanhhlh/000015.log 
+2025/07/29-15:21:25.390 dd8 Level-0 table #20: started
+2025/07/29-15:21:25.411 dd8 Level-0 table #20: 4084450 bytes OK
+2025/07/29-15:21:25.427 dd8 Delete type=0 #15
+2025/07/29-15:31:37.517 dd8 Compacting 1@0 + 1@1 files
+2025/07/29-15:31:37.539 dd8 Generated table #21@0: 55 keys, 405769 bytes
+2025/07/29-15:31:37.539 dd8 Compacted 1@0 + 1@1 files => 405769 bytes
+2025/07/29-15:31:37.552 dd8 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/07/29-15:31:37.553 dd8 Delete type=2 #17
+2025/07/29-15:31:37.553 dd8 Delete type=2 #20

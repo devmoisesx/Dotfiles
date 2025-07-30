@@ -1,0 +1,6 @@
+2025/07/11-20:46:27.972 3cec Creating DB /home/moises/.config/microsoft-edge/Default/IndexedDB/https_github.dev_0.indexeddb.leveldb since it was missing.
+2025/07/11-20:46:28.011 3cec Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_github.dev_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/11-20:46:41.704 3cec Level-0 table #5: started
+2025/07/11-20:46:41.716 3cec Level-0 table #5: 131777 bytes OK
+2025/07/11-20:46:41.730 3cec Delete type=0 #3
+2025/07/11-20:46:41.731 3cec Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,15 @@
+2025/07/03-20:21:37.126 819 Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_us-west-2.console.aws.amazon.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/03-20:21:37.126 819 Recovering log #4
+2025/07/03-20:21:37.129 819 Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_us-west-2.console.aws.amazon.com_0.indexeddb.leveldb/000004.log 
+2025/07/03-21:43:40.758 819 Level-0 table #8: started
+2025/07/03-21:43:40.772 819 Level-0 table #8: 456862 bytes OK
+2025/07/03-21:43:40.787 819 Delete type=0 #4
+2025/07/03-21:43:40.787 819 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/07/03-21:43:40.787 819 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01@\x00f\x001\x005\x001\x00b\x00e\x002\x009\x005\x000\x00e\x006\x006\x003\x00b\x00b\x002\x008\x000\x00b\x001\x00d\x007\x00d\x00f\x00e\x004\x00d\x000\x005\x006\x004\x005\x00a\x00c\x00c\x009\x00d\x003\x000\x007\x00d\x004\x00b\x004\x00d\x004\x009\x00f\x007\x001\x001\x009\x00b\x00c\x005\x007\x000\x006\x008\x006\x006\x006\x006' @ 1053 : 0
+2025/07/03-21:43:40.787 819 Compacting 1@1 + 1@2 files
+2025/07/03-21:43:40.802 819 Generated table #9@1: 46 keys, 16915 bytes
+2025/07/03-21:43:40.802 819 Compacted 1@1 + 1@2 files => 16915 bytes
+2025/07/03-21:43:40.816 819 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/03-21:43:40.817 819 Delete type=2 #5
+2025/07/03-21:43:40.817 819 Delete type=2 #8
+2025/07/03-21:43:40.818 819 Manual compaction at level-1 from '\x00\x02\x01\x02\x01@\x00f\x001\x005\x001\x00b\x00e\x002\x009\x005\x000\x00e\x006\x006\x003\x00b\x00b\x002\x008\x000\x00b\x001\x00d\x007\x00d\x00f\x00e\x004\x00d\x000\x005\x006\x004\x005\x00a\x00c\x00c\x009\x00d\x003\x000\x007\x00d\x004\x00b\x004\x00d\x004\x009\x00f\x007\x001\x001\x009\x00b\x00c\x005\x007\x000\x006\x008\x006\x006\x006\x006' @ 1053 : 0 .. (end); will stop at (end)

@@ -1,0 +1,22 @@
+2025/07/22-15:05:25.620 fe3 Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/22-15:05:25.620 fe3 Recovering log #21
+2025/07/22-15:05:25.622 fe3 Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000021.log 
+2025/07/22-15:05:57.653 fe4 Level-0 table #25: started
+2025/07/22-15:05:57.669 fe4 Level-0 table #25: 244920 bytes OK
+2025/07/22-15:05:57.684 fe4 Delete type=0 #21
+2025/07/22-15:05:57.685 fe4 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 10841 : 1
+2025/07/22-15:05:57.685 fe4 Compacting 1@0 + 1@1 files
+2025/07/22-15:05:57.726 fe4 Generated table #26@0: 921 keys, 976071 bytes
+2025/07/22-15:05:57.726 fe4 Compacted 1@0 + 1@1 files => 976071 bytes
+2025/07/22-15:05:57.740 fe4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/22-15:05:57.741 fe4 Delete type=2 #22
+2025/07/22-15:05:57.741 fe4 Delete type=2 #25
+2025/07/22-15:05:57.742 fe4 Manual compaction at level-0 from '\x00\x02\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 10841 : 1 .. (end); will stop at (end)
+2025/07/22-15:05:57.742 fe4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 10865 : 1
+2025/07/22-15:05:57.742 fe4 Compacting 1@1 + 1@2 files
+2025/07/22-15:05:57.765 fe4 Generated table #27@1: 154 keys, 452869 bytes
+2025/07/22-15:05:57.765 fe4 Compacted 1@1 + 1@2 files => 452869 bytes
+2025/07/22-15:05:57.778 fe4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/22-15:05:57.779 fe4 Delete type=2 #19
+2025/07/22-15:05:57.779 fe4 Delete type=2 #26
+2025/07/22-15:05:57.780 fe4 Manual compaction at level-1 from '\x00\x02\x01\x02\x01(\x00S\x00t\x00o\x00r\x00e\x00d\x00N\x00e\x00t\x00w\x00o\x00r\x00k\x00F\x00e\x00t\x00c\x00h\x00C\x00o\x00u\x00n\x00t\x00e\x00r\x00s\x00:\x00:\x00S\x00T\x00A\x00T\x00I\x00C\x00_\x00A\x00S\x00S\x00E\x00T' @ 10865 : 1 .. (end); will stop at (end)

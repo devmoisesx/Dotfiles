@@ -1,0 +1,543 @@
+2025-06-24 21:15:08.222 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:08.222 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:08.223 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:08.223 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:08.367 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:08.367 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:08.803 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:08.999 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:15:08.999 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:09.000 [D] konsole_utils: set_default_profile: konsolerc wasn't found, creating it with default profile 'Profile 1.profile'
+2025-06-24 21:15:09.000 [I] konsole_utils: create_profile: Konsole profile 'Profile 1' doesn't exist, creating it
+2025-06-24 21:15:09.001 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:13.561 [D] utils: kill_existing: Found previous process in PID file: '145276' killing...
+2025-06-24 21:15:13.561 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:13.614 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:13.614 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:13.614 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:13.615 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:13.763 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:13.763 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:14.197 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:14.292 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:15:14.292 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:14.293 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:14.294 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:14.553 [D] utils: kill_existing: Found previous process in PID file: '145766' killing...
+2025-06-24 21:15:14.553 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:14.603 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:14.603 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:14.604 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:14.604 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:14.743 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:14.743 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:15.162 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:15.372 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: 
+2025-06-24 21:15:15.372 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:15.373 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:15.374 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:15.504 [D] utils: kill_existing: Found previous process in PID file: '146071' killing...
+2025-06-24 21:15:15.504 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:15.554 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:15.554 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:15.555 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:15.555 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:15.697 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:15.697 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:16.166 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:16.260 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: 
+2025-06-24 21:15:16.260 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:16.261 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:16.262 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:16.794 [D] utils: kill_existing: Found previous process in PID file: '146386' killing...
+2025-06-24 21:15:16.794 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:16.847 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:16.848 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:16.849 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:16.849 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:17.004 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:17.004 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:17.296 [D] utils: kill_existing: Found previous process in PID file: '146722' killing...
+2025-06-24 21:15:17.361 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:17.361 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:17.362 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:17.363 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:17.559 [D] utils: kill_existing: Found previous process in PID file: '146983' killing...
+2025-06-24 21:15:17.628 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:17.628 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:17.629 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:17.630 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:17.804 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:17.804 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:17.904 [D] utils: kill_existing: Found previous process in PID file: '147241' killing...
+2025-06-24 21:15:17.947 [D] utils: kill_existing: Found previous process in PID file: '147241' killing...
+2025-06-24 21:15:17.948 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:17.987 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:17.987 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:17.989 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:17.990 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:18.005 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:18.005 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:18.006 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:18.006 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:18.170 [D] utils: kill_existing: Found previous process in PID file: '147670' killing...
+2025-06-24 21:15:18.171 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:18.171 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:18.228 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:18.229 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:18.229 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:18.230 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:18.371 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:18.371 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:18.518 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:18.589 [I] plasma_utils: apply_color_schemes: O tema solicitado "MaterialYouDark" já está definido como o tema da sessão atual do Plasma.
+2025-06-24 21:15:18.717 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:15:18.717 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:18.719 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:18.719 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:18.756 [D] utils: kill_existing: Found previous process in PID file: '147911' killing...
+2025-06-24 21:15:18.756 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:18.771 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:15:18.771 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:18.773 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:18.773 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:18.841 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:18.841 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:18.842 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:18.843 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:19.026 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:19.026 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:19.068 [D] utils: kill_existing: Found previous process in PID file: '148271' killing...
+2025-06-24 21:15:19.124 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:19.124 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:19.125 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:19.125 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:19.260 [D] utils: kill_existing: Found previous process in PID file: '148518' killing...
+2025-06-24 21:15:19.315 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:19.315 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:19.316 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#96807d', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 0, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:19.316 [I] main: main: Wallpaper: Custom color (color): #96807d
+2025-06-24 21:15:19.460 [I] m3_scheme_utils: get_color_schemes: Using seed: #96807d
+2025-06-24 21:15:19.460 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:19.771 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:20.022 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: 
+2025-06-24 21:15:20.022 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:20.023 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:20.023 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:27.332 [D] utils: kill_existing: Found previous process in PID file: '148744' killing...
+2025-06-24 21:15:27.332 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:27.385 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:27.385 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:27.386 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#cf6a79', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:27.386 [I] main: main: Wallpaper: Custom color (color): #cf6a79
+2025-06-24 21:15:27.506 [I] m3_scheme_utils: get_color_schemes: Using seed: #cf6a79
+2025-06-24 21:15:27.506 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:27.924 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:28.014 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: 
+2025-06-24 21:15:28.014 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:28.015 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:28.016 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:34.926 [D] utils: kill_existing: Found previous process in PID file: '149286' killing...
+2025-06-24 21:15:34.926 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:34.977 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:34.978 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:34.979 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#e98cb8', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:34.979 [I] main: main: Wallpaper: Custom color (color): #e98cb8
+2025-06-24 21:15:35.098 [I] m3_scheme_utils: get_color_schemes: Using seed: #e98cb8
+2025-06-24 21:15:35.098 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:35.523 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:35.621 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: 
+2025-06-24 21:15:35.621 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:35.622 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:35.623 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:40.563 [D] utils: kill_existing: Found previous process in PID file: '149804' killing...
+2025-06-24 21:15:40.563 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:40.614 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:40.614 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:40.615 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:40.615 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:40.736 [I] m3_scheme_utils: get_color_schemes: Using seed: #c977b0
+2025-06-24 21:15:40.736 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:41.149 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:41.251 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: 
+2025-06-24 21:15:41.252 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:41.253 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:41.253 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:15:42.816 [D] utils: kill_existing: Found previous process in PID file: '150259' killing...
+2025-06-24 21:15:42.816 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:15:42.883 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:42.883 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:42.884 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:42.884 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:43.050 [I] m3_scheme_utils: get_color_schemes: Using seed: #c977b0
+2025-06-24 21:15:43.050 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:43.523 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:43.593 [D] utils: kill_existing: Found previous process in PID file: '150599' killing...
+2025-06-24 21:15:43.700 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:43.700 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:43.702 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:43.702 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:43.869 [I] m3_scheme_utils: get_color_schemes: Using seed: #c977b0
+2025-06-24 21:15:43.869 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:44.404 [D] utils: kill_existing: Found previous process in PID file: '150901' killing...
+2025-06-24 21:15:44.531 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:44.531 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:44.533 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:44.533 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:44.728 [I] m3_scheme_utils: get_color_schemes: Using seed: #c977b0
+2025-06-24 21:15:44.728 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:44.833 [D] utils: kill_existing: Found previous process in PID file: '151257' killing...
+2025-06-24 21:15:44.941 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:44.941 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:44.943 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:44.943 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:45.155 [D] utils: kill_existing: Found previous process in PID file: '151542' killing...
+2025-06-24 21:15:45.262 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:45.263 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:45.264 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:45.265 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:45.436 [I] m3_scheme_utils: get_color_schemes: Using seed: #c977b0
+2025-06-24 21:15:45.436 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:45.557 [D] utils: kill_existing: Found previous process in PID file: '151770' killing...
+2025-06-24 21:15:45.651 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:45.651 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:45.656 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:45.656 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:45.677 [D] utils: kill_existing: Found previous process in PID file: '152018' killing...
+2025-06-24 21:15:45.769 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:45.770 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:45.771 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:45.771 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:45.791 [D] utils: kill_existing: Found previous process in PID file: '152115' killing...
+2025-06-24 21:15:45.867 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:45.867 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:45.869 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:45.869 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:46.045 [I] m3_scheme_utils: get_color_schemes: Using seed: #c977b0
+2025-06-24 21:15:46.045 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:46.202 [D] utils: kill_existing: Found previous process in PID file: '152228' killing...
+2025-06-24 21:15:46.265 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:15:46.265 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:15:46.266 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#c977b0', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:15:46.267 [I] main: main: Wallpaper: Custom color (color): #c977b0
+2025-06-24 21:15:46.388 [I] m3_scheme_utils: get_color_schemes: Using seed: #c977b0
+2025-06-24 21:15:46.388 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:15:46.709 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:15:46.935 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: 
+2025-06-24 21:15:46.935 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:15:46.936 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:15:46.936 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:16:00.034 [D] utils: kill_existing: Found previous process in PID file: '152454' killing...
+2025-06-24 21:16:00.034 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:16:00.084 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:16:00.084 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:16:00.085 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#4b447b', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:16:00.085 [I] main: main: Wallpaper: Custom color (color): #4b447b
+2025-06-24 21:16:00.210 [I] m3_scheme_utils: get_color_schemes: Using seed: #4b447b
+2025-06-24 21:16:00.210 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:16:00.576 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:16:00.659 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: 
+2025-06-24 21:16:00.659 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:16:00.660 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:16:00.661 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:25:19.884 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:25:19.886 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:25:19.890 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#4b447b', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 5, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:25:19.893 [I] main: main: Wallpaper: Custom color (color): #4b447b
+2025-06-24 21:25:20.017 [I] m3_scheme_utils: get_color_schemes: Using seed: #4b447b
+2025-06-24 21:25:20.017 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:25:21.387 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:25:21.632 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:25:21.632 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:25:21.636 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:25:21.637 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:25:39.313 [D] utils: kill_existing: Found previous process in PID file: '8184' killing...
+2025-06-24 21:25:39.313 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:25:39.363 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:25:39.363 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:25:39.364 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#1ce9f1', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 1, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:25:39.365 [I] main: main: Wallpaper: Custom color (color): #1ce9f1
+2025-06-24 21:25:39.488 [I] m3_scheme_utils: get_color_schemes: Using seed: #1ce9f1
+2025-06-24 21:25:39.488 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:25:39.925 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:25:40.020 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:25:40.020 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:25:40.021 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:25:40.021 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:26:10.408 [D] utils: kill_existing: Found previous process in PID file: '9001' killing...
+2025-06-24 21:26:10.408 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:26:10.459 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:26:10.459 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:26:10.460 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#4a5278', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 1, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:26:10.461 [I] main: main: Wallpaper: Custom color (color): #4a5278
+2025-06-24 21:26:10.589 [I] m3_scheme_utils: get_color_schemes: Using seed: #4a5278
+2025-06-24 21:26:10.589 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:26:11.049 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:26:11.148 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:26:11.148 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:26:11.149 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:26:11.149 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:26:18.700 [D] utils: kill_existing: Found previous process in PID file: '10622' killing...
+2025-06-24 21:26:18.700 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:26:18.753 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:26:18.753 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:26:18.754 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a6656b', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 1, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:26:18.754 [I] main: main: Wallpaper: Custom color (color): #a6656b
+2025-06-24 21:26:18.882 [I] m3_scheme_utils: get_color_schemes: Using seed: #a6656b
+2025-06-24 21:26:18.882 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:26:19.265 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:26:19.351 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:26:19.351 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:26:19.352 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:26:19.352 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:26:27.122 [D] utils: kill_existing: Found previous process in PID file: '11165' killing...
+2025-06-24 21:26:27.122 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:26:27.175 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:26:27.175 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:26:27.176 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#bb4630', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 1, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:26:27.176 [I] main: main: Wallpaper: Custom color (color): #bb4630
+2025-06-24 21:26:27.301 [I] m3_scheme_utils: get_color_schemes: Using seed: #bb4630
+2025-06-24 21:26:27.301 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:26:27.673 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:26:27.756 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:26:27.756 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:26:27.757 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:26:27.757 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:26:42.661 [D] utils: kill_existing: Found previous process in PID file: '11706' killing...
+2025-06-24 21:26:42.662 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:26:42.716 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:26:42.717 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:26:42.717 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#fbd4db', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 1, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:26:42.718 [I] main: main: Wallpaper: Custom color (color): #fbd4db
+2025-06-24 21:26:42.841 [I] m3_scheme_utils: get_color_schemes: Using seed: #fbd4db
+2025-06-24 21:26:42.841 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:26:43.273 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:26:43.381 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:26:43.404 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:26:43.405 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:26:43.406 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:28:36.395 [D] utils: kill_existing: Found previous process in PID file: '12467' killing...
+2025-06-24 21:28:36.396 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:28:36.449 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:28:36.449 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:28:36.450 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#daaf7b', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 2, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:28:36.450 [I] main: main: Wallpaper: Custom color (color): #daaf7b
+2025-06-24 21:28:36.587 [I] m3_scheme_utils: get_color_schemes: Using seed: #daaf7b
+2025-06-24 21:28:36.587 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:28:37.024 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:28:37.116 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:28:37.116 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:28:37.117 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:28:37.118 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 21:28:43.678 [D] utils: kill_existing: Found previous process in PID file: '16265' killing...
+2025-06-24 21:28:43.678 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-24 21:28:43.730 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 21:28:43.730 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 21:28:43.731 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#20aeb1', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 21:28:43.732 [I] main: main: Wallpaper: Custom color (color): #20aeb1
+2025-06-24 21:28:43.853 [I] m3_scheme_utils: get_color_schemes: Using seed: #20aeb1
+2025-06-24 21:28:43.853 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 21:28:44.337 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 21:28:44.432 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-24 21:28:44.432 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 21:28:44.433 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 21:28:44.434 [I] kwin_utils: reload: Reloading KWin
+2025-06-24 22:03:18.770 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-24 22:03:18.773 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-24 22:03:18.777 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#20aeb1', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-24 22:03:18.778 [I] main: main: Wallpaper: Custom color (color): #20aeb1
+2025-06-24 22:03:18.899 [I] m3_scheme_utils: get_color_schemes: Using seed: #20aeb1
+2025-06-24 22:03:18.899 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-24 22:03:19.410 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-24 22:03:19.673 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: 
+2025-06-24 22:03:19.673 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-24 22:03:19.674 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-24 22:03:19.675 [I] kwin_utils: reload: Reloading KWin
+2025-06-25 20:01:15.286 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-25 20:01:15.288 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-25 20:01:15.290 [D] main: main: {'light': True, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-25 20:01:15.290 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-25 20:01:15.405 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-25 20:01:15.405 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-25 20:01:15.842 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouLight foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-25 20:01:15.933 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus: org.kde.plasma.changeicons: Icon theme is already used
+2025-06-25 20:01:15.933 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-25 20:01:15.938 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-25 20:01:15.939 [I] kwin_utils: reload: Reloading KWin
+2025-06-25 20:01:33.021 [D] utils: kill_existing: Found previous process in PID file: '426349' killing...
+2025-06-25 20:01:33.022 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-25 20:01:33.070 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-25 20:01:33.070 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-25 20:01:33.071 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-25 20:01:33.071 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-25 20:01:33.192 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-25 20:01:33.192 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-25 20:01:33.671 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-25 20:01:33.961 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-25 20:01:33.961 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-25 20:01:33.963 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-25 20:01:33.964 [I] kwin_utils: reload: Reloading KWin
+2025-06-25 20:02:27.645 [D] utils: kill_existing: Found previous process in PID file: '427449' killing...
+2025-06-25 20:02:27.645 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-25 20:02:27.694 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-25 20:02:27.695 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-25 20:02:27.695 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-25 20:02:27.696 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-25 20:02:27.815 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-25 20:02:27.815 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-25 20:02:28.275 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-25 20:02:28.365 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-25 20:02:28.365 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-25 20:02:28.366 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-25 20:02:28.367 [I] kwin_utils: reload: Reloading KWin
+2025-06-25 20:57:30.187 [D] utils: kill_existing: Found previous process in PID file: '429541' killing...
+2025-06-25 20:57:30.188 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-25 20:57:30.307 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-25 20:57:30.307 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-25 20:57:30.308 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-25 20:57:30.308 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-25 20:57:30.437 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-25 20:57:30.437 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-25 20:57:30.956 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-25 20:57:31.051 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-25 20:57:31.051 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-25 20:57:31.054 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-25 20:57:31.056 [I] kwin_utils: reload: Reloading KWin
+2025-06-25 20:58:02.675 [D] utils: kill_existing: Found previous process in PID file: '568933' killing...
+2025-06-25 20:58:02.675 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-25 20:58:02.730 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-25 20:58:02.730 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-25 20:58:02.731 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-25 20:58:02.731 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-25 20:58:02.856 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-25 20:58:02.856 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-25 20:58:03.353 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-25 20:58:03.449 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: org.kde.plasma.changeicons: Icon theme is already used
+2025-06-25 20:58:03.449 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-25 20:58:03.450 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-25 20:58:03.450 [I] kwin_utils: reload: Reloading KWin
+2025-06-25 20:58:05.800 [D] utils: kill_existing: Found previous process in PID file: '570499' killing...
+2025-06-25 20:58:05.800 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-25 20:58:05.854 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-25 20:58:05.854 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-25 20:58:05.855 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-25 20:58:05.855 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-25 20:58:05.979 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-25 20:58:05.979 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-25 20:58:06.487 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-25 20:58:06.598 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: org.kde.plasma.changeicons: Icon theme is already used
+2025-06-25 20:58:06.598 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-25 20:58:06.599 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-25 20:58:06.600 [I] kwin_utils: reload: Reloading KWin
+2025-06-26 08:56:38.438 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-26 08:56:38.440 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-26 08:56:38.445 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-26 08:56:38.448 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-26 08:56:38.572 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-26 08:56:38.572 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-26 08:56:39.291 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-26 08:56:39.392 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: org.kde.plasma.changeicons: Icon theme is already used
+2025-06-26 08:56:39.392 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-26 08:56:39.430 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-26 08:56:39.432 [I] kwin_utils: reload: Reloading KWin
+2025-06-26 08:56:44.105 [D] utils: kill_existing: Found previous process in PID file: '2211' killing...
+2025-06-26 08:56:44.105 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-26 08:56:44.155 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-26 08:56:44.155 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-26 08:56:44.156 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-26 08:56:44.156 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-26 08:56:44.278 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-26 08:56:44.278 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-26 08:56:44.433 [D] utils: kill_existing: Found previous process in PID file: '2771' killing...
+2025-06-26 08:56:44.483 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-26 08:56:44.484 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-26 08:56:44.484 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-26 08:56:44.485 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-26 08:56:44.600 [D] utils: kill_existing: Found previous process in PID file: '2894' killing...
+2025-06-26 08:56:44.649 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-26 08:56:44.649 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-26 08:56:44.650 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-26 08:56:44.650 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-26 08:56:44.771 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-26 08:56:44.771 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-26 08:56:45.071 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-26 08:56:45.156 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-26 08:56:45.156 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-26 08:56:45.157 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-26 08:56:45.157 [I] kwin_utils: reload: Reloading KWin
+2025-06-26 08:56:49.358 [D] utils: kill_existing: Found previous process in PID file: '3003' killing...
+2025-06-26 08:56:49.359 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-26 08:56:49.406 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-26 08:56:49.406 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-26 08:56:49.407 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 1, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-26 08:56:49.407 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-26 08:56:49.527 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-26 08:56:49.527 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-26 08:56:49.998 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-26 08:56:50.084 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-26 08:56:50.084 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-26 08:56:50.085 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-26 08:56:50.085 [I] kwin_utils: reload: Reloading KWin
+2025-06-26 08:56:52.975 [D] utils: kill_existing: Found previous process in PID file: '3315' killing...
+2025-06-26 08:56:52.976 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-26 08:56:53.024 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-26 08:56:53.024 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-26 08:56:53.025 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 5, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-26 08:56:53.025 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-26 08:56:53.145 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-26 08:56:53.145 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-26 08:56:53.617 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-26 08:56:53.708 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-26 08:56:53.708 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-26 08:56:53.709 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-26 08:56:53.709 [I] kwin_utils: reload: Reloading KWin
+2025-06-26 08:57:06.447 [D] utils: kill_existing: Found previous process in PID file: '3596' killing...
+2025-06-26 08:57:06.447 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-26 08:57:06.495 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-26 08:57:06.495 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-26 08:57:06.496 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-26 08:57:06.496 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-26 08:57:06.615 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-26 08:57:06.615 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-26 08:57:07.085 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-26 08:57:07.182 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: 
+2025-06-26 08:57:07.183 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-26 08:57:07.184 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-26 08:57:07.184 [I] kwin_utils: reload: Reloading KWin
+2025-06-26 09:03:29.321 [D] utils: kill_existing: Found previous process in PID file: '4175' killing...
+2025-06-26 09:03:29.321 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-26 09:03:29.370 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-26 09:03:29.370 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-26 09:03:29.371 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#a7d3fb', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-26 09:03:29.372 [I] main: main: Wallpaper: Custom color (color): #a7d3fb
+2025-06-26 09:03:29.490 [I] m3_scheme_utils: get_color_schemes: Using seed: #a7d3fb
+2025-06-26 09:03:29.490 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-26 09:03:29.947 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-26 09:03:30.040 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: org.kde.plasma.changeicons: Icon theme is already used
+2025-06-26 09:03:30.040 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-26 09:03:30.041 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-26 09:03:30.042 [I] kwin_utils: reload: Reloading KWin
+2025-06-26 10:13:12.273 [D] utils: kill_existing: Found previous process in PID file: '17803' killing...
+2025-06-26 10:13:12.273 [D] utils: kill_existing: Process not found, probably ended by someone else
+2025-06-26 10:13:12.331 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-06-26 10:13:12.331 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-06-26 10:13:12.332 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#bd7b46', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-06-26 10:13:12.332 [I] main: main: Wallpaper: Custom color (color): #bd7b46
+2025-06-26 10:13:12.465 [I] m3_scheme_utils: get_color_schemes: Using seed: #bd7b46
+2025-06-26 10:13:12.465 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-06-26 10:13:12.938 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-06-26 10:13:13.026 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: org.kde.plasma.changeicons: Icon theme is already used
+2025-06-26 10:13:13.027 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-06-26 10:13:13.028 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-06-26 10:13:13.028 [I] kwin_utils: reload: Reloading KWin
+2025-07-09 06:09:32.519 [I] main: main: ###### STARTED NEW SESSION v1.10.1 ######
+2025-07-09 06:09:32.521 [D] main: main: Installed in /usr/lib/python3.13/site-packages/kde_material_you_colors
+2025-07-09 06:09:32.523 [D] main: main: {'light': False, 'file': '/home/end/.local/state/quickshell/user/wallpaper.txt', 'monitor': 0, 'ncolor': 0, 'iconslight': 'breeze-plus', 'iconsdark': 'breeze-plus-dark', 'pywal': False, 'pywal_light': None, 'light_blend_multiplier': 1, 'dark_blend_multiplier': 1, 'on_change_hook': None, 'sierra_breeze_buttons_color': None, 'disable_konsole': False, 'titlebar_opacity': 100, 'titlebar_opacity_dark': 100, 'toolbar_opacity': 100, 'toolbar_opacity_dark': 100, 'konsole_opacity': 100, 'konsole_opacity_dark': 100, 'konsole_blur': False, 'color': '#91b5c3', 'klassy_windeco_outline': None, 'custom_colors_list': ['#ED8796', '#A6DA95', '#EED49F', '#8AADF4', '#F5BDE6', '#8BD5CA', '#f5a97f'], 'darker_window_list': None, 'use_startup_delay': None, 'startup_delay': 0, 'plasma_follows_scheme': None, 'pywal_follows_scheme': None, 'main_loop_delay': 1, 'screenshot_delay': 900, 'once_after_change': False, 'pause_mode': False, 'screenshot_only_mode': False, 'scheme_variant': 4, 'chroma_multiplier': 1.0, 'tone_multiplier': 1.0, 'qdbus_executable': None, 'manual_fetch': False, 'fetch_colors': False}
+2025-07-09 06:09:32.523 [I] main: main: Wallpaper: Custom color (color): #91b5c3
+2025-07-09 06:09:32.646 [I] m3_scheme_utils: get_color_schemes: Using seed: #91b5c3
+2025-07-09 06:09:32.646 [I] schemeconfigs: __init__: Using custom colors: #ED8796 #A6DA95 #EED49F #8AADF4 #F5BDE6 #8BD5CA #f5a97f
+2025-07-09 06:09:33.460 [I] plasma_utils: apply_color_schemes: O esquema de cores MaterialYouDark foi aplicado à sua sessão atual do Plasma com sucesso.
+2025-07-09 06:09:33.559 [I] plasma_utils: set_icons: Icon theme changed to breeze-plus-dark: org.kde.plasma.changeicons: Icon theme is already used
+2025-07-09 06:09:33.559 [I] kwin_utils: klassy_update_decoration_color_cache: Updating Klassy decoration color cache
+2025-07-09 06:09:33.565 [I] konsole_utils: get_default_profile: Found default profile 'Profile 1.profile'
+2025-07-09 06:09:33.566 [I] kwin_utils: reload: Reloading KWin

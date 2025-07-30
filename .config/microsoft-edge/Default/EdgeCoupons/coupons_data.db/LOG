@@ -1,0 +1,6 @@
+2025/07/29-16:38:07.981 97d Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/07/29-16:38:07.983 97d Recovering log #177
+2025/07/29-16:38:07.985 97d Reusing old log /home/moises/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000177.log 
+2025/07/29-16:38:29.783 9ab Level-0 table #181: started
+2025/07/29-16:38:29.810 9ab Level-0 table #181: 672234 bytes OK
+2025/07/29-16:38:29.832 9ab Delete type=0 #177

@@ -1,0 +1,14 @@
+2025/06/25-19:41:59.877 4de9a Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/25-19:41:59.877 4de9a Recovering log #4
+2025/06/25-19:41:59.877 4de9a Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000004.log 
+2025/06/25-19:42:00.151 4de9c Level-0 table #8: started
+2025/06/25-19:42:00.176 4de9c Level-0 table #8: 2556 bytes OK
+2025/06/25-19:42:00.220 4de9c Delete type=0 #4
+2025/06/25-19:42:00.220 4de9a Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/25-19:42:00.221 4de9a Manual compaction at level-1 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x00\x00\xc8\x0b\x00T\x00r\x00a\x00n\x00s\x00a\x00c\x00t\x00i\x00o\x00n' @ 76 : 1
+2025/06/25-19:42:00.221 4de9a Compacting 1@1 + 1@2 files
+2025/06/25-19:42:00.249 4de9a Generated table #9@1: 57 keys, 1063 bytes
+2025/06/25-19:42:00.249 4de9a Compacted 1@1 + 1@2 files => 1063 bytes
+2025/06/25-19:42:00.271 4de9a compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/25-19:42:00.272 4de9a Delete type=2 #8
+2025/06/25-19:42:00.272 4de9a Manual compaction at level-1 from '\x00\x02\x00\x00\xc8\x0b\x00T\x00r\x00a\x00n\x00s\x00a\x00c\x00t\x00i\x00o\x00n' @ 76 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

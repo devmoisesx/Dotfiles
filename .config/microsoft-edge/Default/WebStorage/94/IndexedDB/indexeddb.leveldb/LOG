@@ -1,0 +1,6 @@
+2025/07/29-19:59:16.611 97b Creating DB /home/moises/.config/microsoft-edge/Default/WebStorage/94/IndexedDB/indexeddb.leveldb since it was missing.
+2025/07/29-19:59:16.650 97b Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/WebStorage/94/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/07/29-20:03:16.761 97b Level-0 table #5: started
+2025/07/29-20:03:16.777 97b Level-0 table #5: 14150 bytes OK
+2025/07/29-20:03:16.792 97b Delete type=0 #3
+2025/07/29-20:03:16.792 97b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

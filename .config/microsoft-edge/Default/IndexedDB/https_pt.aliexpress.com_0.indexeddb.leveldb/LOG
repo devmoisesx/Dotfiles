@@ -1,0 +1,15 @@
+2025/07/15-19:31:12.953 165eb Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_pt.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/15-19:31:12.954 165eb Recovering log #4
+2025/07/15-19:31:12.955 165eb Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_pt.aliexpress.com_0.indexeddb.leveldb/000004.log 
+2025/07/15-19:31:17.215 165ec Level-0 table #8: started
+2025/07/15-19:31:17.231 165ec Level-0 table #8: 209 bytes OK
+2025/07/15-19:31:17.245 165ec Delete type=0 #4
+2025/07/15-19:31:17.245 165ec Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/07/15-19:31:17.245 165ec Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 47 : 1
+2025/07/15-19:31:17.245 165ec Compacting 1@1 + 1@2 files
+2025/07/15-19:31:17.260 165ec Generated table #9@1: 19 keys, 537 bytes
+2025/07/15-19:31:17.260 165ec Compacted 1@1 + 1@2 files => 537 bytes
+2025/07/15-19:31:17.274 165ec compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/15-19:31:17.274 165ec Delete type=2 #5
+2025/07/15-19:31:17.274 165ec Delete type=2 #8
+2025/07/15-19:31:17.274 165ec Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 47 : 1 .. (end); will stop at (end)

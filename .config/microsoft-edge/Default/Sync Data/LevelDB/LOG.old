@@ -1,0 +1,63 @@
+2025/07/29-15:08:10.018 dd7 Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/07/29-15:08:10.105 dd7 Recovering log #533
+2025/07/29-15:08:10.111 dd7 Reusing old log /home/moises/.config/microsoft-edge/Default/Sync Data/LevelDB/000533.log 
+2025/07/29-15:08:17.881 dd9 Level-0 table #537: started
+2025/07/29-15:08:17.893 dd9 Level-0 table #537: 317340 bytes OK
+2025/07/29-15:08:17.922 dd9 Delete type=0 #533
+2025/07/29-15:09:17.921 dd8 Level-0 table #539: started
+2025/07/29-15:09:17.932 dd8 Level-0 table #539: 325857 bytes OK
+2025/07/29-15:09:17.946 dd8 Delete type=0 #536
+2025/07/29-15:09:17.947 dd8 Compacting 4@0 + 1@1 files
+2025/07/29-15:09:17.978 dd8 Generated table #540@0: 509 keys, 55931 bytes
+2025/07/29-15:09:17.978 dd8 Compacted 4@0 + 1@1 files => 55931 bytes
+2025/07/29-15:09:18.000 dd8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/29-15:09:18.000 dd8 Delete type=2 #529
+2025/07/29-15:09:18.000 dd8 Delete type=2 #532
+2025/07/29-15:09:18.000 dd8 Delete type=2 #539
+2025/07/29-15:09:18.000 dd8 Delete type=2 #534
+2025/07/29-15:09:18.000 dd8 Delete type=2 #537
+2025/07/29-15:13:38.242 dd8 Level-0 table #542: started
+2025/07/29-15:13:38.267 dd8 Level-0 table #542: 320785 bytes OK
+2025/07/29-15:13:38.282 dd8 Delete type=0 #538
+2025/07/29-15:20:40.325 dd9 Level-0 table #544: started
+2025/07/29-15:20:42.703 dd9 Level-0 table #544: 312692 bytes OK
+2025/07/29-15:20:42.734 dd9 Delete type=0 #541
+2025/07/29-15:24:19.720 dd8 Level-0 table #546: started
+2025/07/29-15:24:19.732 dd8 Level-0 table #546: 317667 bytes OK
+2025/07/29-15:24:19.746 dd8 Delete type=0 #543
+2025/07/29-15:25:09.748 dd7 Level-0 table #548: started
+2025/07/29-15:25:09.761 dd7 Level-0 table #548: 315645 bytes OK
+2025/07/29-15:25:09.775 dd7 Delete type=0 #545
+2025/07/29-15:25:09.775 dd7 Compacting 4@0 + 1@1 files
+2025/07/29-15:25:09.792 dd7 Generated table #549@0: 509 keys, 58326 bytes
+2025/07/29-15:25:09.792 dd7 Compacted 4@0 + 1@1 files => 58326 bytes
+2025/07/29-15:25:09.810 dd7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/29-15:25:09.810 dd7 Delete type=2 #548
+2025/07/29-15:25:09.810 dd7 Delete type=2 #542
+2025/07/29-15:25:09.810 dd7 Delete type=2 #540
+2025/07/29-15:25:09.810 dd7 Delete type=2 #546
+2025/07/29-15:25:09.810 dd7 Delete type=2 #544
+2025/07/29-15:31:59.080 dd8 Level-0 table #551: started
+2025/07/29-15:31:59.092 dd8 Level-0 table #551: 318606 bytes OK
+2025/07/29-15:31:59.105 dd8 Delete type=0 #547
+2025/07/29-15:46:17.484 dd8 Level-0 table #553: started
+2025/07/29-15:46:17.495 dd8 Level-0 table #553: 296950 bytes OK
+2025/07/29-15:46:17.515 dd8 Delete type=0 #550
+2025/07/29-16:12:56.515 dda Level-0 table #555: started
+2025/07/29-16:12:56.530 dda Level-0 table #555: 297467 bytes OK
+2025/07/29-16:12:56.544 dda Delete type=0 #552
+2025/07/29-16:24:35.880 dd8 Level-0 table #557: started
+2025/07/29-16:24:35.894 dd8 Level-0 table #557: 307268 bytes OK
+2025/07/29-16:24:35.908 dd8 Delete type=0 #554
+2025/07/29-16:24:35.908 dd8 Compacting 4@0 + 1@1 files
+2025/07/29-16:24:35.924 dd8 Generated table #558@0: 509 keys, 61043 bytes
+2025/07/29-16:24:35.924 dd8 Compacted 4@0 + 1@1 files => 61043 bytes
+2025/07/29-16:24:35.938 dd8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/29-16:24:35.938 dd8 Delete type=2 #549
+2025/07/29-16:24:35.938 dd8 Delete type=2 #557
+2025/07/29-16:24:35.938 dd8 Delete type=2 #555
+2025/07/29-16:24:35.938 dd8 Delete type=2 #551
+2025/07/29-16:24:35.938 dd8 Delete type=2 #553
+2025/07/29-16:30:44.184 dd8 Level-0 table #560: started
+2025/07/29-16:30:44.195 dd8 Level-0 table #560: 302441 bytes OK
+2025/07/29-16:30:44.209 dd8 Delete type=0 #556

@@ -1,0 +1,6 @@
+2025/06/25-19:41:55.642 4de9a Creating DB /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb since it was missing.
+2025/06/25-19:41:55.711 4de9a Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/25-19:41:57.781 4deb2 Level-0 table #5: started
+2025/06/25-19:41:57.815 4deb2 Level-0 table #5: 382 bytes OK
+2025/06/25-19:41:57.838 4deb2 Delete type=0 #3
+2025/06/25-19:41:57.838 4de9d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

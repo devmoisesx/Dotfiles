@@ -1,0 +1,1 @@
+chrome.runtime.sendMessage({action:"firstCheckBingSearch",data:{referrer:document.referrer||"direct",location}},(function(e){"production"!==e.mode&&(console.group("firstCheckBingSearch"),console.log(e),console.groupEnd())}));

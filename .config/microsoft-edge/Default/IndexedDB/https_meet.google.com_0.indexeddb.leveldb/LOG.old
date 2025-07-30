@@ -1,0 +1,15 @@
+2025/07/25-19:18:47.402 b6a Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/25-19:18:47.403 b6a Recovering log #11
+2025/07/25-19:18:47.407 b6a Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_meet.google.com_0.indexeddb.leveldb/000011.log 
+2025/07/26-02:22:11.397 b69 Level-0 table #16: started
+2025/07/26-02:22:11.419 b69 Level-0 table #16: 35554 bytes OK
+2025/07/26-02:22:11.443 b69 Delete type=0 #11
+2025/07/26-02:22:11.444 b69 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/07/26-02:22:11.445 b6a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x13\x00c\x00l\x00i\x00e\x00n\x00t\x00R\x00e\x00g\x00i\x00s\x00t\x00r\x00a\x00t\x00i\x00o\x00n\x00s' @ 2387 : 1
+2025/07/26-02:22:11.445 b6a Compacting 1@1 + 1@2 files
+2025/07/26-02:22:11.459 b6a Generated table #17@1: 53 keys, 3083 bytes
+2025/07/26-02:22:11.460 b6a Compacted 1@1 + 1@2 files => 3083 bytes
+2025/07/26-02:22:11.475 b6a compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/26-02:22:11.476 b6a Delete type=2 #13
+2025/07/26-02:22:11.476 b6a Delete type=2 #16
+2025/07/26-02:22:11.477 b69 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x13\x00c\x00l\x00i\x00e\x00n\x00t\x00R\x00e\x00g\x00i\x00s\x00t\x00r\x00a\x00t\x00i\x00o\x00n\x00s' @ 2387 : 1 .. (end); will stop at (end)

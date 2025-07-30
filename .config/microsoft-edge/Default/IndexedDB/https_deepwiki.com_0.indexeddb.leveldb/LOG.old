@@ -1,0 +1,47 @@
+2025/07/07-17:56:00.111 8cb Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_deepwiki.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/07-17:56:00.112 8cb Recovering log #12
+2025/07/07-17:56:00.112 8cb Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_deepwiki.com_0.indexeddb.leveldb/000012.log 
+2025/07/07-17:56:00.112 8cb Delete type=2 #11
+2025/07/07-17:56:00.356 8cb Level-0 table #17: started
+2025/07/07-17:56:00.367 8cb Level-0 table #17: 516 bytes OK
+2025/07/07-17:56:00.381 8cb Delete type=0 #12
+2025/07/07-17:56:00.381 8cb Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 164 : 1
+2025/07/07-17:56:00.381 8cb Compacting 1@0 + 1@1 files
+2025/07/07-17:56:00.396 8cb Generated table #18@0: 17 keys, 525 bytes
+2025/07/07-17:56:00.396 8cb Compacted 1@0 + 1@1 files => 525 bytes
+2025/07/07-17:56:00.415 8cb compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/07-17:56:00.415 8cb Delete type=2 #17
+2025/07/07-17:56:00.415 8cb Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 164 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/07-17:56:17.300 8cb Level-0 table #20: started
+2025/07/07-17:56:17.316 8cb Level-0 table #20: 511 bytes OK
+2025/07/07-17:56:17.335 8cb Delete type=2 #14
+2025/07/07-17:56:17.335 8cb Delete type=0 #16
+2025/07/07-17:56:17.335 8cb Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 182 : 1
+2025/07/07-17:56:17.335 8cb Compacting 1@0 + 1@1 files
+2025/07/07-17:56:17.357 8cb Generated table #21@0: 21 keys, 562 bytes
+2025/07/07-17:56:17.357 8cb Compacted 1@0 + 1@1 files => 562 bytes
+2025/07/07-17:56:17.379 8cb compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/07-17:56:17.380 8cb Delete type=2 #20
+2025/07/07-17:56:17.380 8cb Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 182 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/07-17:56:51.875 953 Level-0 table #23: started
+2025/07/07-17:56:51.899 953 Level-0 table #23: 513 bytes OK
+2025/07/07-17:56:51.923 953 Delete type=2 #18
+2025/07/07-17:56:51.923 953 Delete type=0 #19
+2025/07/07-17:56:51.923 8cd Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 200 : 1
+2025/07/07-17:56:51.923 8cd Compacting 1@0 + 1@1 files
+2025/07/07-17:56:51.945 8cd Generated table #24@0: 21 keys, 565 bytes
+2025/07/07-17:56:51.945 8cd Compacted 1@0 + 1@1 files => 565 bytes
+2025/07/07-17:56:51.958 8cd compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/07-17:56:51.958 8cd Delete type=2 #23
+2025/07/07-17:56:51.958 8cc Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 200 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/07-17:57:21.139 8cb Level-0 table #26: started
+2025/07/07-17:57:21.154 8cb Level-0 table #26: 511 bytes OK
+2025/07/07-17:57:21.168 8cb Delete type=2 #21
+2025/07/07-17:57:21.168 8cb Delete type=0 #22
+2025/07/07-17:57:21.168 8cb Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 218 : 1
+2025/07/07-17:57:21.168 8cb Compacting 1@0 + 1@1 files
+2025/07/07-17:57:21.179 8cb Generated table #27@0: 25 keys, 597 bytes
+2025/07/07-17:57:21.180 8cb Compacted 1@0 + 1@1 files => 597 bytes
+2025/07/07-17:57:21.194 8cb compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/07-17:57:21.194 8cb Delete type=2 #26
+2025/07/07-17:57:21.195 8cb Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 218 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

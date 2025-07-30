@@ -1,0 +1,18 @@
+2025/07/07-17:57:37.112 8cc Creating DB /home/moises/.config/microsoft-edge/Default/IndexedDB/https_deepwiki.org_0.indexeddb.leveldb since it was missing.
+2025/07/07-17:57:37.152 8cc Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_deepwiki.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/07-17:57:37.233 8cb Level-0 table #5: started
+2025/07/07-17:57:37.247 8cb Level-0 table #5: 1662 bytes OK
+2025/07/07-17:57:37.266 8cb Delete type=0 #3
+2025/07/07-17:57:37.267 8cb Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/07-17:57:58.107 8cc Level-0 table #7: started
+2025/07/07-17:57:58.122 8cc Level-0 table #7: 237 bytes OK
+2025/07/07-17:57:58.137 8cc Delete type=0 #4
+2025/07/07-17:57:58.137 8cc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/07/07-17:57:58.138 8cc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 105 : 0
+2025/07/07-17:57:58.138 8cc Compacting 1@1 + 1@2 files
+2025/07/07-17:57:58.154 8cc Generated table #8@1: 31 keys, 765 bytes
+2025/07/07-17:57:58.154 8cc Compacted 1@1 + 1@2 files => 765 bytes
+2025/07/07-17:57:58.168 8cc compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/07-17:57:58.169 8cc Delete type=2 #5
+2025/07/07-17:57:58.169 8cc Delete type=2 #7
+2025/07/07-17:57:58.169 8cc Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 105 : 0 .. (end); will stop at (end)

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Nautilus.desktop" score="48" last-seen="1753834099"/>
+    <application id="org.gnome.Epiphany.desktop" score="0" last-seen="1753832686"/>
+    <application id="org.gnome.tweaks.desktop" score="9" last-seen="1753833453"/>
+    <application id="microsoft-edge.desktop" score="103" last-seen="1753833987"/>
+    <application id="org.gnome.Software.desktop" score="0" last-seen="1753833412"/>
+    <application id="org.gnome.Calculator.desktop" score="0" last-seen="1753833408"/>
+    <application id="org.gnome.Terminal.desktop" score="19" last-seen="1753833401"/>
+    <application id="org.gnome.Calendar.desktop" score="0" last-seen="1753833415"/>
+    <application id="org.gnome.Extensions.desktop" score="1" last-seen="1753833491"/>
+  </context>
+</application-state>
