@@ -1,8 +1,0 @@
-2025/07/29-16:46:45.304 97b Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/29-16:46:45.305 97b Recovering log #590
-2025/07/29-16:46:45.317 97b Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000590.log 
-2025/07/29-16:48:48.928 97b Level-0 table #595: started
-2025/07/29-16:48:48.960 97b Level-0 table #595: 1492884 bytes OK
-2025/07/29-16:48:48.974 97b Delete type=0 #590
-2025/07/29-16:49:25.510 97b Compacting 1@1 + 1@2 files
-2025/07/29-16:49:25.518 97b compacted to: files[ 0 1 1 0 0 0 0 ]

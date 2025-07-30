@@ -1,6 +1,0 @@
-2025/07/23-14:48:26.941 31dd Creating DB /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.postman.com_0.indexeddb.leveldb since it was missing.
-2025/07/23-14:48:26.973 31dd Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.postman.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/23-14:48:37.996 31dc Level-0 table #5: started
-2025/07/23-14:48:38.012 31dc Level-0 table #5: 6139 bytes OK
-2025/07/23-14:48:38.035 31dc Delete type=0 #3
-2025/07/23-14:48:38.035 31dc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

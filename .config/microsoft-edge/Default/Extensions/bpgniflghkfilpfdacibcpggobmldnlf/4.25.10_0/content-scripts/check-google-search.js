@@ -1,1 +1,0 @@
-chrome.runtime.sendMessage({action:"firstCheckGoogleSearch",data:{referrer:document.referrer||"direct",location}},(function(o){"production"!==o.mode&&(console.group("firstCheckGoogleSearch"),console.log(o),console.groupEnd())}));

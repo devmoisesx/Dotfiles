@@ -57,14 +57,14 @@ for p in git curl wget; do
     fi
 done
 
+yay
+
 if ! pacman -Qs hyprland >/dev/null; then
     print_status "Installing $p..."
     sudo pacman -S --needed --noconfirm hyprland
 fi
 
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-
-cd ~
 
 # Optional: Remove jack2, install pipewire-jack
 if pacman -Qs jack2 >/dev/null; then
@@ -115,45 +115,34 @@ done
 
 # Load AUR packages
 # aur_packages=(
-#     quickshell hypridle hyprlock swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git onlyoffice bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland curl vim git htop vlc neovim gedit flatpack gnome-audio-locator gnome-calculator gnome-calendar gnome-clocks gnome-connections gnome-disk-utility gnome-disks gnome-doc-utils gnome-font-viewer gnome-photos gnome-music gnome-software gnome-system-monitor xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk hyprpolkitagent sunshine moonlight-qt obsidian drawio
+#     quickshell-git swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland curl vim git htop vlc neovim gedit flatpack obsidian drawio
 # )
-
-yay -S --needed --noconfirm quickshell hypridle hyprlock swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git onlyoffice bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland curl vim git htop vlc neovim gedit flatpack gnome-audio-locator gnome-calculator gnome-calendar gnome-clocks gnome-connections gnome-disk-utility gnome-disks gnome-doc-utils gnome-font-viewer gnome-photos gnome-music gnome-software gnome-system-monitor xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk hyprpolkitagent sunshine moonlight-qt obsidian drawio
 
 # for pkg in "${aur_packages[@]}"; do
 #     yay -S --needed --noconfirm $pkg
 # done
 
-# micro
-curl https://getmic.ro | bash
-sudo mv micro /usr/bin
+yay -S --needed --noconfirm quickshell-git swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland curl vim git htop vlc neovim gedit flatpack obsidian drawio
 
-# bat
-mkdir -p ~/.local/bin
-ln -s /usr/bin/batcat ~/.local/bin/bat 
+# # micro
+if ! [[ -d /usr/bin/micro ]]; then
+    curl https://getmic.ro | bash
+    sudo mv micro /usr/bin
+fi
+
+
+# # bat
+mkdir -p ~/.local/
+if [[ -d ~/.local/bin/bat ]]; then
+    ln -s /usr/bin/batcat ~/.local/bin/bat 
+fi
+
 
 git clone --depth=1 https://github.com/powerline/fonts.git
 ./fonts/install.sh
 rm -rf fonts
 
-
-
 print_success "All required packages installed."
-
-# Install icon themes (example: Tela Circle)
-# print_status "Installing Tela Circle icon theme..."
-# tmp_icondir="/tmp/Tela-circle-icon-theme"
-# rm -rf "$tmp_icondir"
-# git clone --depth=1 https://github.com/vinceliuice/Tela-circle-icon-theme.git "$tmp_icondir"
-# (cd "$tmp_icondir" && sudo ./install.sh -a)
-# rm -rf "$tmp_icondir"
-
-# Install OneUI4-Icons
-# print_status "Installing OneUI4-Icons..."
-# rm -rf /tmp/OneUI4-Icons
-# git clone https://github.com/end-4/OneUI4-Icons.git /tmp/OneUI4-Icons
-# sudo cp -r /tmp/OneUI4-Icons/OneUI* /usr/share/icons/
-# rm -rf /tmp/OneUI4-Icons
 
 # Bibata cursor
 print_status "Installing Bibata Modern Classic cursor theme..."
@@ -163,20 +152,33 @@ sudo tar -xf /tmp/Bibata-Modern-Classic.tar.xz -C /usr/share/icons
 rm /tmp/Bibata-Modern-Classic.tar.xz
 
 # Copy config files to ~/.config
-print_status "Copying dotfiles to ~/.config ..."
-# cp -r .config/* ~/.config/
-# ln -sf test/ ~/.config/
-ln -sf ~/Dotfiles/.config/* ~/.config
+if compgen -G "~/Dotfiles/.config/*" > /dev/null; then
+    print_status "Copying dotfiles to ~/.config ..."
+    ln -sf ~/Dotfiles/.config/* ~/.config
+fi
 
 # Copy .zshrc file to ~/
-print_status "Copying .zshrc to ~/ ..."
-ln -sf ~/Dotfiles/.zshrc ~/
+if ! [[ -d ~/.zshrc ]]; then
+    print_status "Copying .zshrc to ~/ ..."
+    ln -sf ~/Dotfiles/.zshrc ~/
+fi
+
 
 # Copy .zshrc file to ~/
-print_status "Copying other files to ~/ ..."
-ln -sf ~/Dotfiles/.icons ~/
-ln -sf ~/Dotfiles/.local ~/
-ln -sf ~/Dotfiles/.themes ~/
+if ! [[ -d ~/.icons ]]; then
+    print_status "Copying dotfiles to ~/.config ..."
+    ln -sf ~/Dotfiles/.icons ~/
+fi
+
+if ! [[ -d ~/.local ]]; then
+    print_status "Copying dotfiles to ~/.config ..."
+    ln -sf ~/Dotfiles/.local ~/
+fi
+
+if ! [[ -d ~/.themes  ]]; then
+    print_status "Copying dotfiles to ~/.config ..."
+    ln -sf ~/Dotfiles/.themes ~/
+fi
 
 chsh -s $(which zsh)
 
@@ -189,37 +191,30 @@ else
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
-git clone https://github.com/z-shell/F-Sy-H.git \
-${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/F-Sy-H
-git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
-git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions  ]]; then
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+fi
 
-# === Anpassung env.conf ===
-# print_status "Patching ~/.config/hypr/hyprland/env.conf ..."
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search  ]]; then
+    git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+fi
 
-# ENV_CONF="$HOME/.config/hypr/hyprland/env.conf"
-# USERID=$(id -u)
-# USERHOME="$HOME"
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/F-Sy-H ]]; then
+    git clone https://github.com/z-shell/F-Sy-H.git \ ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/F-Sy-H
+fi
 
-# if [ -f "$ENV_CONF" ]; then
-#     # XDG_RUNTIME_DIR: replace with UserID, remains commented out
-#     sed -i "s|^# env = XDG_RUNTIME_DIR,/run/user/|# env = XDG_RUNTIME_DIR,/run/user/$USERID|g" "$ENV_CONF"
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/you-should-use ]]; then
+    git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
+fi
 
-#     # QML2_IMPORT_PATH: replace, uncomment, dynamic HOME path
-#     sed -i "s|^# env = QML2_IMPORT_PATH,.*|env = QML2_IMPORT_PATH,$USERHOME/.config/hypr/quickshell|g" "$ENV_CONF"
-#     sed -i "s|^env = QML2_IMPORT_PATH,.*|env = QML2_IMPORT_PATH,$USERHOME/.config/hypr/quickshell|g" "$ENV_CONF"
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/auto-notify ]]; then
+    git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
+fi
 
-#     print_success "env.conf erfolgreich angepasst."
-# else
-#     print_warning "env.conf nicht gefunden, überspringe Anpassung."
-# fi
 
 # Enable services
-print_status "Enabling essential services (NetworkManager, sddm, bluetooth)..."
+print_status "Enabling essential services (NetworkManager, bluetooth)..."
 sudo systemctl enable --now NetworkManager
-sudo systemctl enable sddm
 sudo systemctl enable bluetooth || print_warning "Bluetooth service could not be enabled (no hardware?)"
 
 # Update caches
@@ -227,6 +222,4 @@ fc-cache -fv
 gtk-update-icon-cache -f -t /usr/share/icons/hicolor
 gtk-update-icon-cache -f -t /usr/share/icons/Papirus || true
 
-print_success "Setup done! Please reboot and select Hyprland in your login manager (SDDM)."
-
-echo -e "${GREEN}If something is missing, check logs above or https://github.com/0xHexSec/HyprlandDE-Quickshell/issues${NC}"
+print_success "Setup done! Please reboot and select Hyprland in your login manager (GDM)."

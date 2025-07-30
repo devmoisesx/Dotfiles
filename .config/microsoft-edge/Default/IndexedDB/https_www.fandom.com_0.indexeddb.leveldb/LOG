@@ -1,7 +1,0 @@
-2025/07/28-21:09:02.871 973 Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/28-21:09:02.871 973 Recovering log #3
-2025/07/28-21:09:02.877 973 Reusing old log /home/moises/.config/microsoft-edge/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/000003.log 
-2025/07/28-21:09:13.877 975 Level-0 table #5: started
-2025/07/28-21:09:13.909 975 Level-0 table #5: 5230 bytes OK
-2025/07/28-21:09:13.944 975 Delete type=0 #3
-2025/07/28-21:09:13.948 975 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

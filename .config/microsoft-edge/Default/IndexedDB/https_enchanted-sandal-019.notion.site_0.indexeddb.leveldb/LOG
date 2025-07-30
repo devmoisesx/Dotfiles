@@ -1,6 +1,0 @@
-2025/07/15-01:17:00.645 165ea Creating DB /home/moises/.config/microsoft-edge/Default/IndexedDB/https_enchanted-sandal-019.notion.site_0.indexeddb.leveldb since it was missing.
-2025/07/15-01:17:00.857 165ea Reusing MANIFEST /home/moises/.config/microsoft-edge/Default/IndexedDB/https_enchanted-sandal-019.notion.site_0.indexeddb.leveldb/MANIFEST-000001
-2025/07/15-01:17:01.977 165e9 Level-0 table #5: started
-2025/07/15-01:17:02.066 165e9 Level-0 table #5: 598 bytes OK
-2025/07/15-01:17:02.174 165e9 Delete type=0 #3
-2025/07/15-01:17:02.175 165e9 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
