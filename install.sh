@@ -102,7 +102,7 @@ official_packages=(
     firefox thunar btop fastfetch unzip zip
     ttf-dejavu noto-fonts ttf-font-awesome papirus-icon-theme adwaita-icon-theme
     git base-devel
-    kitty zsh grim slurp
+    kitty zsh
 )
 
 for pkg in "${official_packages[@]}"; do
@@ -110,13 +110,15 @@ for pkg in "${official_packages[@]}"; do
 done
 
 # Load AUR packages
-aur_packages=(
-    quickshell hypridle hyprlock swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git onlyoffice bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland curl vim git htop vlc neovim gedit flatpack gnome-audio-locator gnome-calculator gnome-calendar gnome-clocks gnome-connections gnome-disk-utility gnome-disks gnome-doc-utils gnome-font-viewer gnome-photos gnome-music gnome-software gnome-system-monitor xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk hyprpolkitagent sunshine moonlight-qt obsidian drawio
-)
+# aur_packages=(
+#     quickshell hypridle hyprlock swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git onlyoffice bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland curl vim git htop vlc neovim gedit flatpack gnome-audio-locator gnome-calculator gnome-calendar gnome-clocks gnome-connections gnome-disk-utility gnome-disks gnome-doc-utils gnome-font-viewer gnome-photos gnome-music gnome-software gnome-system-monitor xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk hyprpolkitagent sunshine moonlight-qt obsidian drawio
+# )
 
-for pkg in "${aur_packages[@]}"; do
-    yay -S --needed --noconfirm $pkg
-done
+yay -S --needed --noconfirm quickshell hypridle hyprlock swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git onlyoffice bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland curl vim git htop vlc neovim gedit flatpack gnome-audio-locator gnome-calculator gnome-calendar gnome-clocks gnome-connections gnome-disk-utility gnome-disks gnome-doc-utils gnome-font-viewer gnome-photos gnome-music gnome-software gnome-system-monitor xdg-desktop-portal-hyprland-git xdg-desktop-portal-gtk hyprpolkitagent sunshine moonlight-qt obsidian drawio
+
+# for pkg in "${aur_packages[@]}"; do
+#     yay -S --needed --noconfirm $pkg
+# done
 
 # micro
 curl https://getmic.ro | bash
