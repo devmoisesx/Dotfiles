@@ -62,6 +62,10 @@ if ! pacman -Qs hyprland >/dev/null; then
     sudo pacman -S --needed --noconfirm hyprland
 fi
 
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+
+cd ~
+
 # Optional: Remove jack2, install pipewire-jack
 if pacman -Qs jack2 >/dev/null; then
     print_status "Removing jack2 (incompatible)..."
