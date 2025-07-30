@@ -166,6 +166,12 @@ ln -sf ~/Dotfiles/.config/* ~/.config
 print_status "Copying .zshrc to ~/ ..."
 ln -sf ~/Dotfiles/.zshrc ~/
 
+# Copy .zshrc file to ~/
+print_status "Copying other files to ~/ ..."
+ln -sf ~/Dotfiles/.icons ~/
+ln -sf ~/Dotfiles/.local ~/
+ln -sf ~/Dotfiles/.themes ~/
+
 chsh -s $(which zsh)
 
 print_status "Verificando se o Oh My Zsh já está instalado..."
