@@ -1,4 +1,5 @@
 alias l="ls -la"
+#alias ls ="eza --icons --hyperlink --sort type" 
 alias le="eza --icons --hyperlink --sort type"
 alias la="eza --icons --hyperlink --sort type -ga"
 alias lt="eza --icons --hyperlink --sort type -1T"
@@ -7,6 +8,11 @@ alias bat="bat --color=always "
 alias batd="bat -d --color=always "
 alias cd="cd"
 alias cdh="cd ~"
+
+alias gs="git status"
+alias gp="git push"
+alias ga="git add "
+alias gc="git commit -m "
 
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
