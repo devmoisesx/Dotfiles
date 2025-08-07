@@ -123,6 +123,9 @@ done
 
 yay -S --needed --noconfirm quickshell-git swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi
 
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
 flatpak install flathub io.github.realmazharhussain.GdmSettings
 
 flatpak install flathub io.github.ellie_commons.jortsflatpak install flathub org.gnome.gitlab.somas.Apostrophe
