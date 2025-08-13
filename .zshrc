@@ -1,6 +1,6 @@
 alias l="ls -la"
 #alias ls ="eza --icons --hyperlink --sort type" 
-alias le="eza --icons --hyperlink --sort type"
+alias le="eza --icons --hyperlink --sort type -a"
 alias la="eza --icons --hyperlink --sort type -ga"
 alias lt="eza --icons --hyperlink --sort type -1T"
 alias lta="eza --icons --hyperlink --sort type -1Ta"
