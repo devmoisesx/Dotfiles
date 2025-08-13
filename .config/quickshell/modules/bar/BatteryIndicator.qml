@@ -16,7 +16,7 @@ Item {
     readonly property color batteryLowOnBackground: Appearance.m3colors.darkmode ? Appearance.m3colors.m3errorContainer : Appearance.m3colors.m3error
 
     implicitWidth: rowLayout.implicitWidth + rowLayout.spacing * 2
-    implicitHeight: 32
+    implicitHeight: 12
 
     RowLayout {
         id: rowLayout
@@ -43,7 +43,7 @@ Item {
             Layout.alignment: Qt.AlignVCenter
             lineWidth: 2
             value: percentage
-            size: 26
+            size: 16
             secondaryColor: (isLow && !isCharging) ? batteryLowBackground : Appearance.colors.colSecondaryContainer
             primaryColor: (isLow && !isCharging) ? batteryLowOnBackground : Appearance.m3colors.m3onSecondaryContainer
             fill: (isLow && !isCharging)
@@ -52,7 +52,7 @@ Item {
                 anchors.centerIn: parent
                 fill: 1
                 text: "battery_full"
-                iconSize: Appearance.font.pixelSize.normal
+                iconSize: Appearance.font.pixelSize.smallest
                 color: (isLow && !isCharging) ? batteryLowOnBackground : Appearance.m3colors.m3onSecondaryContainer
             }
 

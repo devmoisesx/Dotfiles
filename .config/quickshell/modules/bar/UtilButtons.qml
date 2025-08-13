@@ -132,7 +132,7 @@ Item {
                         case PowerProfile.Balanced: return "dynamic_form"
                         case PowerProfile.Performance: return "speed"
                     }
-                    iconSize: Appearance.font.pixelSize.large
+                    iconSize: Appearance.font.pixelSize.smaller
                     color: Appearance.colors.colOnLayer2
                 }
             }

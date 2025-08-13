@@ -1,0 +1,6 @@
+configuration {
+    modi: "combi,drun";
+    combi-modi: "drun,QuickLinks:/home/moises/.config/rofi/scripts/rofi-quicklinks-combi.sh";
+    show-icons: true;
+    combi-hide-mode-prefix: false;
+}

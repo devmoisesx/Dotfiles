@@ -22,17 +22,3 @@ o.expandtab = true -- Usar espaços ao invés de tabs
 
 -- Ativar completions automáticas
 o.completeopt = { "menuone", "noselect" }
-
--- ~/.config/nvim/lua/plugins/neotree.lua
-
-return {
-  "nvim-neo-tree/neo-tree.nvim",
-  opts = {
-    filesystem = {
-      -- Esta é a linha principal: desabilita o filtro de arquivos ocultos
-      filtered_items = {
-        hide_dotfiles = false,
-      },
-    },
-  },
-}

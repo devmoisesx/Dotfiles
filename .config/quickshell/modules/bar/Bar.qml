@@ -202,15 +202,15 @@ Scope {
                                         Hyprland.dispatch('global quickshell:sidebarLeftToggle');
                                     }
 
-                                    CustomIcon {
-                                        id: distroIcon
-                                        anchors.centerIn: parent
-                                        width: 19.5
-                                        height: 19.5
-                                        source: Config.options.bar.topLeftIcon == 'distro' ? SystemInfo.distroIcon : "spark-symbolic"
-                                        colorize: true
-                                        color: Appearance.colors.colOnLayer0
-                                    }
+                                    // CustomIcon {
+                                    //     id: distroIcon
+                                    //     anchors.centerIn: parent
+                                    //     width: 19.5
+                                    //     height: 19.5
+                                    //     source: Config.options.bar.topLeftIcon == 'distro' ? SystemInfo.distroIcon : "spark-symbolic"
+                                    //     colorize: true
+                                    //     color: Appearance.colors.colOnLayer0
+                                    // }
                                 }
 
                                 ActiveWindow {
@@ -234,15 +234,15 @@ Scope {
                             Layout.preferredWidth: barRoot.centerSideModuleWidth
                             Layout.fillHeight: true
 
-                            Resources {
-                                alwaysShowAllResources: barRoot.useShortenedForm === 2
-                                Layout.fillWidth: barRoot.useShortenedForm === 2
-                            }
+                            // Resources {
+                            //     alwaysShowAllResources: barRoot.useShortenedForm === 2
+                            //     Layout.fillWidth: barRoot.useShortenedForm === 2
+                            // }
 
-                            Media {
-                                visible: barRoot.useShortenedForm < 2
-                                Layout.fillWidth: true
-                            }
+                            // Media {
+                            //     visible: barRoot.useShortenedForm < 2
+                            //     Layout.fillWidth: true
+                            // }
                         }
 
                         VerticalBarSeparator {
@@ -297,15 +297,15 @@ Scope {
                                     Layout.fillWidth: true
                                 }
 
-                                UtilButtons {
-                                    visible: (Config.options.bar.verbose && barRoot.useShortenedForm === 0)
-                                    Layout.alignment: Qt.AlignVCenter
-                                }
+                                // UtilButtons {
+                                //     visible: (Config.options.bar.verbose && barRoot.useShortenedForm === 0)
+                                //     Layout.alignment: Qt.AlignVCenter
+                                // }
 
-                                BatteryIndicator {
-                                    visible: (barRoot.useShortenedForm < 2 && UPower.displayDevice.isLaptopBattery)
-                                    Layout.alignment: Qt.AlignVCenter
-                                }
+                                // BatteryIndicator {
+                                //     visible: (barRoot.useShortenedForm < 2 && UPower.displayDevice.isLaptopBattery)
+                                //     Layout.alignment: Qt.AlignVCenter
+                                // }
                             }
                         }
 
@@ -422,7 +422,7 @@ Scope {
                                     RowLayout {
                                         id: indicatorsRowLayout
                                         anchors.centerIn: parent
-                                        property real realSpacing: 15
+                                        property real realSpacing: 8
                                         spacing: 0
 
                                         Revealer {
@@ -438,7 +438,7 @@ Scope {
                                             }
                                             MaterialSymbol {
                                                 text: "volume_off"
-                                                iconSize: Appearance.font.pixelSize.larger
+                                                iconSize: Appearance.font.pixelSize.smaller
                                                 color: rightSidebarButton.colText
                                             }
                                         }
@@ -455,7 +455,7 @@ Scope {
                                             }
                                             MaterialSymbol {
                                                 text: "mic_off"
-                                                iconSize: Appearance.font.pixelSize.larger
+                                                iconSize: Appearance.font.pixelSize.smaller
                                                 color: rightSidebarButton.colText
                                             }
                                         }
@@ -465,20 +465,25 @@ Scope {
                                             Layout.rightMargin: indicatorsRowLayout.realSpacing
                                             sourceComponent: StyledText {
                                                 text: HyprlandXkb.currentLayoutCode
-                                                font.pixelSize: Appearance.font.pixelSize.small
+                                                font.pixelSize: Appearance.font.pixelSize.smaller
                                                 color: rightSidebarButton.colText
                                             }
                                         }
                                         MaterialSymbol {
                                             Layout.rightMargin: indicatorsRowLayout.realSpacing
                                             text: Network.materialSymbol
-                                            iconSize: Appearance.font.pixelSize.larger
+                                            iconSize: Appearance.font.pixelSize.smaller
                                             color: rightSidebarButton.colText
                                         }
                                         MaterialSymbol {
                                             text: Bluetooth.bluetoothConnected ? "bluetooth_connected" : Bluetooth.bluetoothEnabled ? "bluetooth" : "bluetooth_disabled"
-                                            iconSize: Appearance.font.pixelSize.larger
+                                            iconSize: Appearance.font.pixelSize.smaller
                                             color: rightSidebarButton.colText
+                                        }
+                                        BatteryIndicator {
+                                            visible: (barRoot.useShortenedForm < 2 && UPower.displayDevice.isLaptopBattery)
+                                            Layout.bottomMargin: 2
+                                            // Layout.alignment: Qt.AlignVCenter
                                         }
                                     }
                                 }
@@ -505,6 +510,8 @@ Scope {
                                         WeatherBar {}
                                     }
                                 }
+
+                                 
                             }
                         }
                     }

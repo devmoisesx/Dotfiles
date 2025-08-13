@@ -9,12 +9,12 @@ Item {
     property bool borderless: Config.options.bar.borderless
     property bool showDate: Config.options.bar.verbose
     implicitWidth: rowLayout.implicitWidth
-    implicitHeight: 32
+    implicitHeight: 16
 
     RowLayout {
         id: rowLayout
         anchors.centerIn: parent
-        spacing: 4
+        spacing: 8
 
         StyledText {
             font.pixelSize: Appearance.font.pixelSize.large

@@ -30,7 +30,7 @@ Item {
                 anchors.centerIn: parent
                 fill: 1
                 text: iconName
-                iconSize: Appearance.font.pixelSize.normal
+                iconSize: Appearance.font.pixelSize.smaller
                 color: Appearance.m3colors.m3onSecondaryContainer
             }
 

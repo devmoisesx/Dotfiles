@@ -147,9 +147,9 @@ Singleton {
                 }
                 property JsonObject workspaces: JsonObject {
                     property bool monochromeIcons: true
-                    property int shown: 10
+                    property int shown: 5
                     property bool showAppIcons: true
-                    property bool alwaysShowNumbers: false
+                    property bool alwaysShowNumbers: false 
                     property int showNumberDelay: 300 // milliseconds
                 }
                 property JsonObject weather: JsonObject {

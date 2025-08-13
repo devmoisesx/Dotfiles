@@ -157,8 +157,8 @@ Singleton {
         property int large: 23
         property int verylarge: 30
         property int full: 9999
-        property int screenRounding: large
-        property int windowRounding: 18
+        property int screenRounding: small
+        property int windowRounding: 12
     }
 
     font: QtObject {
@@ -180,7 +180,7 @@ Singleton {
             property int larger: 19
             property int huge: 22
             property int hugeass: 23
-            property int title: huge
+            property int title: smaller
         }
     }
 
@@ -290,22 +290,22 @@ Singleton {
     }
 
     sizes: QtObject {
-        property real baseBarHeight: 40
+        property real baseBarHeight: 20
         property real barHeight: Config.options.bar.cornerStyle === 1 ? 
             (baseBarHeight + Appearance.sizes.hyprlandGapsOut * 2) : baseBarHeight
         property real barCenterSideModuleWidth: Config.options?.bar.verbose ? 360 : 140
-        property real barCenterSideModuleWidthShortened: 280
-        property real barCenterSideModuleWidthHellaShortened: 190
-        property real barShortenScreenWidthThreshold: 1200 // Shorten if screen width is at most this value
-        property real barHellaShortenScreenWidthThreshold: 1000 // Shorten even more...
+        property real barCenterSideModuleWidthShortened: 180
+        property real barCenterSideModuleWidthHellaShortened: 110
+        property real barShortenScreenWidthThreshold: 800 // Shorten if screen width is at most this value
+        property real barHellaShortenScreenWidthThreshold: 600 // Shorten even more...
         property real sidebarWidth: 460
-        property real sidebarWidthExtended: 750
+        property real sidebarWidthExtended: 550
         property real osdWidth: 200
-        property real mediaControlsWidth: 440
-        property real mediaControlsHeight: 160
-        property real notificationPopupWidth: 410
+        property real mediaControlsWidth: 220
+        property real mediaControlsHeight: 120
+        property real notificationPopupWidth: 210
         property real searchWidthCollapsed: 260
-        property real searchWidth: 450
+        property real searchWidth: 250
         property real hyprlandGapsOut: 5
         property real elevationMargin: 10
         property real fabShadowRadius: 5
