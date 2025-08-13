@@ -202,6 +202,13 @@ if ! [[ -d ~/.themes ]]; then
     ln -sf ~/Dotfiles/.themes ~/
 fi
 
+if ! [[ -d ~/.themes ]]; then
+    print_status "Copying Web Apps to ~/.local/share/applications/ ..."
+    ln -sf ~/Dotfiles/.local/share/applications/msedge-drawio.desktop ~/.local/share/applications/
+    ln -sf ~/Dotfiles/.local/share/applications/msedge-perplexity.desktop ~/.local/share/applications/
+    ln -sf ~/Dotfiles/.local/share/applications/msedge-whatsappWeb.desktop ~/.local/share/applications/
+fi
+
 chsh -s $(which zsh)
 
 print_status "Verificando se o Oh My Zsh já está instalado..."
@@ -242,5 +249,40 @@ sudo systemctl enable bluetooth || print_warning "Bluetooth service could not be
 fc-cache -fv
 gtk-update-icon-cache -f -t /usr/share/icons/hicolor
 gtk-update-icon-cache -f -t /usr/share/icons/Papirus || true
+
+update-desktop-database ~/.local/share/applications
+
+# Open all images with imv
+xdg-mime default org.gnome.Loupe.desktop image/png
+xdg-mime default org.gnome.Loupe.desktop image/jpeg
+xdg-mime default org.gnome.Loupe.desktop image/gif
+xdg-mime default org.gnome.Loupe.desktop image/webp
+xdg-mime default org.gnome.Loupe.desktop image/bmp
+xdg-mime default org.gnome.Loupe.desktop image/tiff
+
+# Open PDFs with the Document Viewer
+xdg-mime default org.gnome.Evince.desktop application/pdf
+
+# Use Chromium as the default browser
+xdg-settings set default-web-browser com.microsoft-Edge.desktop
+xdg-mime default com.microsoft-Edge.desktop x-scheme-handler/http
+xdg-mime default com.microsoft-Edge.desktop x-scheme-handler/https
+
+# Open video files with mpv
+xdg-mime default vlc.desktop video/mp4
+xdg-mime default vlc.desktop video/x-msvideo
+xdg-mime default vlc.desktop video/x-matroska
+xdg-mime default vlc.desktop video/x-flv
+xdg-mime default vlc.desktop video/x-ms-wmv
+xdg-mime default vlc.desktop video/mpeg
+xdg-mime default vlc.desktop video/ogg
+xdg-mime default vlc.desktop video/webm
+xdg-mime default vlc.desktop video/quicktime
+xdg-mime default vlc.desktop video/3gpp
+xdg-mime default vlc.desktop video/3gpp2
+xdg-mime default vlc.desktop video/x-ms-asf
+xdg-mime default vlc.desktop video/x-ogm+ogg
+xdg-mime default vlc.desktop video/x-theora+ogg
+xdg-mime default vlc.desktop application/ogg
 
 print_success "Setup done! Please reboot and select Hyprland in your login manager (GDM)."
