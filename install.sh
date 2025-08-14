@@ -56,14 +56,19 @@ for p in git curl wget; do
     fi
 done
 
-yay -Syu
+if ! pacman -Qs yay >/dev/null; then
+	sudo pacman -S --needed git base-devel
+	cd ~
+	git clone https://aur.archlinux.org/yay.git
+	cd yay
+	makepkg -si
+	cd ~/Dotfiles/
+fi
 
 if ! pacman -Qs hyprland >/dev/null; then
     print_status "Installing $p..."
     sudo pacman -S --needed --noconfirm hyprland
 fi
-
-sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 # Optional: Remove jack2, install pipewire-jack
 if pacman -Qs jack2 >/dev/null; then
@@ -123,12 +128,15 @@ done
 
 yay -S --needed --noconfirm quickshell-git swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi
 
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
+if ! [[ -d ~/.fzf ]]; then
+	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+	~/.fzf/install
+fi
+
 
 flatpak install flathub io.github.realmazharhussain.GdmSettings
 
-flatpak install flathub io.github.ellie_commons.jortsflatpak install flathub org.gnome.gitlab.somas.Apostrophe
+# flatpak install flathub io.github.ellie_commons.jortsflatpak install flathub org.gnome.gitlab.somas.Apostrophe
 
 flatpak install flathub io.missioncenter.MissionCenter
 
@@ -211,35 +219,6 @@ fi
 
 chsh -s $(which zsh)
 
-print_status "Verificando se o Oh My Zsh já está instalado..."
-if [ -d "$HOME/.oh-my-zsh" ]; then
-    print_status "Oh My Zsh já está instalado. Pulando a instalação."
-else
-    print_status "Instalando Oh My Zsh..."
-    # A instalação via curl é a mais comum e recomendada
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-fi
-
-if ! [[ -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ]]; then
-    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-fi
-
-if ! [[ -d ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search ]]; then
-    git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
-fi
-
-if ! [[ -d ~/.oh-my-zsh/custom/plugins/F-Sy-H ]]; then
-    git clone https://github.com/z-shell/F-Sy-H.git \ ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/F-Sy-H
-fi
-
-if ! [[ -d ~/.oh-my-zsh/custom/plugins/you-should-use ]]; then
-    git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
-fi
-
-if ! [[ -d ~/.oh-my-zsh/custom/plugins/auto-notify ]]; then
-    git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
-fi
-
 # Enable services
 print_status "Enabling essential services (NetworkManager, bluetooth)..."
 sudo systemctl enable --now NetworkManager
@@ -247,8 +226,8 @@ sudo systemctl enable bluetooth || print_warning "Bluetooth service could not be
 
 # Update caches
 fc-cache -fv
-gtk-update-icon-cache -f -t /usr/share/icons/hicolor
-gtk-update-icon-cache -f -t /usr/share/icons/Papirus || true
+sudo gtk-update-icon-cache -f -t /usr/share/icons/hicolor
+sudo gtk-update-icon-cache -f -t /usr/share/icons/Papirus || true
 
 update-desktop-database ~/.local/share/applications
 
@@ -286,3 +265,32 @@ xdg-mime default vlc.desktop video/x-theora+ogg
 xdg-mime default vlc.desktop application/ogg
 
 print_success "Setup done! Please reboot and select Hyprland in your login manager (GDM)."
+
+print_status "Verificando se o Oh My Zsh já está instalado..."
+if [ -d "$HOME/.oh-my-zsh" ]; then
+    print_status "Oh My Zsh já está instalado. Pulando a instalação."
+else
+    print_status "Instalando Oh My Zsh..."
+    # A instalação via curl é a mais comum e recomendada
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ]]; then
+    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+fi
+
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search ]]; then
+    git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+fi
+
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/F-Sy-H ]]; then
+    git clone https://github.com/z-shell/F-Sy-H.git \ ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/F-Sy-H
+fi
+
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/you-should-use ]]; then
+    git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/you-should-use
+fi
+
+if ! [[ -d ~/.oh-my-zsh/custom/plugins/auto-notify ]]; then
+    git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
+fi
