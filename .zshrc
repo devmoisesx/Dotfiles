@@ -29,7 +29,7 @@ plugins=(
     z
     sudo
     history
-    F-Sy-H
+    # F-Sy-H
     you-should-use
     auto-notify
     command-not-found

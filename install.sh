@@ -57,12 +57,12 @@ for p in git curl wget; do
 done
 
 if ! pacman -Qs yay >/dev/null; then
-	sudo pacman -S --needed git base-devel
-	cd ~
-	git clone https://aur.archlinux.org/yay.git
-	cd yay
-	makepkg -si
-	cd ~/Dotfiles/
+    sudo pacman -S --needed git base-devel
+    cd ~
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si
+    cd ~/Dotfiles/
 fi
 
 if ! pacman -Qs hyprland >/dev/null; then
@@ -126,13 +126,12 @@ done
 #     yay -S --needed --noconfirm $pkg
 # done
 
-yay -S --needed --noconfirm quickshell-git swww grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi
+yay -S --needed --noconfirm quickshell-git swww waypaper grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi hyprlock hypridle hyprshot tesseract-data
 
 if ! [[ -d ~/.fzf ]]; then
-	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-	~/.fzf/install
+    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+    ~/.fzf/install
 fi
-
 
 flatpak install flathub io.github.realmazharhussain.GdmSettings
 
@@ -157,6 +156,21 @@ git clone --depth=1 https://github.com/powerline/fonts.git
 rm -rf fonts
 
 print_success "All required packages installed."
+
+read -p "Digite o seu email para o Git: " email
+git config --global user.email "$email"
+read -p "Digite o seu usuário para o Git: " user
+git config --global user.name "$user"
+
+read -p "Deseja gerar a ssh key para o github? (S/N)" resposta
+resposta=$(echo "$resposta" | tr '[:lower:]' '[:upper:]')
+
+if [[ "$resposta" == "S" ]]; then
+    echo "Gerando SSH Key"
+    ssh-keygen -t ed25519 -C "$email"
+else
+    echo "SSH Key não gerada"
+fi
 
 # Bibata cursor
 print_status "Installing Bibata Modern Classic cursor theme..."
