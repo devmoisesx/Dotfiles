@@ -8,7 +8,7 @@ alias bat="bat --color=always "
 alias batd="bat -d --color=always "
 alias cd="cd"
 alias cdh="cd ~"
-
+alias tmux="tmux a"
 alias gs="git status"
 alias gp="git push"
 alias ga="git add "

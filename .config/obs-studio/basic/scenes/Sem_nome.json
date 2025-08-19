@@ -84,7 +84,7 @@
                         "name": "Captura de monitor (PipeWire)",
                         "source_uuid": "bf084340-9666-481a-8042-5519c65b8b57",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -109,12 +109,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.2000000476837158,
-                            "y": 1.2000000476837158
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 1.2000000476837158,
-                            "y": 1.2000000476837158
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "bounds": {
                             "x": 0.0,
@@ -139,7 +139,7 @@
                         "name": "Dispositivo de captura de vídeo (V4L2)",
                         "source_uuid": "89575b69-393e-4fa6-832e-1ac7604a27f3",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -149,27 +149,27 @@
                         "bounds_type": 0,
                         "bounds_align": 0,
                         "bounds_crop": false,
-                        "crop_left": 0,
+                        "crop_left": 357,
                         "crop_top": 0,
-                        "crop_right": 0,
+                        "crop_right": 245,
                         "crop_bottom": 0,
                         "id": 7,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1634.0,
+                            "y": 846.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
+                            "x": 1.2481482028961182,
+                            "y": 0.5666667222976685
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.2169954478740692,
+                            "y": 0.21666666865348816
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.2169954478740692,
+                            "y": 0.21666666865348816
                         },
                         "bounds": {
                             "x": 0.0,
@@ -223,7 +223,7 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": ""
+                "RestoreToken": "8f9c5d88-109d-45cf-9a34-3d11c5d3d6fb"
             },
             "mixers": 0,
             "sync": 0,
@@ -248,7 +248,12 @@
             "uuid": "89575b69-393e-4fa6-832e-1ac7604a27f3",
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
-            "settings": {},
+            "settings": {
+                "device_id": "/dev/video0",
+                "Auto Exposure": 1,
+                "input": 0,
+                "pixelformat": 1196444237
+            },
             "mixers": 0,
             "sync": 0,
             "flags": 0,
@@ -298,7 +303,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -11,
+    "scaling_level": -14,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {

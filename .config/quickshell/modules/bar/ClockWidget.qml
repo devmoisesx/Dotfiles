@@ -17,21 +17,21 @@ Item {
         spacing: 8
 
         StyledText {
-            font.pixelSize: Appearance.font.pixelSize.large
+            font.pixelSize: Appearance.font.pixelSize.smaller
             color: Appearance.colors.colOnLayer1
             text: DateTime.time
         }
 
         StyledText {
             visible: root.showDate
-            font.pixelSize: Appearance.font.pixelSize.small
+            font.pixelSize: Appearance.font.pixelSize.smaller
             color: Appearance.colors.colOnLayer1
             text: "•"
         }
 
         StyledText {
             visible: root.showDate
-            font.pixelSize: Appearance.font.pixelSize.small
+            font.pixelSize: Appearance.font.pixelSize.smaller
             color: Appearance.colors.colOnLayer1
             text: DateTime.date
         }

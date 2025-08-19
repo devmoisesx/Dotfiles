@@ -22,7 +22,8 @@ Item {
     property list<bool> workspaceOccupied: []
     property int widgetPadding: 4
     property int workspaceButtonWidth: 22
-    property real workspaceIconSize: workspaceButtonWidth * 0.69
+    // property real workspaceIconSize: workspaceButtonWidth * 0.69
+    property real workspaceIconSize: workspaceButtonWidth * 0.60
     property real workspaceIconSizeShrinked: workspaceButtonWidth * 0.55
     property real workspaceIconOpacityShrinked: 1
     property real workspaceIconMarginShrinked: -4
@@ -185,7 +186,7 @@ Item {
                         anchors.centerIn: parent
                         horizontalAlignment: Text.AlignHCenter
                         verticalAlignment: Text.AlignVCenter
-                        font.pixelSize: Appearance.font.pixelSize.small - ((text.length - 1) * (text !== "10") * 2)
+                        font.pixelSize: Appearance.font.pixelSize.smaller - ((text.length - 1) * (text !== "10") * 2)
                         text: `${button.workspaceValue}`
                         elide: Text.ElideRight
                         color: (monitor.activeWorkspace?.id == button.workspaceValue) ? 
