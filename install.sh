@@ -139,6 +139,27 @@ flatpak install flathub io.github.realmazharhussain.GdmSettings
 
 flatpak install flathub io.missioncenter.MissionCenter
 
+flatpak install app.zen_browser.zen
+flatpak install com.discordapp.Discord
+flatpak install com.mattjakeman.ExtensionManager
+flatpak install io.github.realmazharhussain.GdmSettings
+flatpak install io.missioncenter.MissionCenter
+flatpak install org.freedesktop.LinuxAudio.Plugins.TAP
+flatpak install org.freedesktop.LinuxAudio.Plugins.swh
+flatpak install org.freedesktop.Platform
+flatpak install org.freedesktop.Platform.GL.default
+flatpak install org.freedesktop.Platform.GL.default
+flatpak install org.freedesktop.Platform.ffmpeg-full
+flatpak install org.freedesktop.Platform.openh264
+flatpak install org.gnome.Platform
+flatpak install org.gnome.Platform
+flatpak install org.gnome.baobab
+flatpak install org.gnome.gitlab.somas.Apostrophe
+flatpak install org.gtk.Gtk3theme.WhiteSur-Dark
+flatpak install org.gtk.Gtk3theme.WhiteSur-Dark-solid
+flatpak install org.kde.Platform
+flatpak install rest.insomnia.Insomnia
+
 # # micro
 if ! [[ -d /usr/bin/micro ]]; then
     curl https://getmic.ro | bash

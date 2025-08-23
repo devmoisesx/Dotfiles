@@ -5,13 +5,14 @@ o.wrap = true
 o.linebreak = true -- Quebra as linhas de forma inteligente
 
 -- Definir o cursor como linha vertical
-o.guicursor = "n-v-c:block,i-ci-ve:ver25,r-cr-o:hor20,sm:block"
+vim.cmd([[ set guicursor= ]])
+-- o.guicursor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20"
 
 -- Mostrar números de linha absolutos
 o.number = true
 
 -- Mostrar números relativos ao cursor
-o.relativenumber = true
+o.relativenumber = false
 
 -- Auto-identação
 o.smartindent = true -- Auto-indenta baseado no contexto
@@ -22,3 +23,8 @@ o.expandtab = true -- Usar espaços ao invés de tabs
 
 -- Ativar completions automáticas
 o.completeopt = { "menuone", "noselect" }
+
+-- o.spell = true
+o.spelllang = { "pt_br" }
+vim.opt.ignorecase = true -- Case insensitive searching UNLESS /C or capital in search
+vim.opt.title = true
