@@ -5,8 +5,8 @@ o.wrap = true
 o.linebreak = true -- Quebra as linhas de forma inteligente
 
 -- Definir o cursor como linha vertical
-vim.cmd([[ set guicursor= ]])
--- o.guicursor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20"
+-- vim.cmd([[ set guicursor= ]])
+o.guicursor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20"
 
 -- Mostrar números de linha absolutos
 o.number = true
@@ -28,3 +28,5 @@ o.completeopt = { "menuone", "noselect" }
 o.spelllang = { "pt_br" }
 vim.opt.ignorecase = true -- Case insensitive searching UNLESS /C or capital in search
 vim.opt.title = true
+
+-- vim.lsp.inline_completion.enable(true)
