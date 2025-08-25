@@ -104,10 +104,10 @@ official_packages=(
     pipewire wireplumber pipewire-alsa pipewire-pulse pipewire-jack
     pamixer playerctl pavucontrol alsa-utils
     xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-desktop-portal
-    sddm qt6-base qt6-wayland qt6-svg qt6-imageformats
+    gdm qt6-base qt6-wayland qt6-svg qt6-imageformats
     networkmanager nm-connection-editor
     bluez bluez-utils
-    firefox thunar btop fastfetch unzip zip
+    firefox thunar btop unzip zip
     ttf-dejavu noto-fonts ttf-font-awesome papirus-icon-theme adwaita-icon-theme
     git base-devel
     kitty zsh
@@ -126,7 +126,7 @@ done
 #     yay -S --needed --noconfirm $pkg
 # done
 
-yay -S --needed --noconfirm quickshell-git swww waypaper grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi hyprlock hypridle hyprshot tesseract-data github-cli hyprpolkitagent polkit-gnome polkit
+yay -S --needed --noconfirm quickshell-git swww waypaper grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi hyprlock hypridle hyprshot tesseract-data github-cli hyprpolkitagent polkit-gnome polkit wl-clip-persist wl-screenrec xdg-desktop-portal-gtk xdg-desktop-portal-hyprland vlc-plugins-all
 
 if ! [[ -d ~/.fzf ]]; then
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
@@ -301,14 +301,19 @@ xdg-mime default vlc.desktop application/ogg
 
 print_success "Setup done! Please reboot and select Hyprland in your login manager (GDM)."
 
-print_status "Verificando se o Oh My Zsh já está instalado..."
-if [ -d "$HOME/.oh-my-zsh" ]; then
-    print_status "Oh My Zsh já está instalado. Pulando a instalação."
-else
-    print_status "Instalando Oh My Zsh..."
-    # A instalação via curl é a mais comum e recomendada
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-fi
+# Scripts
+
+# local ver=$(curl -s "https://api.github.com/repos/dimtpap/obs-pipewire-audio-capture/releases/latest" | grep -oP '"tag_name": "\K(.*)(?=")')
+# cd $HOME
+# mkdir obspipe
+# cd obspipe
+# wget https://github.com/dimtpap/obs-pipewire-audio-capture/releases/download/${ver}/linux-pipewire-audio-${ver}-flatpak-30.tar.gz || { echo "Download failed"; cd ..; rm -rf obspipe; return 1; }
+# tar xvzf linux-pipewire-audio-${ver}-flatpak-30.tar.gz
+# mkdir -p $HOME/.var/app/com.obsproject.Studio/config/obs-studio/plugins/linux-pipewire-audio
+# cp -rf linux-pipewire-audio/* $HOME/.var/app/com.obsproject.Studio/config/obs-studio/plugins/linux-pipewire-audio/
+# sudo flatpak override --filesystem=xdg-run/pipewire-0 com.obsproject.Studio
+# cd ..
+# rm -rf obspipe
 
 if ! [[ -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ]]; then
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -328,4 +333,13 @@ fi
 
 if ! [[ -d ~/.oh-my-zsh/custom/plugins/auto-notify ]]; then
     git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
+fi
+
+print_status "Verificando se o Oh My Zsh já está instalado..."
+if [ -d "$HOME/.oh-my-zsh" ]; then
+    print_status "Oh My Zsh já está instalado. Pulando a instalação."
+else
+    print_status "Instalando Oh My Zsh..."
+    # A instalação via curl é a mais comum e recomendada
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
