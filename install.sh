@@ -126,7 +126,7 @@ done
 #     yay -S --needed --noconfirm $pkg
 # done
 
-yay -S --needed --noconfirm quickshell-git swww waypaper grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi hyprlock hypridle hyprshot tesseract-data github-cli hyprpolkitagent polkit-gnome polkit wl-clip-persist wl-screenrec xdg-desktop-portal-gtk xdg-desktop-portal-hyprland vlc-plugins-all
+yay -S --needed --noconfirm quickshell-git swww waypaper grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi hyprlock hypridle hyprshot tesseract-data github-cli hyprpolkitagent polkit-gnome polkit wl-clip-persist wl-screenrec xdg-desktop-portal-gtk xdg-desktop-portal-hyprland vlc-plugins-all fd
 
 if ! [[ -d ~/.fzf ]]; then
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
@@ -343,3 +343,4 @@ else
     # A instalação via curl é a mais comum e recomendada
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
+
