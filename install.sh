@@ -126,7 +126,7 @@ done
 #     yay -S --needed --noconfirm $pkg
 # done
 
-yay -S --needed --noconfirm quickshell-git swww waypaper grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi hyprlock hypridle hyprshot tesseract-data github-cli hyprpolkitagent polkit-gnome polkit wl-clip-persist wl-screenrec xdg-desktop-portal-gtk xdg-desktop-portal-hyprland vlc-plugins-all
+yay -S --needed --noconfirm quickshell-git swww waypaper grimblast matugen-bin mpvpaper ttf-jetbrains-mono-nerd ttf-material-symbols-variable-git bat micro python3 tmux flatpack eza swaync visual-studio-code-bin microsoft-edge-stable-bin openjdk-17-jdk maven intellij-idea-community-edition fzf zoxide satty fastfetch qt5-wayland qt6-wayland qt5 qt6 qt6-5compat curl vim git htop vlc neovim gedit obsidian drawio rofi-wayland gparted cameractrls obs-vaapi hyprlock hypridle hyprshot tesseract-data github-cli hyprpolkitagent polkit-gnome polkit wl-clip-persist wl-screenrec xdg-desktop-portal-gtk xdg-desktop-portal-hyprland vlc-plugins-all fd
 
 if ! [[ -d ~/.fzf ]]; then
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
@@ -139,26 +139,26 @@ flatpak install flathub io.github.realmazharhussain.GdmSettings
 
 flatpak install flathub io.missioncenter.MissionCenter
 
-flatpak install app.zen_browser.zen
-flatpak install com.discordapp.Discord
-flatpak install com.mattjakeman.ExtensionManager
-flatpak install io.github.realmazharhussain.GdmSettings
-flatpak install io.missioncenter.MissionCenter
-flatpak install org.freedesktop.LinuxAudio.Plugins.TAP
-flatpak install org.freedesktop.LinuxAudio.Plugins.swh
-flatpak install org.freedesktop.Platform
-flatpak install org.freedesktop.Platform.GL.default
-flatpak install org.freedesktop.Platform.GL.default
-flatpak install org.freedesktop.Platform.ffmpeg-full
-flatpak install org.freedesktop.Platform.openh264
-flatpak install org.gnome.Platform
-flatpak install org.gnome.Platform
-flatpak install org.gnome.baobab
-flatpak install org.gnome.gitlab.somas.Apostrophe
-flatpak install org.gtk.Gtk3theme.WhiteSur-Dark
-flatpak install org.gtk.Gtk3theme.WhiteSur-Dark-solid
-flatpak install org.kde.Platform
-flatpak install rest.insomnia.Insomnia
+flatpak install flathub app.zen_browser.zen
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.mattjakeman.ExtensionManager
+flatpak install flathub io.github.realmazharhussain.GdmSettings
+flatpak install flathub io.missioncenter.MissionCenter
+flatpak install flathub org.freedesktop.LinuxAudio.Plugins.TAP
+flatpak install flathub org.freedesktop.LinuxAudio.Plugins.swh
+flatpak install flathub org.freedesktop.Platform
+flatpak install flathub org.freedesktop.Platform.GL.default
+flatpak install flathub org.freedesktop.Platform.GL.default
+flatpak install flathub org.freedesktop.Platform.ffmpeg-full
+flatpak install flathub org.freedesktop.Platform.openh264
+flatpak install flathub org.gnome.Platform
+flatpak install flathub org.gnome.Platform
+flatpak install flathub org.gnome.baobab
+flatpak install flathub org.gnome.gitlab.somas.Apostrophe
+flatpak install flathub org.gtk.Gtk3theme.WhiteSur-Dark
+flatpak install flathub org.gtk.Gtk3theme.WhiteSur-Dark-solid
+flatpak install flathub org.kde.Platform
+flatpak install flathub rest.insomnia.Insomnia
 
 # # micro
 if ! [[ -d /usr/bin/micro ]]; then
@@ -343,3 +343,4 @@ else
     # A instalação via curl é a mais comum e recomendada
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
+

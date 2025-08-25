@@ -5,7 +5,7 @@ o.wrap = true
 o.linebreak = true -- Quebra as linhas de forma inteligente
 
 -- Definir o cursor como linha vertical
-vim.cmd([[ set guicursor= ]])
+-- vim.cmd([[ set guicursor= ]])
 -- o.guicursor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20"
 
 -- Mostrar números de linha absolutos
