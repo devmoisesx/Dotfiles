@@ -1,0 +1,91 @@
+[
+    {
+        "titleType": "Comandos",
+        "categoryIcon": "terminal",
+        "itemsType": [
+            {
+                "titleItem": "Atualizar Sistema",
+                "command": "kitty -e sudo pacman -Syu",
+                "icon": "system-upgrade"
+            },
+            {
+                "titleItem": "Limpar Cache",
+                "command": "kitty -e sudo pacman -Scc",
+                "icon": "trash-empty-rofi"
+            },
+            {
+                "titleItem": "Informações do Sistema",
+                "command": "kitty -e fastfetch",
+                "icon": "terminal"
+            }
+        ]
+    },
+    {
+        "titleType": "Navegador",
+        "categoryIcon": "microsoft-edge",
+        "itemsType": [
+            {
+                "titleItem": "Classroom",
+                "command": "microsoft-edge-stable --new-window https://classroom.google.com",
+                "icon": "microsoft-edge"
+            },
+            {
+                "titleItem": "GitHub",
+                "command": "microsoft-edge-stable --new-window https://github.com/devmoisesx",
+                "icon": "microsoft-edge"
+            },
+            {
+                "titleItem": "YouTube",
+                "command": "microsoft-edge-stable --new-window https://youtube.com",
+                "icon": "youtube"
+            }
+        ]
+    },
+    {
+        "titleType": "Arquivos",
+        "categoryIcon": "folder-rofi",
+        "itemsType": [
+            {
+                "titleItem": "Git",
+                "command": "nautilus ~/Git/",
+                "icon": "folder-rofi"
+            },
+            {
+                "titleItem": "Documentos",
+                "command": "nautilus ~/Documents",
+                "icon": "folder-rofi"
+            },
+            {
+                "titleItem": "Downloads",
+                "command": "nautilus ~/Downloads",
+                "icon": "folder-rofi"
+            },
+            {
+                "titleItem": "Home",
+                "command": "nautilus ~/",
+                "icon": "folder-rofi"
+            },
+            {
+                "titleItem": "Icons",
+                "command": "nautilus admin:/home/moises/.local/share/icons/",
+                "icon": "folder-rofi"
+            }
+        ]
+    },
+    {
+        "titleType": "Settings",
+        "categoryIcon": "preferences-system",
+        "itemsType": [
+            {
+                "titleItem": "Rofi",
+                "command": "code ~/.config/rofi/",
+                "icon": "preferences-system"
+            },
+            {
+                "titleItem": "Hyprland",
+                "command": "code ~/.config/hypr",
+                "icon": "preferences-system"
+            }
+        ]
+    }
+]

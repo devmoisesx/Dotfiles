@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/moises/Git/Crud/instrucoes.txt" added="2025-06-26T16:46:37.942513Z" modified="2025-07-23T17:59:48.931009Z" visited="2025-07-23T13:28:00.863899-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-23T17:59:48.931008Z" count="899"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/.gitconfig" added="2025-07-05T08:59:15.095436Z" modified="2025-07-29T23:19:22.777190Z" visited="2025-07-29T20:19:20.918169-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-29T23:19:22.777186Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Documentos/Pr%C3%B3xima%20tarefa%20Biblioteca.txt" added="2025-07-15T04:36:29.215357Z" modified="2025-07-29T23:19:22.777220Z" visited="2025-07-29T19:20:05.369681-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-29T23:19:22.777217Z" count="658"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Documentos/curl%20X%20POST%20http%20localhost.txt" added="2025-07-15T04:36:29.215361Z" modified="2025-07-29T23:19:22.777226Z" visited="2025-07-29T19:20:05.370041-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-29T23:19:22.777224Z" count="675"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Documentos/Criar%20api%20X%20Adicionar.txt" added="2025-07-15T04:36:29.215365Z" modified="2025-07-23T17:59:48.931018Z" visited="2025-07-23T13:28:00.937411-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-23T17:59:48.931018Z" count="552"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Documentos/sudo%20pacman%20Syu%20sudo%20pacman.txt" added="2025-07-16T22:36:17.728236Z" modified="2025-07-29T23:19:22.777200Z" visited="2025-07-29T19:20:05.369282-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-29T23:19:22.777198Z" count="22"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/.zshrc" added="2025-07-16T23:18:12.729183Z" modified="2025-07-17T14:08:29.051333Z" visited="2025-07-16T20:18:09.011927-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-17T14:08:29.051332Z" count="16"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/.config/obsrc" added="2025-07-16T23:52:12.731128Z" modified="2025-07-17T14:08:29.051344Z" visited="2025-07-16T20:52:09.155643-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-17T14:08:29.051343Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Downloads/Untitled.sql" added="2025-07-22T20:47:45.111127Z" modified="2025-07-23T17:59:48.931012Z" visited="2025-07-23T13:28:00.897499-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-23T17:59:48.931011Z" count="191"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Documentos/DDD%20Livro%20DDD%20eric%20evans.txt" added="2025-07-23T17:59:47.092846Z" modified="2025-07-23T17:59:48.931016Z" visited="2025-07-23T14:59:43.680686-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-23T17:59:48.931015Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Documentos/Arrumar%20o%20tipo%20de%20dados.txt" added="2025-07-23T17:59:48.931021Z" modified="2025-07-26T05:22:34.886485Z" visited="2025-07-25T19:32:14.319211-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-26T05:22:34.886485Z" count="116"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Documentos/01K0WP48CTNHK38BMWRXY8X1M8.txt" added="2025-07-26T05:22:34.886483Z" modified="2025-07-29T23:19:22.777237Z" visited="2025-07-29T19:20:05.377668-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-29T23:19:22.777235Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Git/Biblioteca_CRUD/Biblioteca_CRUD.sln" added="2025-07-29T18:35:54.505711Z" modified="2025-07-29T23:19:22.777231Z" visited="2025-07-29T19:20:05.366692-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-29T23:19:22.777230Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Git/Biblioteca_CRUD/BibliotecaAPI/BibliotecaAPI.http" added="2025-07-29T18:45:30.028966Z" modified="2025-07-29T23:19:22.777207Z" visited="2025-07-29T19:20:05.366285-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-29T23:19:22.777205Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/moises/Git/Dotfiles/Arch/Baixa%20o%20yay%20git%20clone.txt" added="2025-07-29T23:09:27.486986Z" modified="2025-07-29T23:19:22.777213Z" visited="2025-07-29T20:09:24.354672-03">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2025-07-29T23:19:22.777212Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

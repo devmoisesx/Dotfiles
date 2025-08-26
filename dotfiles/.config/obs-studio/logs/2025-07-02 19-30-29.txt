@@ -1,0 +1,1757 @@
+19:30:29.786: Platform: Wayland
+19:30:29.786: CPU Name: 12th Gen Intel(R) Core(TM) i5-12400F
+19:30:29.786: CPU Speed: 4000.041MHz
+19:30:29.786: Physical Cores: 6, Logical Cores: 12
+19:30:29.786: Physical Memory: 15795MB Total, 8322MB Free
+19:30:29.786: Kernel Version: Linux 6.15.4-arch2-1
+19:30:29.786: Distribution: "Arch Linux" Unknown
+19:30:29.786: Desktop Environment: Hyprland (hyprland)
+19:30:29.786: Session Type: wayland
+19:30:29.788: Qt Version: 6.9.1 (runtime), 6.9.0 (compiled)
+19:30:29.788: Portable mode: false
+19:30:29.813: OBS 31.0.3 (linux)
+19:30:29.813: ---------------------------------
+19:30:29.813: ---------------------------------
+19:30:29.813: audio settings reset:
+19:30:29.813: 	samples per sec: 48000
+19:30:29.813: 	speakers:        2
+19:30:29.813: 	max buffering:   960 milliseconds
+19:30:29.813: 	buffering type:  dynamically increasing
+19:30:29.814: ---------------------------------
+19:30:29.814: Initializing OpenGL...
+19:30:29.814: Using EGL/Wayland
+19:30:29.819: Initialized EGL 1.5
+19:30:29.830: Loading up OpenGL on adapter AMD AMD Radeon RX 5700 (radeonsi, navi10, LLVM 20.1.6, DRM 3.63, 6.15.4-arch2-1)
+19:30:29.830: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.1.4-arch1.2, shading language 4.60
+19:30:29.856: ---------------------------------
+19:30:29.856: video settings reset:
+19:30:29.856: 	base resolution:   1920x1080
+19:30:29.856: 	output resolution: 1920x1080
+19:30:29.856: 	downscale filter:  Bicubic
+19:30:29.856: 	fps:               30/1
+19:30:29.856: 	format:            NV12
+19:30:29.856: 	YUV mode:          Rec. 709/Partial
+19:30:29.856: NV12 texture support enabled
+19:30:29.856: P010 texture support not available
+19:30:29.858: Audio monitoring device:
+19:30:29.858: 	name: Padrão
+19:30:29.858: 	id: default
+19:30:29.859: ---------------------------------
+19:30:29.865: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:30:29.869: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:30:29.873: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+19:30:29.873: Failed to initialize module 'decklink.so'
+19:30:29.966: [pipewire] Available capture sources:
+19:30:29.966: [pipewire]     - Monitor source
+19:30:29.966: [pipewire]     - Window source
+19:30:29.979: v4l2loopback not installed, virtual camera not registered
+19:30:30.093: [obs-backgroundremoval] Plugin loaded successfully (version 1.1.13)
+19:30:30.093: [obs-backgroundremoval] Config folder does not exist, creating: /home/moises/.config/obs-studio/plugin_config/obs-backgroundremoval/
+19:30:30.093: [obs-backgroundremoval] Failed to open config file /home/moises/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+19:30:30.093: [obs-backgroundremoval] Failed to open config file /home/moises/.config/obs-studio/plugin_config/obs-backgroundremoval/config.ini
+19:30:30.357: [obs-backgroundremoval] Latest release is 
+19:30:30.427: VAAPI: API version 1.22
+19:30:30.427: FFmpeg VAAPI H264 encoding supported
+19:30:30.430: FFmpeg VAAPI AV1 encoding not supported
+19:30:30.433: FFmpeg VAAPI HEVC encoding supported
+19:30:30.449: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+19:30:30.449: 
+19:30:30.449: NVENC not supported
+19:30:30.449: Failed to initialize module 'obs-nvenc.so'
+19:30:30.486: [obs-vaapi] version: 0.4.2, gst-runtime: 1.26.3
+19:30:30.494: [obs-vaapi] found vah265enc
+19:30:30.494: [obs-vaapi] found vah264enc
+19:30:30.494: [obs-vaapi] found vaapih264enc
+19:30:30.494: [obs-vaapi] found vaapih265enc
+19:30:30.520: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+19:30:30.520: 
+19:30:30.522: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+19:30:30.522: 
+19:30:30.522: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+19:30:30.537: ---------------------------------
+19:30:30.537:   Loaded Modules:
+19:30:30.537:     text-freetype2.so
+19:30:30.537:     rtmp-services.so
+19:30:30.537:     obs-x264.so
+19:30:30.537:     obs-webrtc.so
+19:30:30.537:     obs-vst.so
+19:30:30.537:     obs-vaapi.so
+19:30:30.537:     obs-transitions.so
+19:30:30.537:     obs-qsv11.so
+19:30:30.537:     obs-outputs.so
+19:30:30.537:     obs-libfdk.so
+19:30:30.537:     obs-filters.so
+19:30:30.537:     obs-ffmpeg.so
+19:30:30.537:     obs-backgroundremoval.so
+19:30:30.537:     linux-v4l2.so
+19:30:30.537:     linux-pulseaudio.so
+19:30:30.537:     linux-pipewire.so
+19:30:30.537:     linux-jack.so
+19:30:30.537:     linux-capture.so
+19:30:30.537:     linux-alsa.so
+19:30:30.537:     image-source.so
+19:30:30.537:     frontend-tools.so
+19:30:30.537:     decklink-output-ui.so
+19:30:30.537:     decklink-captions.so
+19:30:30.537: ---------------------------------
+19:30:30.537: ---------------------------------
+19:30:30.537: Available Encoders:
+19:30:30.537:   Video Encoders:
+19:30:30.537: 	- ffmpeg_svt_av1 (SVT-AV1)
+19:30:30.537: 	- ffmpeg_aom_av1 (AOM AV1)
+19:30:30.537: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+19:30:30.537: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+19:30:30.542: 	- obs-va-vah265enc (VAAPI H.265 on Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT])
+19:30:30.548: 	- obs-va-vah264enc (VAAPI H.264 on Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT])
+19:30:30.548: 	- obs-vaapi-vaapih264enc (VAAPI H.264  (Legacy))
+19:30:30.548: 	- obs-vaapi-vaapih265enc (VAAPI H.265  (Legacy))
+19:30:30.548: 	- obs_x264 (x264)
+19:30:30.548:   Audio Encoders:
+19:30:30.548: 	- ffmpeg_aac (FFmpeg AAC)
+19:30:30.548: 	- ffmpeg_opus (FFmpeg Opus)
+19:30:30.548: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+19:30:30.548: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+19:30:30.548: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+19:30:30.548: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+19:30:30.548: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+19:30:30.548: 	- libfdk_aac (libfdk AAC)
+19:30:30.548: ==== Startup complete ===============================================
+19:30:30.561: All scene data cleared
+19:30:30.561: ------------------------------------------------
+19:30:30.564: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.6) 15.0.0'
+19:30:30.564: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+19:30:30.564: pulse-input: Started recording from 'alsa_output.pci-0000_03_00.1.hdmi-stereo-extra3.monitor' (default)
+19:30:30.564: [Loaded global audio device]: 'Áudio do desktop'
+19:30:30.564: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.6) 15.0.0'
+19:30:30.565: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+19:30:30.565: pulse-input: Started recording from 'alsa_input.usb-FIFINE_Microphones_Fifine_K658_Microphone_REV1.1-00.analog-stereo' (default)
+19:30:30.565: [Loaded global audio device]: 'Mic/Aux'
+19:30:30.565: PipeWire initialized
+19:30:30.565: PipeWire initialized
+19:30:30.565: PipeWire initialized
+19:30:30.566: Switched to scene 'Cena 3'
+19:30:30.566: ------------------------------------------------
+19:30:30.566: Loaded scenes:
+19:30:30.566: - scene 'Cena':
+19:30:30.566:     - source: 'Captura de monitor (PipeWire)' (pipewire-screen-capture-source)
+19:30:30.566:     - source: 'Captura de monitor (PipeWire) 3' (pipewire-screen-capture-source)
+19:30:30.566: - scene 'Cena 3':
+19:30:30.566: - scene 'Cena 2':
+19:30:30.566:     - source: 'Captura de monitor (PipeWire) 2' (pipewire-screen-capture-source)
+19:30:30.566:     - source: 'Captura de monitor (PipeWire) 2' (pipewire-screen-capture-source)
+19:30:30.566: ------------------------------------------------
+19:30:30.614: [pipewire] Screencast session created
+19:30:30.614: [pipewire] Screencast session created
+19:30:30.614: [pipewire] Screencast session created
+19:30:30.910: [pipewire] Asking for monitor and window
+19:30:30.983: [pipewire] source selected, setting up screencast
+19:30:30.983: [pipewire] Asking for monitor and window
+19:30:30.984: [pipewire] Asking for monitor and window
+19:30:31.005: [pipewire] Server version: 1.4.6
+19:30:31.005: [pipewire] Library version: 1.4.6
+19:30:31.005: [pipewire] Header version: 1.4.2
+19:30:31.005: [pipewire] Created stream 0x5555cf578570
+19:30:31.006: [pipewire] Stream 0x5555cf578570 state: "connecting" (error: none)
+19:30:31.007: [pipewire] Playing stream 0x5555cf578570
+19:30:31.007: [pipewire] source selected, setting up screencast
+19:30:31.008: [pipewire] Stream 0x5555cf578570 state: "paused" (error: none)
+19:30:31.028: [pipewire] Negotiated format:
+19:30:31.028: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.028: [pipewire]     Modifier: 0x0
+19:30:31.028: [pipewire]     Size: 1584x844
+19:30:31.028: [pipewire]     Framerate: 0/1
+19:30:31.029: [pipewire] Negotiated format:
+19:30:31.029: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.029: [pipewire]     Modifier: 0x20000000096bb02
+19:30:31.029: [pipewire]     Size: 1584x844
+19:30:31.029: [pipewire]     Framerate: 0/1
+19:30:31.029: [pipewire] Stream 0x5555cf578570 state: "streaming" (error: none)
+19:30:31.035: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+19:30:31.035: [pipewire] Renegotiating stream
+19:30:31.035: [pipewire] Stream 0x5555cf578570 state: "paused" (error: none)
+19:30:31.035: [pipewire] Negotiated format:
+19:30:31.035: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.035: [pipewire]     Modifier: 0x20000000096bb02
+19:30:31.035: [pipewire]     Size: 1584x844
+19:30:31.035: [pipewire]     Framerate: 0/1
+19:30:31.036: [pipewire] Negotiated format:
+19:30:31.036: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.036: [pipewire]     Modifier: 0x200000000801b02
+19:30:31.036: [pipewire]     Size: 1584x844
+19:30:31.036: [pipewire]     Framerate: 0/1
+19:30:31.036: [pipewire] source selected, setting up screencast
+19:30:31.037: [pipewire] Stream 0x5555cf578570 state: "streaming" (error: none)
+19:30:31.040: [pipewire] Server version: 1.4.6
+19:30:31.040: [pipewire] Library version: 1.4.6
+19:30:31.040: [pipewire] Header version: 1.4.2
+19:30:31.040: [pipewire] Created stream 0x5555cf5b8760
+19:30:31.040: [pipewire] Stream 0x5555cf5b8760 state: "connecting" (error: none)
+19:30:31.040: [pipewire] Playing stream 0x5555cf5b8760
+19:30:31.041: [pipewire] Stream 0x5555cf5b8760 state: "paused" (error: none)
+19:30:31.042: [pipewire] Server version: 1.4.6
+19:30:31.042: [pipewire] Library version: 1.4.6
+19:30:31.042: [pipewire] Header version: 1.4.2
+19:30:31.042: [pipewire] Created stream 0x5555cf5f9e40
+19:30:31.042: [pipewire] Stream 0x5555cf5f9e40 state: "connecting" (error: none)
+19:30:31.042: [pipewire] Playing stream 0x5555cf5f9e40
+19:30:31.042: [pipewire] Stream 0x5555cf5f9e40 state: "paused" (error: none)
+19:30:31.049: [pipewire] Negotiated format:
+19:30:31.049: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.049: [pipewire]     Modifier: 0x0
+19:30:31.049: [pipewire]     Size: 1584x844
+19:30:31.049: [pipewire]     Framerate: 0/1
+19:30:31.049: [pipewire] Negotiated format:
+19:30:31.049: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.049: [pipewire]     Modifier: 0x20000000096bb02
+19:30:31.049: [pipewire]     Size: 1584x844
+19:30:31.049: [pipewire]     Framerate: 0/1
+19:30:31.049: [pipewire] Stream 0x5555cf5b8760 state: "streaming" (error: none)
+19:30:31.052: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+19:30:31.052: [pipewire] Renegotiating stream
+19:30:31.052: [pipewire] Stream 0x5555cf5b8760 state: "paused" (error: none)
+19:30:31.052: [pipewire] Negotiated format:
+19:30:31.052: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.052: [pipewire]     Modifier: 0x20000000096bb02
+19:30:31.052: [pipewire]     Size: 1584x844
+19:30:31.052: [pipewire]     Framerate: 0/1
+19:30:31.052: [pipewire] Negotiated format:
+19:30:31.052: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.052: [pipewire]     Modifier: 0x200000000801b02
+19:30:31.052: [pipewire]     Size: 1584x844
+19:30:31.052: [pipewire]     Framerate: 0/1
+19:30:31.053: [pipewire] Stream 0x5555cf5b8760 state: "streaming" (error: none)
+19:30:31.057: [pipewire] Negotiated format:
+19:30:31.057: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.057: [pipewire]     Modifier: 0x0
+19:30:31.057: [pipewire]     Size: 1584x844
+19:30:31.057: [pipewire]     Framerate: 0/1
+19:30:31.058: [pipewire] Negotiated format:
+19:30:31.058: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.058: [pipewire]     Modifier: 0x20000000096bb02
+19:30:31.058: [pipewire]     Size: 1584x844
+19:30:31.058: [pipewire]     Framerate: 0/1
+19:30:31.074: [pipewire] Stream 0x5555cf5f9e40 state: "streaming" (error: none)
+19:30:31.086: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+19:30:31.086: [pipewire] Renegotiating stream
+19:30:31.087: [pipewire] Stream 0x5555cf5f9e40 state: "paused" (error: none)
+19:30:31.087: [pipewire] Negotiated format:
+19:30:31.087: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.087: [pipewire]     Modifier: 0x20000000096bb02
+19:30:31.087: [pipewire]     Size: 1584x844
+19:30:31.087: [pipewire]     Framerate: 0/1
+19:30:31.088: [pipewire] Negotiated format:
+19:30:31.088: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:30:31.088: [pipewire]     Modifier: 0x200000000801b02
+19:30:31.088: [pipewire]     Size: 1584x844
+19:30:31.088: [pipewire]     Framerate: 0/1
+19:30:31.090: [pipewire] Stream 0x5555cf5f9e40 state: "streaming" (error: none)
+19:30:31.115: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Áudio do desktop)
+19:30:31.115: 
+19:30:48.375: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+19:30:48.375: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+19:30:48.383: User added source 'Dispositivo de captura de vídeo (PipeWire) (BETA)' (pipewire-camera-source) to scene 'Cena 3'
+19:30:48.432: [camera-portal] Selected resolution for ''
+19:30:48.432: [camera-portal] Selected format for ''
+19:30:48.432: [camera-portal] selected camera ''
+19:30:48.446: [camera-portal] Successfully accessed cameras
+19:30:48.450: [pipewire] Server version: 1.4.6
+19:30:48.450: [pipewire] Library version: 1.4.6
+19:30:48.450: [pipewire] Header version: 1.4.2
+19:30:48.450: [pipewire] Created registry 0x7efe840027c0
+19:30:48.450: [camera-portal] Found device v4l2_input.pci-0000_00_14.0-usb-0_7_1.0
+19:30:48.450: [camera-portal] Selected resolution for ''
+19:30:48.450: [camera-portal] Selected format for ''
+19:30:48.450: [camera-portal] selected camera ''
+19:31:09.903: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:09.903: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:09.903: [pipewire] Created stream 0x5555cf741100
+19:31:09.903: [pipewire] Stream 0x5555cf741100 state: "connecting" (error: none)
+19:31:09.904: [pipewire] Playing stream 0x5555cf741100
+19:31:09.904: [camera-portal] Updating pixel formats
+19:31:09.904: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:09.905: [pipewire] Stream 0x5555cf741100 state: "paused" (error: none)
+19:31:09.914: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:09.919: [camera-portal] Selected resolution for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:09.920: [pipewire] Renegotiating stream
+19:31:09.925: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_7_1.0
+19:31:09.926: [pipewire] Renegotiating stream
+19:31:09.958: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_7_1.0
+19:31:10.036: [pipewire] Negotiated format:
+19:31:10.036: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+19:31:10.036: [pipewire]     Size: 320x240
+19:31:10.036: [pipewire]     Framerate: 30/1
+19:31:10.037: [pipewire] Stream 0x5555cf741100 state: "streaming" (error: none)
+19:31:20.392: [camera-portal] Updating device 
+19:31:20.392: [pipewire] Stream 0x5555cf741100 state: "paused" (error: none)
+19:31:20.393: [pipewire] Stream 0x5555cf741100 state: "unconnected" (error: none)
+19:31:22.901: User Removed source 'Dispositivo de captura de vídeo (PipeWire) (BETA)' (pipewire-camera-source) from scene 'Cena 3'
+19:31:27.695: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+19:31:27.695: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+19:31:27.698: User added source 'Dispositivo de captura de vídeo (PipeWire) (BETA)' (pipewire-camera-source) to scene 'Cena 3'
+19:31:27.742: [camera-portal] Selected resolution for ''
+19:31:27.742: [camera-portal] Selected format for ''
+19:31:27.742: [camera-portal] selected camera ''
+19:31:29.132: [camera-portal] selected camera 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:29.132: [camera-portal] streaming camera 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:29.132: [pipewire] Created stream 0x5555cfaeb530
+19:31:29.132: [pipewire] Stream 0x5555cfaeb530 state: "connecting" (error: none)
+19:31:29.133: [pipewire] Playing stream 0x5555cfaeb530
+19:31:29.133: [camera-portal] Updating pixel formats
+19:31:29.133: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:29.134: [pipewire] Stream 0x5555cfaeb530 state: "paused" (error: none)
+19:31:29.141: [camera-portal] Selected format for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:29.144: [camera-portal] Selected resolution for 'v4l2_input.pci-0000_00_14.0-usb-0_7_1.0'
+19:31:29.144: [pipewire] Renegotiating stream
+19:31:29.148: [pipewire] Renegotiating stream
+19:31:29.158: [camera-portal] Updating device v4l2_input.pci-0000_00_14.0-usb-0_7_1.0
+19:31:29.250: [pipewire] Negotiated format:
+19:31:29.250: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+19:31:29.250: [pipewire]     Size: 320x240
+19:31:29.250: [pipewire]     Framerate: 30/1
+19:31:29.251: [pipewire] Stream 0x5555cfaeb530 state: "streaming" (error: none)
+19:31:31.726: [camera-portal] Updating device 
+19:31:31.727: [pipewire] Stream 0x5555cfaeb530 state: "paused" (error: none)
+19:31:31.728: [pipewire] Stream 0x5555cfaeb530 state: "unconnected" (error: none)
+19:31:35.114: v4l2-input: Start capture from 
+19:31:35.114: v4l2-input: Unable to open device
+19:31:35.114: v4l2-input: Initialization failed, errno: Arquivo ou diretório inexistente
+19:31:35.121: User added source 'Dispositivo de captura de vídeo (V4L2)' (v4l2_input) to scene 'Cena 3'
+19:31:35.195: v4l2-input: /dev/video1 seems to not support video capture
+19:31:35.289: v4l2-input: Found device 'Anker PowerConf C200: Anker Pow' at /dev/video0
+19:31:35.300: v4l2-input: Found input 'Camera 1' (Index 0)
+19:31:35.300: v4l2-controls: setting default for Power Line Frequency to 0
+19:31:35.300: v4l2-controls: setting default for Auto Exposure to 0
+19:31:35.302: v4l2-input: Pixelformat: Motion-JPEG (available)
+19:31:35.302: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+19:31:35.302: v4l2-input: Pixelformat: H.264 (available)
+19:31:35.302: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+19:31:35.302: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+19:31:35.302: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+19:31:35.302: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+19:31:35.304: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+19:31:35.308: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+19:31:35.322: v4l2-input: Pixelformat: Motion-JPEG (available)
+19:31:35.322: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+19:31:35.322: v4l2-input: Pixelformat: H.264 (available)
+19:31:35.322: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+19:31:35.322: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+19:31:35.322: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+19:31:35.322: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+19:31:35.323: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+19:31:35.325: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+19:31:35.325: v4l2-input: Start capture from /dev/video0
+19:31:35.327: v4l2-input: Input: 0
+19:31:35.327: v4l2-input: Resolution: 320x240
+19:31:35.327: v4l2-input: Pixelformat: YUYV
+19:31:35.327: v4l2-input: Linesize: 640 Bytes
+19:31:35.327: v4l2-input: Framerate: 30.00 fps
+19:31:35.328: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+19:31:35.468: v4l2-input: /dev/video0: Stopped capture after 0 frames
+19:31:35.470: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+19:31:35.470: v4l2-input: Start capture from /dev/video0
+19:31:35.472: v4l2-input: Input: 0
+19:31:36.378: v4l2-input: Resolution: 320x240
+19:31:36.378: v4l2-input: Pixelformat: MJPG
+19:31:36.378: v4l2-input: Linesize: 0 Bytes
+19:31:36.378: v4l2-input: Framerate: 30.00 fps
+19:31:36.408: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+19:32:04.620: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+19:32:04.643: v4l2-input: /dev/video0: Stopped capture after 839 frames
+19:32:04.644: v4l2-input: Start capture from /dev/video0
+19:32:04.644: v4l2-input: Input: 0
+19:32:05.464: v4l2-input: Resolution: 320x240
+19:32:05.464: v4l2-input: Pixelformat: H264
+19:32:05.464: v4l2-input: Linesize: 640 Bytes
+19:32:05.464: v4l2-input: Framerate: 30.00 fps
+19:32:05.487: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+19:32:11.517: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+19:32:11.554: v4l2-input: /dev/video0: Stopped capture after 176 frames
+19:32:11.555: v4l2-input: Start capture from /dev/video0
+19:32:11.555: v4l2-input: Input: 0
+19:32:12.535: v4l2-input: Resolution: 320x240
+19:32:12.535: v4l2-input: Pixelformat: YUYV
+19:32:12.535: v4l2-input: Linesize: 640 Bytes
+19:32:12.535: v4l2-input: Framerate: 30.00 fps
+19:32:12.535: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+19:32:39.517: [obs-backgroundremoval] Background filter created
+19:32:39.556: [obs-backgroundremoval] Background filter updated
+19:32:39.585: [obs-backgroundremoval] Model models/mediapipe.onnx input 0: name input_1:0 shape (4 dim) 1 x 144 x 256 x 3
+19:32:39.585: [obs-backgroundremoval] Model models/mediapipe.onnx output 0: name segment:0 shape (4 dim) 1 x 144 x 256 x 2
+19:32:39.585: [obs-backgroundremoval] Allocated 110592 sized float-array for input 0
+19:32:39.586: [obs-backgroundremoval] Allocated 73728 sized float-array for output 0
+19:32:39.590: [obs-backgroundremoval] Background Removal Filter Options:
+19:32:39.590: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:32:39.590: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:32:39.590: [obs-backgroundremoval]   Inference Device: cpu
+19:32:39.590: [obs-backgroundremoval]   Num Threads: 1
+19:32:39.590: [obs-backgroundremoval]   Enable Threshold: true
+19:32:39.590: [obs-backgroundremoval]   Threshold: 0.500000
+19:32:39.590: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:32:39.590: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:32:39.590: [obs-backgroundremoval]   Feather: 0.000000
+19:32:39.590: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:32:39.590: [obs-backgroundremoval]   Enable Image Similarity: true
+19:32:39.590: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:32:39.590: [obs-backgroundremoval]   Blur Background: 0
+19:32:39.590: [obs-backgroundremoval]   Enable Focal Blur: false
+19:32:39.590: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:32:39.590: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:32:39.590: [obs-backgroundremoval]   Disabled: true
+19:32:39.590: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:32:39.590: User added filter 'Remoção de Fundo' (background_removal) to source 'Dispositivo de captura de vídeo (V4L2)'
+19:32:39.592: [obs-backgroundremoval] get_latest_version: 
+19:32:42.225: [obs-backgroundremoval] Background filter updated
+19:32:42.225: [obs-backgroundremoval] Background Removal Filter Options:
+19:32:42.226: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:32:42.226: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:32:42.226: [obs-backgroundremoval]   Inference Device: cpu
+19:32:42.226: [obs-backgroundremoval]   Num Threads: 1
+19:32:42.226: [obs-backgroundremoval]   Enable Threshold: true
+19:32:42.226: [obs-backgroundremoval]   Threshold: 0.500000
+19:32:42.226: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:32:42.226: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:32:42.226: [obs-backgroundremoval]   Feather: 0.000000
+19:32:42.226: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:32:42.226: [obs-backgroundremoval]   Enable Image Similarity: true
+19:32:42.226: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:32:42.226: [obs-backgroundremoval]   Blur Background: 0
+19:32:42.226: [obs-backgroundremoval]   Enable Focal Blur: false
+19:32:42.226: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:32:42.226: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:32:42.226: [obs-backgroundremoval]   Disabled: true
+19:32:42.226: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:32:43.525: [obs-backgroundremoval] Background filter updated
+19:32:43.525: [obs-backgroundremoval] Background Removal Filter Options:
+19:32:43.525: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:32:43.525: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:32:43.525: [obs-backgroundremoval]   Inference Device: cpu
+19:32:43.525: [obs-backgroundremoval]   Num Threads: 1
+19:32:43.525: [obs-backgroundremoval]   Enable Threshold: false
+19:32:43.525: [obs-backgroundremoval]   Threshold: 0.500000
+19:32:43.525: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:32:43.525: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:32:43.525: [obs-backgroundremoval]   Feather: 0.000000
+19:32:43.525: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:32:43.525: [obs-backgroundremoval]   Enable Image Similarity: true
+19:32:43.525: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:32:43.525: [obs-backgroundremoval]   Blur Background: 0
+19:32:43.525: [obs-backgroundremoval]   Enable Focal Blur: false
+19:32:43.525: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:32:43.525: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:32:43.525: [obs-backgroundremoval]   Disabled: true
+19:32:43.525: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:32:44.192: [obs-backgroundremoval] Background filter updated
+19:32:44.192: [obs-backgroundremoval] Background Removal Filter Options:
+19:32:44.192: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:32:44.192: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:32:44.192: [obs-backgroundremoval]   Inference Device: cpu
+19:32:44.192: [obs-backgroundremoval]   Num Threads: 1
+19:32:44.192: [obs-backgroundremoval]   Enable Threshold: true
+19:32:44.192: [obs-backgroundremoval]   Threshold: 0.500000
+19:32:44.192: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:32:44.192: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:32:44.192: [obs-backgroundremoval]   Feather: 0.000000
+19:32:44.192: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:32:44.192: [obs-backgroundremoval]   Enable Image Similarity: true
+19:32:44.192: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:32:44.192: [obs-backgroundremoval]   Blur Background: 0
+19:32:44.192: [obs-backgroundremoval]   Enable Focal Blur: false
+19:32:44.192: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:32:44.192: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:32:44.192: [obs-backgroundremoval]   Disabled: true
+19:32:44.192: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:02.159: [obs-backgroundremoval] Background filter updated
+19:33:02.161: [obs-backgroundremoval] /onnxruntime_src/onnxruntime/core/session/provider_bridge_ort.cc:1209 onnxruntime::Provider& onnxruntime::ProviderLibrary::Get() [ONNXRuntimeError] : 1 : FAIL : Failed to load library libonnxruntime_providers_tensorrt.so with error: libcudnn.so.8: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+19:33:02.161: 
+19:33:02.161: [obs-backgroundremoval] Failed to create ONNXRuntime session. Error code: 5
+19:33:02.625: [obs-backgroundremoval] Background filter updated
+19:33:02.625: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:02.625: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:02.625: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:02.625: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:02.625: [obs-backgroundremoval]   Num Threads: 1
+19:33:02.625: [obs-backgroundremoval]   Enable Threshold: true
+19:33:02.625: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:02.625: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:02.625: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:02.625: [obs-backgroundremoval]   Feather: 0.000000
+19:33:02.625: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:02.625: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:02.625: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:02.625: [obs-backgroundremoval]   Blur Background: 0
+19:33:02.625: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:02.625: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:02.625: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:02.625: [obs-backgroundremoval]   Disabled: true
+19:33:02.625: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:02.625: [obs-backgroundremoval] Model is not initialized
+19:33:02.659: [obs-backgroundremoval] Model is not initialized
+19:33:02.692: [obs-backgroundremoval] Model is not initialized
+19:33:02.725: [obs-backgroundremoval] Model is not initialized
+19:33:02.759: [obs-backgroundremoval] Model is not initialized
+19:33:02.792: [obs-backgroundremoval] Model is not initialized
+19:33:02.825: [obs-backgroundremoval] Model is not initialized
+19:33:02.859: [obs-backgroundremoval] Model is not initialized
+19:33:02.892: [obs-backgroundremoval] Model is not initialized
+19:33:02.926: [obs-backgroundremoval] Model is not initialized
+19:33:02.959: [obs-backgroundremoval] Model is not initialized
+19:33:02.992: [obs-backgroundremoval] Model is not initialized
+19:33:03.025: [obs-backgroundremoval] Model is not initialized
+19:33:03.059: [obs-backgroundremoval] Model is not initialized
+19:33:03.092: [obs-backgroundremoval] Model is not initialized
+19:33:03.126: [obs-backgroundremoval] Model is not initialized
+19:33:03.159: [obs-backgroundremoval] Model is not initialized
+19:33:03.192: [obs-backgroundremoval] Model is not initialized
+19:33:03.225: [obs-backgroundremoval] Model is not initialized
+19:33:03.259: [obs-backgroundremoval] Model is not initialized
+19:33:03.292: [obs-backgroundremoval] Model is not initialized
+19:33:03.325: [obs-backgroundremoval] Model is not initialized
+19:33:03.359: [obs-backgroundremoval] Model is not initialized
+19:33:03.392: [obs-backgroundremoval] Model is not initialized
+19:33:03.426: [obs-backgroundremoval] Model is not initialized
+19:33:03.459: [obs-backgroundremoval] Model is not initialized
+19:33:03.492: [obs-backgroundremoval] Model is not initialized
+19:33:03.526: [obs-backgroundremoval] Model is not initialized
+19:33:03.559: [obs-backgroundremoval] Model is not initialized
+19:33:03.592: [obs-backgroundremoval] Model is not initialized
+19:33:03.626: [obs-backgroundremoval] Model is not initialized
+19:33:08.392: Last log entry repeated for 143 more lines
+19:33:08.392: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:08.392: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:08.392: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:08.392: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:08.392: [obs-backgroundremoval]   Num Threads: 1
+19:33:08.393: [obs-backgroundremoval]   Enable Threshold: true
+19:33:08.393: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:08.393: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:08.393: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:08.393: [obs-backgroundremoval]   Feather: 0.000000
+19:33:08.393: [obs-backgroundremoval]   Mask Every X Frames: 2
+19:33:08.393: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:08.393: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:08.393: [obs-backgroundremoval]   Blur Background: 0
+19:33:08.393: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:08.393: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:08.393: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:08.393: [obs-backgroundremoval]   Disabled: true
+19:33:08.393: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:08.393: [obs-backgroundremoval] Model is not initialized
+19:33:08.426: [obs-backgroundremoval] Model is not initialized
+19:33:08.459: [obs-backgroundremoval] Model is not initialized
+19:33:08.492: [obs-backgroundremoval] Model is not initialized
+19:33:08.525: [obs-backgroundremoval] Model is not initialized
+19:33:08.559: [obs-backgroundremoval] Model is not initialized
+19:33:08.592: [obs-backgroundremoval] Model is not initialized
+19:33:08.626: [obs-backgroundremoval] Model is not initialized
+19:33:08.659: [obs-backgroundremoval] Model is not initialized
+19:33:08.693: [obs-backgroundremoval] Model is not initialized
+19:33:08.726: [obs-backgroundremoval] Model is not initialized
+19:33:08.759: [obs-backgroundremoval] Model is not initialized
+19:33:08.793: [obs-backgroundremoval] Model is not initialized
+19:33:08.826: [obs-backgroundremoval] Background filter updated
+19:33:08.826: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:08.826: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:08.826: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:08.826: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:08.826: [obs-backgroundremoval]   Num Threads: 1
+19:33:08.826: [obs-backgroundremoval]   Enable Threshold: true
+19:33:08.826: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:08.826: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:08.826: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:08.826: [obs-backgroundremoval]   Feather: 0.000000
+19:33:08.826: [obs-backgroundremoval]   Mask Every X Frames: 3
+19:33:08.826: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:08.826: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:08.827: [obs-backgroundremoval]   Blur Background: 0
+19:33:08.827: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:08.827: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:08.827: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:08.827: [obs-backgroundremoval]   Disabled: true
+19:33:08.827: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:08.827: [obs-backgroundremoval] Model is not initialized
+19:33:08.859: [obs-backgroundremoval] Model is not initialized
+19:33:08.892: [obs-backgroundremoval] Model is not initialized
+19:33:08.925: [obs-backgroundremoval] Model is not initialized
+19:33:08.959: [obs-backgroundremoval] Model is not initialized
+19:33:08.992: [obs-backgroundremoval] Background filter updated
+19:33:08.992: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:08.992: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:08.992: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:08.992: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:08.992: [obs-backgroundremoval]   Num Threads: 1
+19:33:08.992: [obs-backgroundremoval]   Enable Threshold: true
+19:33:08.992: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:08.992: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:08.992: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:08.992: [obs-backgroundremoval]   Feather: 0.000000
+19:33:08.992: [obs-backgroundremoval]   Mask Every X Frames: 4
+19:33:08.992: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:08.992: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:08.992: [obs-backgroundremoval]   Blur Background: 0
+19:33:08.992: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:08.992: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:08.992: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:08.992: [obs-backgroundremoval]   Disabled: true
+19:33:08.992: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:08.992: [obs-backgroundremoval] Model is not initialized
+19:33:09.025: [obs-backgroundremoval] Model is not initialized
+19:33:09.059: [obs-backgroundremoval] Model is not initialized
+19:33:09.092: [obs-backgroundremoval] Model is not initialized
+19:33:09.126: [obs-backgroundremoval] Model is not initialized
+19:33:09.159: [obs-backgroundremoval] Background filter updated
+19:33:09.159: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:09.159: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:09.160: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:09.160: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:09.160: [obs-backgroundremoval]   Num Threads: 1
+19:33:09.160: [obs-backgroundremoval]   Enable Threshold: true
+19:33:09.160: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:09.160: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:09.160: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:09.160: [obs-backgroundremoval]   Feather: 0.000000
+19:33:09.160: [obs-backgroundremoval]   Mask Every X Frames: 5
+19:33:09.160: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:09.160: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:09.160: [obs-backgroundremoval]   Blur Background: 0
+19:33:09.160: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:09.160: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:09.160: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:09.160: [obs-backgroundremoval]   Disabled: true
+19:33:09.160: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:09.160: [obs-backgroundremoval] Model is not initialized
+19:33:09.192: [obs-backgroundremoval] Model is not initialized
+19:33:09.226: [obs-backgroundremoval] Model is not initialized
+19:33:09.259: [obs-backgroundremoval] Model is not initialized
+19:33:09.292: [obs-backgroundremoval] Model is not initialized
+19:33:09.326: [obs-backgroundremoval] Background filter updated
+19:33:09.326: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:09.326: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:09.326: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:09.326: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:09.326: [obs-backgroundremoval]   Num Threads: 1
+19:33:09.326: [obs-backgroundremoval]   Enable Threshold: true
+19:33:09.326: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:09.326: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:09.326: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:09.326: [obs-backgroundremoval]   Feather: 0.000000
+19:33:09.326: [obs-backgroundremoval]   Mask Every X Frames: 6
+19:33:09.326: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:09.326: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:09.326: [obs-backgroundremoval]   Blur Background: 0
+19:33:09.326: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:09.326: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:09.326: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:09.326: [obs-backgroundremoval]   Disabled: true
+19:33:09.326: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:09.326: [obs-backgroundremoval] Model is not initialized
+19:33:09.358: [obs-backgroundremoval] Model is not initialized
+19:33:09.392: [obs-backgroundremoval] Model is not initialized
+19:33:09.426: [obs-backgroundremoval] Model is not initialized
+19:33:09.459: [obs-backgroundremoval] Model is not initialized
+19:33:09.492: [obs-backgroundremoval] Background filter updated
+19:33:09.492: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:09.492: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:09.492: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:09.492: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:09.492: [obs-backgroundremoval]   Num Threads: 1
+19:33:09.492: [obs-backgroundremoval]   Enable Threshold: true
+19:33:09.492: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:09.492: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:09.492: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:09.492: [obs-backgroundremoval]   Feather: 0.000000
+19:33:09.492: [obs-backgroundremoval]   Mask Every X Frames: 7
+19:33:09.492: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:09.492: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:09.492: [obs-backgroundremoval]   Blur Background: 0
+19:33:09.492: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:09.492: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:09.492: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:09.492: [obs-backgroundremoval]   Disabled: true
+19:33:09.492: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:09.492: [obs-backgroundremoval] Model is not initialized
+19:33:09.525: [obs-backgroundremoval] Model is not initialized
+19:33:09.559: [obs-backgroundremoval] Model is not initialized
+19:33:09.592: [obs-backgroundremoval] Model is not initialized
+19:33:09.626: [obs-backgroundremoval] Model is not initialized
+19:33:09.659: [obs-backgroundremoval] Model is not initialized
+19:33:09.692: [obs-backgroundremoval] Background filter updated
+19:33:09.693: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:09.693: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:09.693: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:09.693: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:09.693: [obs-backgroundremoval]   Num Threads: 1
+19:33:09.693: [obs-backgroundremoval]   Enable Threshold: true
+19:33:09.693: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:09.693: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:09.693: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:09.693: [obs-backgroundremoval]   Feather: 0.000000
+19:33:09.693: [obs-backgroundremoval]   Mask Every X Frames: 8
+19:33:09.693: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:09.693: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:09.693: [obs-backgroundremoval]   Blur Background: 0
+19:33:09.693: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:09.693: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:09.693: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:09.693: [obs-backgroundremoval]   Disabled: true
+19:33:09.693: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:09.693: [obs-backgroundremoval] Model is not initialized
+19:33:09.726: [obs-backgroundremoval] Model is not initialized
+19:33:09.759: [obs-backgroundremoval] Model is not initialized
+19:33:09.792: [obs-backgroundremoval] Model is not initialized
+19:33:09.825: [obs-backgroundremoval] Model is not initialized
+19:33:09.859: [obs-backgroundremoval] Background filter updated
+19:33:09.859: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:09.859: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:09.859: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:09.859: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:09.859: [obs-backgroundremoval]   Num Threads: 1
+19:33:09.859: [obs-backgroundremoval]   Enable Threshold: true
+19:33:09.859: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:09.859: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:09.859: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:09.859: [obs-backgroundremoval]   Feather: 0.000000
+19:33:09.859: [obs-backgroundremoval]   Mask Every X Frames: 9
+19:33:09.859: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:09.859: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:09.859: [obs-backgroundremoval]   Blur Background: 0
+19:33:09.859: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:09.859: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:09.859: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:09.859: [obs-backgroundremoval]   Disabled: true
+19:33:09.859: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:09.859: [obs-backgroundremoval] Model is not initialized
+19:33:09.892: [obs-backgroundremoval] Model is not initialized
+19:33:09.926: [obs-backgroundremoval] Model is not initialized
+19:33:09.959: [obs-backgroundremoval] Model is not initialized
+19:33:09.992: [obs-backgroundremoval] Model is not initialized
+19:33:10.026: [obs-backgroundremoval] Model is not initialized
+19:33:10.059: [obs-backgroundremoval] Model is not initialized
+19:33:10.092: [obs-backgroundremoval] Model is not initialized
+19:33:10.126: [obs-backgroundremoval] Model is not initialized
+19:33:10.159: [obs-backgroundremoval] Model is not initialized
+19:33:10.192: [obs-backgroundremoval] Model is not initialized
+19:33:10.225: [obs-backgroundremoval] Background filter updated
+19:33:10.225: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:10.225: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:10.225: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:10.225: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:10.225: [obs-backgroundremoval]   Num Threads: 1
+19:33:10.225: [obs-backgroundremoval]   Enable Threshold: true
+19:33:10.225: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:10.225: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:10.225: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:10.225: [obs-backgroundremoval]   Feather: 0.000000
+19:33:10.225: [obs-backgroundremoval]   Mask Every X Frames: 10
+19:33:10.225: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:10.225: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:10.225: [obs-backgroundremoval]   Blur Background: 0
+19:33:10.225: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:10.225: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:10.225: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:10.226: [obs-backgroundremoval]   Disabled: true
+19:33:10.226: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:10.226: [obs-backgroundremoval] Model is not initialized
+19:33:10.259: [obs-backgroundremoval] Model is not initialized
+19:33:10.292: [obs-backgroundremoval] Model is not initialized
+19:33:10.325: [obs-backgroundremoval] Model is not initialized
+19:33:10.359: [obs-backgroundremoval] Model is not initialized
+19:33:10.392: [obs-backgroundremoval] Model is not initialized
+19:33:10.426: [obs-backgroundremoval] Model is not initialized
+19:33:10.459: [obs-backgroundremoval] Model is not initialized
+19:33:10.493: [obs-backgroundremoval] Background filter updated
+19:33:10.493: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:10.493: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:10.493: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:10.493: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:10.493: [obs-backgroundremoval]   Num Threads: 1
+19:33:10.493: [obs-backgroundremoval]   Enable Threshold: true
+19:33:10.493: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:10.493: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:10.493: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:10.493: [obs-backgroundremoval]   Feather: 0.000000
+19:33:10.493: [obs-backgroundremoval]   Mask Every X Frames: 11
+19:33:10.493: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:10.493: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:10.493: [obs-backgroundremoval]   Blur Background: 0
+19:33:10.493: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:10.493: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:10.493: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:10.493: [obs-backgroundremoval]   Disabled: true
+19:33:10.493: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:10.493: [obs-backgroundremoval] Model is not initialized
+19:33:10.526: [obs-backgroundremoval] Model is not initialized
+19:33:10.559: [obs-backgroundremoval] Model is not initialized
+19:33:10.592: [obs-backgroundremoval] Model is not initialized
+19:33:10.626: [obs-backgroundremoval] Model is not initialized
+19:33:10.659: [obs-backgroundremoval] Model is not initialized
+19:33:10.692: [obs-backgroundremoval] Model is not initialized
+19:33:10.726: [obs-backgroundremoval] Model is not initialized
+19:33:10.759: [obs-backgroundremoval] Model is not initialized
+19:33:10.792: [obs-backgroundremoval] Model is not initialized
+19:33:10.825: [obs-backgroundremoval] Model is not initialized
+19:33:10.859: [obs-backgroundremoval] Background filter updated
+19:33:10.859: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:10.859: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:10.859: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:10.859: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:10.859: [obs-backgroundremoval]   Num Threads: 1
+19:33:10.859: [obs-backgroundremoval]   Enable Threshold: true
+19:33:10.859: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:10.859: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:10.859: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:10.859: [obs-backgroundremoval]   Feather: 0.000000
+19:33:10.859: [obs-backgroundremoval]   Mask Every X Frames: 12
+19:33:10.859: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:10.859: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:10.859: [obs-backgroundremoval]   Blur Background: 0
+19:33:10.859: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:10.859: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:10.859: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:10.859: [obs-backgroundremoval]   Disabled: true
+19:33:10.859: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:10.859: [obs-backgroundremoval] Model is not initialized
+19:33:10.892: [obs-backgroundremoval] Model is not initialized
+19:33:10.926: [obs-backgroundremoval] Model is not initialized
+19:33:10.959: [obs-backgroundremoval] Model is not initialized
+19:33:10.992: [obs-backgroundremoval] Model is not initialized
+19:33:11.025: [obs-backgroundremoval] Model is not initialized
+19:33:11.059: [obs-backgroundremoval] Model is not initialized
+19:33:11.092: [obs-backgroundremoval] Model is not initialized
+19:33:11.125: [obs-backgroundremoval] Model is not initialized
+19:33:11.158: [obs-backgroundremoval] Model is not initialized
+19:33:11.192: [obs-backgroundremoval] Model is not initialized
+19:33:11.226: [obs-backgroundremoval] Model is not initialized
+19:33:11.259: [obs-backgroundremoval] Model is not initialized
+19:33:11.292: [obs-backgroundremoval] Model is not initialized
+19:33:11.326: [obs-backgroundremoval] Model is not initialized
+19:33:11.358: [obs-backgroundremoval] Model is not initialized
+19:33:11.392: [obs-backgroundremoval] Background filter updated
+19:33:11.392: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:11.392: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:11.392: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:11.392: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:11.392: [obs-backgroundremoval]   Num Threads: 1
+19:33:11.392: [obs-backgroundremoval]   Enable Threshold: true
+19:33:11.392: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:11.392: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:11.392: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:11.392: [obs-backgroundremoval]   Feather: 0.000000
+19:33:11.392: [obs-backgroundremoval]   Mask Every X Frames: 12
+19:33:11.392: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:11.392: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:11.392: [obs-backgroundremoval]   Blur Background: 0
+19:33:11.392: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:11.392: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:11.392: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:11.392: [obs-backgroundremoval]   Disabled: true
+19:33:11.392: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:11.392: [obs-backgroundremoval] Model is not initialized
+19:33:11.425: [obs-backgroundremoval] Model is not initialized
+19:33:11.459: [obs-backgroundremoval] Model is not initialized
+19:33:11.493: [obs-backgroundremoval] Model is not initialized
+19:33:11.525: [obs-backgroundremoval] Model is not initialized
+19:33:11.559: [obs-backgroundremoval] Model is not initialized
+19:33:11.592: [obs-backgroundremoval] Model is not initialized
+19:33:11.625: [obs-backgroundremoval] Model is not initialized
+19:33:11.659: [obs-backgroundremoval] Model is not initialized
+19:33:11.692: [obs-backgroundremoval] Model is not initialized
+19:33:11.726: [obs-backgroundremoval] Model is not initialized
+19:33:11.758: [obs-backgroundremoval] Model is not initialized
+19:33:11.792: [obs-backgroundremoval] Model is not initialized
+19:33:11.825: [obs-backgroundremoval] Model is not initialized
+19:33:11.859: [obs-backgroundremoval] Model is not initialized
+19:33:11.892: [obs-backgroundremoval] Model is not initialized
+19:33:11.926: [obs-backgroundremoval] Model is not initialized
+19:33:11.959: [obs-backgroundremoval] Model is not initialized
+19:33:11.992: [obs-backgroundremoval] Model is not initialized
+19:33:12.025: [obs-backgroundremoval] Model is not initialized
+19:33:12.059: [obs-backgroundremoval] Model is not initialized
+19:33:12.093: [obs-backgroundremoval] Model is not initialized
+19:33:12.125: [obs-backgroundremoval] Model is not initialized
+19:33:12.159: [obs-backgroundremoval] Model is not initialized
+19:33:12.192: [obs-backgroundremoval] Model is not initialized
+19:33:12.225: [obs-backgroundremoval] Model is not initialized
+19:33:12.259: [obs-backgroundremoval] Model is not initialized
+19:33:12.292: [obs-backgroundremoval] Model is not initialized
+19:33:12.325: [obs-backgroundremoval] Model is not initialized
+19:33:12.359: [obs-backgroundremoval] Model is not initialized
+19:33:12.393: [obs-backgroundremoval] Model is not initialized
+19:33:13.927: Last log entry repeated for 46 more lines
+19:33:13.927: [obs-backgroundremoval] /onnxruntime_src/onnxruntime/core/session/provider_bridge_ort.cc:1209 onnxruntime::Provider& onnxruntime::ProviderLibrary::Get() [ONNXRuntimeError] : 1 : FAIL : Failed to load library libonnxruntime_providers_tensorrt.so with error: libcudnn.so.8: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+19:33:13.927: 
+19:33:13.927: [obs-backgroundremoval] Failed to create ONNXRuntime session. Error code: 5
+19:33:14.459: [obs-backgroundremoval] Background filter updated
+19:33:14.459: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:14.459: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:14.459: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:14.459: [obs-backgroundremoval]   Inference Device: tensorrt
+19:33:14.459: [obs-backgroundremoval]   Num Threads: 2
+19:33:14.459: [obs-backgroundremoval]   Enable Threshold: true
+19:33:14.459: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:14.459: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:14.459: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:14.459: [obs-backgroundremoval]   Feather: 0.000000
+19:33:14.459: [obs-backgroundremoval]   Mask Every X Frames: 12
+19:33:14.459: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:14.459: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:14.459: [obs-backgroundremoval]   Blur Background: 0
+19:33:14.459: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:14.459: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:14.459: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:14.459: [obs-backgroundremoval]   Disabled: true
+19:33:14.459: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:14.459: [obs-backgroundremoval] Model is not initialized
+19:33:14.493: [obs-backgroundremoval] Model is not initialized
+19:33:14.525: [obs-backgroundremoval] Model is not initialized
+19:33:14.559: [obs-backgroundremoval] Model is not initialized
+19:33:14.592: [obs-backgroundremoval] Model is not initialized
+19:33:14.625: [obs-backgroundremoval] Model is not initialized
+19:33:14.659: [obs-backgroundremoval] Model is not initialized
+19:33:14.692: [obs-backgroundremoval] Model is not initialized
+19:33:14.726: [obs-backgroundremoval] Model is not initialized
+19:33:14.759: [obs-backgroundremoval] Model is not initialized
+19:33:14.792: [obs-backgroundremoval] Model is not initialized
+19:33:14.826: [obs-backgroundremoval] Model is not initialized
+19:33:14.859: [obs-backgroundremoval] Model is not initialized
+19:33:14.892: [obs-backgroundremoval] Model is not initialized
+19:33:14.926: [obs-backgroundremoval] Model is not initialized
+19:33:14.959: [obs-backgroundremoval] Model is not initialized
+19:33:14.992: [obs-backgroundremoval] Model is not initialized
+19:33:15.026: [obs-backgroundremoval] Model is not initialized
+19:33:15.059: [obs-backgroundremoval] Model is not initialized
+19:33:15.092: [obs-backgroundremoval] Model is not initialized
+19:33:15.126: [obs-backgroundremoval] Model is not initialized
+19:33:15.159: [obs-backgroundremoval] Model is not initialized
+19:33:15.193: [obs-backgroundremoval] Model is not initialized
+19:33:15.226: [obs-backgroundremoval] Model is not initialized
+19:33:15.259: [obs-backgroundremoval] Model is not initialized
+19:33:15.292: [obs-backgroundremoval] Model is not initialized
+19:33:15.325: [obs-backgroundremoval] Model is not initialized
+19:33:15.359: [obs-backgroundremoval] Model is not initialized
+19:33:15.392: [obs-backgroundremoval] Model is not initialized
+19:33:15.425: [obs-backgroundremoval] Model is not initialized
+19:33:15.459: [obs-backgroundremoval] Model is not initialized
+19:33:17.226: Last log entry repeated for 52 more lines
+19:33:17.226: [obs-backgroundremoval] Model models/mediapipe.onnx input 0: name input_1:0 shape (4 dim) 1 x 144 x 256 x 3
+19:33:17.226: [obs-backgroundremoval] Model models/mediapipe.onnx output 0: name segment:0 shape (4 dim) 1 x 144 x 256 x 2
+19:33:17.227: [obs-backgroundremoval] Allocated 110592 sized float-array for input 0
+19:33:17.227: [obs-backgroundremoval] Allocated 73728 sized float-array for output 0
+19:33:17.227: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:17.227: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:17.227: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:17.227: [obs-backgroundremoval]   Inference Device: cpu
+19:33:17.227: [obs-backgroundremoval]   Num Threads: 2
+19:33:17.227: [obs-backgroundremoval]   Enable Threshold: true
+19:33:17.227: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:17.227: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:17.227: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:17.227: [obs-backgroundremoval]   Feather: 0.000000
+19:33:17.227: [obs-backgroundremoval]   Mask Every X Frames: 12
+19:33:17.227: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:17.227: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:17.227: [obs-backgroundremoval]   Blur Background: 0
+19:33:17.227: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:17.227: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:17.227: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:17.227: [obs-backgroundremoval]   Disabled: true
+19:33:17.227: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:17.659: [obs-backgroundremoval] Background filter updated
+19:33:17.659: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:17.659: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:17.659: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:17.659: [obs-backgroundremoval]   Inference Device: cpu
+19:33:17.659: [obs-backgroundremoval]   Num Threads: 2
+19:33:17.659: [obs-backgroundremoval]   Enable Threshold: true
+19:33:17.659: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:17.659: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:17.659: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:17.659: [obs-backgroundremoval]   Feather: 0.000000
+19:33:17.659: [obs-backgroundremoval]   Mask Every X Frames: 12
+19:33:17.659: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:17.659: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:17.659: [obs-backgroundremoval]   Blur Background: 0
+19:33:17.659: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:17.659: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:17.659: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:17.659: [obs-backgroundremoval]   Disabled: true
+19:33:17.659: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:21.959: [obs-backgroundremoval] Background filter updated
+19:33:21.960: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:21.960: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:21.960: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:21.960: [obs-backgroundremoval]   Inference Device: cpu
+19:33:21.960: [obs-backgroundremoval]   Num Threads: 2
+19:33:21.960: [obs-backgroundremoval]   Enable Threshold: true
+19:33:21.960: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:21.960: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:21.960: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:21.960: [obs-backgroundremoval]   Feather: 0.000000
+19:33:21.960: [obs-backgroundremoval]   Mask Every X Frames: 11
+19:33:21.960: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:21.960: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:21.960: [obs-backgroundremoval]   Blur Background: 0
+19:33:21.960: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:21.960: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:21.960: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:21.960: [obs-backgroundremoval]   Disabled: true
+19:33:21.960: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:22.125: [obs-backgroundremoval] Background filter updated
+19:33:22.125: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:22.125: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:22.125: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:22.125: [obs-backgroundremoval]   Inference Device: cpu
+19:33:22.125: [obs-backgroundremoval]   Num Threads: 2
+19:33:22.125: [obs-backgroundremoval]   Enable Threshold: true
+19:33:22.125: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:22.125: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:22.125: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:22.125: [obs-backgroundremoval]   Feather: 0.000000
+19:33:22.125: [obs-backgroundremoval]   Mask Every X Frames: 10
+19:33:22.125: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:22.125: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:22.125: [obs-backgroundremoval]   Blur Background: 0
+19:33:22.125: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:22.125: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:22.125: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:22.125: [obs-backgroundremoval]   Disabled: true
+19:33:22.125: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:22.325: [obs-backgroundremoval] Background filter updated
+19:33:22.325: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:22.325: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:22.325: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:22.326: [obs-backgroundremoval]   Inference Device: cpu
+19:33:22.326: [obs-backgroundremoval]   Num Threads: 2
+19:33:22.326: [obs-backgroundremoval]   Enable Threshold: true
+19:33:22.326: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:22.326: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:22.326: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:22.326: [obs-backgroundremoval]   Feather: 0.000000
+19:33:22.326: [obs-backgroundremoval]   Mask Every X Frames: 9
+19:33:22.326: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:22.326: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:22.326: [obs-backgroundremoval]   Blur Background: 0
+19:33:22.326: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:22.326: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:22.326: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:22.326: [obs-backgroundremoval]   Disabled: true
+19:33:22.326: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:22.525: [obs-backgroundremoval] Background filter updated
+19:33:22.525: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:22.525: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:22.525: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:22.525: [obs-backgroundremoval]   Inference Device: cpu
+19:33:22.525: [obs-backgroundremoval]   Num Threads: 2
+19:33:22.525: [obs-backgroundremoval]   Enable Threshold: true
+19:33:22.525: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:22.525: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:22.525: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:22.525: [obs-backgroundremoval]   Feather: 0.000000
+19:33:22.525: [obs-backgroundremoval]   Mask Every X Frames: 8
+19:33:22.525: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:22.525: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:22.525: [obs-backgroundremoval]   Blur Background: 0
+19:33:22.525: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:22.525: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:22.525: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:22.525: [obs-backgroundremoval]   Disabled: true
+19:33:22.525: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:22.692: [obs-backgroundremoval] Background filter updated
+19:33:22.693: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:22.693: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:22.693: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:22.693: [obs-backgroundremoval]   Inference Device: cpu
+19:33:22.693: [obs-backgroundremoval]   Num Threads: 2
+19:33:22.693: [obs-backgroundremoval]   Enable Threshold: true
+19:33:22.693: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:22.693: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:22.693: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:22.693: [obs-backgroundremoval]   Feather: 0.000000
+19:33:22.693: [obs-backgroundremoval]   Mask Every X Frames: 7
+19:33:22.693: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:22.693: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:22.693: [obs-backgroundremoval]   Blur Background: 0
+19:33:22.693: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:22.693: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:22.693: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:22.693: [obs-backgroundremoval]   Disabled: true
+19:33:22.693: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:22.859: [obs-backgroundremoval] Background filter updated
+19:33:22.859: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:22.859: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:22.859: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:22.859: [obs-backgroundremoval]   Inference Device: cpu
+19:33:22.859: [obs-backgroundremoval]   Num Threads: 2
+19:33:22.859: [obs-backgroundremoval]   Enable Threshold: true
+19:33:22.859: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:22.859: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:22.859: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:22.859: [obs-backgroundremoval]   Feather: 0.000000
+19:33:22.859: [obs-backgroundremoval]   Mask Every X Frames: 6
+19:33:22.859: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:22.859: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:22.859: [obs-backgroundremoval]   Blur Background: 0
+19:33:22.859: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:22.859: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:22.859: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:22.859: [obs-backgroundremoval]   Disabled: true
+19:33:22.859: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:23.025: [obs-backgroundremoval] Background filter updated
+19:33:23.025: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:23.025: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:23.025: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:23.025: [obs-backgroundremoval]   Inference Device: cpu
+19:33:23.025: [obs-backgroundremoval]   Num Threads: 2
+19:33:23.025: [obs-backgroundremoval]   Enable Threshold: true
+19:33:23.025: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:23.025: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:23.025: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:23.025: [obs-backgroundremoval]   Feather: 0.000000
+19:33:23.025: [obs-backgroundremoval]   Mask Every X Frames: 5
+19:33:23.025: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:23.025: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:23.025: [obs-backgroundremoval]   Blur Background: 0
+19:33:23.025: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:23.025: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:23.025: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:23.025: [obs-backgroundremoval]   Disabled: true
+19:33:23.025: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:23.192: [obs-backgroundremoval] Background filter updated
+19:33:23.192: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:23.192: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:23.192: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:23.192: [obs-backgroundremoval]   Inference Device: cpu
+19:33:23.192: [obs-backgroundremoval]   Num Threads: 2
+19:33:23.192: [obs-backgroundremoval]   Enable Threshold: true
+19:33:23.192: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:23.192: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:23.192: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:23.192: [obs-backgroundremoval]   Feather: 0.000000
+19:33:23.192: [obs-backgroundremoval]   Mask Every X Frames: 4
+19:33:23.192: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:23.192: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:23.193: [obs-backgroundremoval]   Blur Background: 0
+19:33:23.193: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:23.193: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:23.193: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:23.193: [obs-backgroundremoval]   Disabled: true
+19:33:23.193: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:23.393: [obs-backgroundremoval] Background filter updated
+19:33:23.393: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:23.393: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:23.393: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:23.393: [obs-backgroundremoval]   Inference Device: cpu
+19:33:23.393: [obs-backgroundremoval]   Num Threads: 2
+19:33:23.393: [obs-backgroundremoval]   Enable Threshold: true
+19:33:23.393: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:23.393: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:23.393: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:23.393: [obs-backgroundremoval]   Feather: 0.000000
+19:33:23.393: [obs-backgroundremoval]   Mask Every X Frames: 3
+19:33:23.393: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:23.393: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:23.393: [obs-backgroundremoval]   Blur Background: 0
+19:33:23.393: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:23.393: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:23.393: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:23.393: [obs-backgroundremoval]   Disabled: true
+19:33:23.393: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:23.559: [obs-backgroundremoval] Background filter updated
+19:33:23.559: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:23.559: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:23.559: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:23.559: [obs-backgroundremoval]   Inference Device: cpu
+19:33:23.559: [obs-backgroundremoval]   Num Threads: 2
+19:33:23.559: [obs-backgroundremoval]   Enable Threshold: true
+19:33:23.559: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:23.559: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:23.559: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:23.559: [obs-backgroundremoval]   Feather: 0.000000
+19:33:23.559: [obs-backgroundremoval]   Mask Every X Frames: 2
+19:33:23.559: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:23.559: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:23.559: [obs-backgroundremoval]   Blur Background: 0
+19:33:23.560: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:23.560: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:23.560: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:23.560: [obs-backgroundremoval]   Disabled: true
+19:33:23.560: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:24.025: [obs-backgroundremoval] Background filter updated
+19:33:24.025: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:24.025: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:24.025: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:24.025: [obs-backgroundremoval]   Inference Device: cpu
+19:33:24.025: [obs-backgroundremoval]   Num Threads: 2
+19:33:24.025: [obs-backgroundremoval]   Enable Threshold: true
+19:33:24.025: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:24.025: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:24.025: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:24.025: [obs-backgroundremoval]   Feather: 0.000000
+19:33:24.025: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:24.025: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:24.025: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:24.025: [obs-backgroundremoval]   Blur Background: 0
+19:33:24.025: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:24.025: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:24.026: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:24.026: [obs-backgroundremoval]   Disabled: true
+19:33:24.026: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:24.525: [obs-backgroundremoval] Background filter updated
+19:33:24.525: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:24.525: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:24.525: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:24.525: [obs-backgroundremoval]   Inference Device: cpu
+19:33:24.525: [obs-backgroundremoval]   Num Threads: 2
+19:33:24.525: [obs-backgroundremoval]   Enable Threshold: true
+19:33:24.525: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:24.525: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:24.525: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:24.525: [obs-backgroundremoval]   Feather: 0.000000
+19:33:24.525: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:24.525: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:24.525: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:24.525: [obs-backgroundremoval]   Blur Background: 0
+19:33:24.525: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:24.525: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:24.525: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:24.525: [obs-backgroundremoval]   Disabled: true
+19:33:24.525: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:38.858: [obs-backgroundremoval] Background filter updated
+19:33:38.859: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:38.859: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:38.859: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:38.859: [obs-backgroundremoval]   Inference Device: cpu
+19:33:38.859: [obs-backgroundremoval]   Num Threads: 2
+19:33:38.859: [obs-backgroundremoval]   Enable Threshold: true
+19:33:38.859: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:38.859: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:38.859: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:38.859: [obs-backgroundremoval]   Feather: 0.000000
+19:33:38.859: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:38.859: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:38.859: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:38.859: [obs-backgroundremoval]   Blur Background: 1
+19:33:38.859: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:38.859: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:38.859: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:38.859: [obs-backgroundremoval]   Disabled: true
+19:33:38.859: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:38.992: [obs-backgroundremoval] Background filter updated
+19:33:38.992: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:38.992: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:38.992: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:38.992: [obs-backgroundremoval]   Inference Device: cpu
+19:33:38.992: [obs-backgroundremoval]   Num Threads: 2
+19:33:38.992: [obs-backgroundremoval]   Enable Threshold: true
+19:33:38.992: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:38.992: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:38.992: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:38.992: [obs-backgroundremoval]   Feather: 0.000000
+19:33:38.992: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:38.992: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:38.992: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:38.992: [obs-backgroundremoval]   Blur Background: 2
+19:33:38.992: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:38.992: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:38.992: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:38.992: [obs-backgroundremoval]   Disabled: true
+19:33:38.992: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:39.059: [obs-backgroundremoval] Background filter updated
+19:33:39.059: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:39.059: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:39.059: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:39.059: [obs-backgroundremoval]   Inference Device: cpu
+19:33:39.059: [obs-backgroundremoval]   Num Threads: 2
+19:33:39.059: [obs-backgroundremoval]   Enable Threshold: true
+19:33:39.059: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:39.059: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:39.059: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:39.059: [obs-backgroundremoval]   Feather: 0.000000
+19:33:39.059: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:39.059: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:39.059: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:39.059: [obs-backgroundremoval]   Blur Background: 3
+19:33:39.059: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:39.059: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:39.059: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:39.059: [obs-backgroundremoval]   Disabled: true
+19:33:39.059: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:39.525: [obs-backgroundremoval] Background filter updated
+19:33:39.525: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:39.525: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:39.525: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:39.525: [obs-backgroundremoval]   Inference Device: cpu
+19:33:39.525: [obs-backgroundremoval]   Num Threads: 2
+19:33:39.525: [obs-backgroundremoval]   Enable Threshold: true
+19:33:39.525: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:39.525: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:39.525: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:39.525: [obs-backgroundremoval]   Feather: 0.000000
+19:33:39.526: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:39.526: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:39.526: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:39.526: [obs-backgroundremoval]   Blur Background: 3
+19:33:39.526: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:39.526: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:39.526: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:39.526: [obs-backgroundremoval]   Disabled: true
+19:33:39.526: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:39.825: [obs-backgroundremoval] Background filter updated
+19:33:39.825: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:39.825: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:39.825: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:39.825: [obs-backgroundremoval]   Inference Device: cpu
+19:33:39.825: [obs-backgroundremoval]   Num Threads: 2
+19:33:39.825: [obs-backgroundremoval]   Enable Threshold: true
+19:33:39.825: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:39.825: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:39.825: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:39.825: [obs-backgroundremoval]   Feather: 0.000000
+19:33:39.825: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:39.825: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:39.825: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:39.825: [obs-backgroundremoval]   Blur Background: 4
+19:33:39.825: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:39.825: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:39.825: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:39.826: [obs-backgroundremoval]   Disabled: true
+19:33:39.826: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:40.025: [obs-backgroundremoval] Background filter updated
+19:33:40.025: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:40.025: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:40.025: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:40.025: [obs-backgroundremoval]   Inference Device: cpu
+19:33:40.025: [obs-backgroundremoval]   Num Threads: 2
+19:33:40.025: [obs-backgroundremoval]   Enable Threshold: true
+19:33:40.025: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:40.025: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:40.025: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:40.025: [obs-backgroundremoval]   Feather: 0.000000
+19:33:40.025: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:40.025: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:40.026: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:40.026: [obs-backgroundremoval]   Blur Background: 3
+19:33:40.026: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:40.026: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:40.026: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:40.026: [obs-backgroundremoval]   Disabled: true
+19:33:40.026: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:40.059: [obs-backgroundremoval] Background filter updated
+19:33:40.059: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:40.059: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:40.059: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:40.059: [obs-backgroundremoval]   Inference Device: cpu
+19:33:40.059: [obs-backgroundremoval]   Num Threads: 2
+19:33:40.059: [obs-backgroundremoval]   Enable Threshold: true
+19:33:40.059: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:40.059: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:40.059: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:40.059: [obs-backgroundremoval]   Feather: 0.000000
+19:33:40.059: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:40.059: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:40.059: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:40.059: [obs-backgroundremoval]   Blur Background: 2
+19:33:40.059: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:40.059: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:40.059: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:40.059: [obs-backgroundremoval]   Disabled: true
+19:33:40.059: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:40.125: [obs-backgroundremoval] Background filter updated
+19:33:40.125: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:40.125: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:40.125: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:40.125: [obs-backgroundremoval]   Inference Device: cpu
+19:33:40.125: [obs-backgroundremoval]   Num Threads: 2
+19:33:40.125: [obs-backgroundremoval]   Enable Threshold: true
+19:33:40.125: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:40.125: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:40.125: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:40.125: [obs-backgroundremoval]   Feather: 0.000000
+19:33:40.125: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:40.126: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:40.126: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:40.126: [obs-backgroundremoval]   Blur Background: 1
+19:33:40.126: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:40.126: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:40.126: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:40.126: [obs-backgroundremoval]   Disabled: true
+19:33:40.126: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:40.192: [obs-backgroundremoval] Background filter updated
+19:33:40.192: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:40.192: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:40.192: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:40.192: [obs-backgroundremoval]   Inference Device: cpu
+19:33:40.192: [obs-backgroundremoval]   Num Threads: 2
+19:33:40.192: [obs-backgroundremoval]   Enable Threshold: true
+19:33:40.192: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:40.192: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:40.192: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:40.192: [obs-backgroundremoval]   Feather: 0.000000
+19:33:40.192: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:40.192: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:40.192: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:40.192: [obs-backgroundremoval]   Blur Background: 0
+19:33:40.192: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:40.192: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:40.192: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:40.192: [obs-backgroundremoval]   Disabled: true
+19:33:40.192: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:40.692: [obs-backgroundremoval] Background filter updated
+19:33:40.692: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:40.692: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:40.692: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:40.692: [obs-backgroundremoval]   Inference Device: cpu
+19:33:40.692: [obs-backgroundremoval]   Num Threads: 2
+19:33:40.692: [obs-backgroundremoval]   Enable Threshold: true
+19:33:40.692: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:40.692: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:40.692: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:40.692: [obs-backgroundremoval]   Feather: 0.000000
+19:33:40.692: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:40.692: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:40.692: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:40.692: [obs-backgroundremoval]   Blur Background: 0
+19:33:40.692: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:40.692: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:40.692: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:40.692: [obs-backgroundremoval]   Disabled: true
+19:33:40.692: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:41.358: [obs-backgroundremoval] Background filter updated
+19:33:41.359: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:41.359: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:41.359: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:41.359: [obs-backgroundremoval]   Inference Device: cpu
+19:33:41.359: [obs-backgroundremoval]   Num Threads: 2
+19:33:41.359: [obs-backgroundremoval]   Enable Threshold: true
+19:33:41.359: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:41.359: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:41.359: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:41.359: [obs-backgroundremoval]   Feather: 0.000000
+19:33:41.359: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:41.359: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:41.359: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:41.359: [obs-backgroundremoval]   Blur Background: 1
+19:33:41.359: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:41.359: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:41.359: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:41.359: [obs-backgroundremoval]   Disabled: true
+19:33:41.359: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:41.859: [obs-backgroundremoval] Background filter updated
+19:33:41.859: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:41.859: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:41.859: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:41.859: [obs-backgroundremoval]   Inference Device: cpu
+19:33:41.859: [obs-backgroundremoval]   Num Threads: 2
+19:33:41.859: [obs-backgroundremoval]   Enable Threshold: true
+19:33:41.859: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:41.859: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:41.859: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:41.859: [obs-backgroundremoval]   Feather: 0.000000
+19:33:41.859: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:41.859: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:41.859: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:41.859: [obs-backgroundremoval]   Blur Background: 1
+19:33:41.859: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:41.859: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:41.859: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:41.859: [obs-backgroundremoval]   Disabled: true
+19:33:41.859: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:42.425: [obs-backgroundremoval] Background filter updated
+19:33:42.425: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:42.425: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:42.425: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:42.425: [obs-backgroundremoval]   Inference Device: cpu
+19:33:42.425: [obs-backgroundremoval]   Num Threads: 2
+19:33:42.425: [obs-backgroundremoval]   Enable Threshold: true
+19:33:42.425: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:42.425: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:42.425: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:42.425: [obs-backgroundremoval]   Feather: 0.000000
+19:33:42.425: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:42.425: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:42.425: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:42.425: [obs-backgroundremoval]   Blur Background: 2
+19:33:42.425: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:42.425: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:42.425: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:42.425: [obs-backgroundremoval]   Disabled: true
+19:33:42.425: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:42.592: [obs-backgroundremoval] Background filter updated
+19:33:42.592: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:42.592: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:42.592: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:42.592: [obs-backgroundremoval]   Inference Device: cpu
+19:33:42.592: [obs-backgroundremoval]   Num Threads: 2
+19:33:42.592: [obs-backgroundremoval]   Enable Threshold: true
+19:33:42.592: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:42.592: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:42.592: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:42.592: [obs-backgroundremoval]   Feather: 0.000000
+19:33:42.592: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:42.592: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:42.592: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:42.592: [obs-backgroundremoval]   Blur Background: 3
+19:33:42.592: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:42.592: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:42.592: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:42.592: [obs-backgroundremoval]   Disabled: true
+19:33:42.592: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:42.792: [obs-backgroundremoval] Background filter updated
+19:33:42.792: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:42.792: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:42.792: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:42.792: [obs-backgroundremoval]   Inference Device: cpu
+19:33:42.792: [obs-backgroundremoval]   Num Threads: 2
+19:33:42.792: [obs-backgroundremoval]   Enable Threshold: true
+19:33:42.792: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:42.792: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:42.792: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:42.792: [obs-backgroundremoval]   Feather: 0.000000
+19:33:42.792: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:42.792: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:42.792: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:42.792: [obs-backgroundremoval]   Blur Background: 4
+19:33:42.792: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:42.792: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:42.792: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:42.792: [obs-backgroundremoval]   Disabled: true
+19:33:42.792: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:43.325: [obs-backgroundremoval] Background filter updated
+19:33:43.325: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:43.325: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:43.325: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:43.325: [obs-backgroundremoval]   Inference Device: cpu
+19:33:43.325: [obs-backgroundremoval]   Num Threads: 2
+19:33:43.325: [obs-backgroundremoval]   Enable Threshold: true
+19:33:43.325: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:43.325: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:43.325: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:43.325: [obs-backgroundremoval]   Feather: 0.000000
+19:33:43.325: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:43.325: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:43.325: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:43.325: [obs-backgroundremoval]   Blur Background: 4
+19:33:43.325: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:43.325: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:43.325: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:43.325: [obs-backgroundremoval]   Disabled: true
+19:33:43.325: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:44.625: [obs-backgroundremoval] Background filter updated
+19:33:44.626: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:44.626: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:44.626: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:44.626: [obs-backgroundremoval]   Inference Device: cpu
+19:33:44.626: [obs-backgroundremoval]   Num Threads: 2
+19:33:44.626: [obs-backgroundremoval]   Enable Threshold: true
+19:33:44.626: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:44.626: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:44.626: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:44.626: [obs-backgroundremoval]   Feather: 0.000000
+19:33:44.626: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:44.626: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:44.626: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:44.626: [obs-backgroundremoval]   Blur Background: 3
+19:33:44.626: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:44.626: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:44.626: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:44.626: [obs-backgroundremoval]   Disabled: true
+19:33:44.626: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:44.792: [obs-backgroundremoval] Background filter updated
+19:33:44.792: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:44.792: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:44.792: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:44.792: [obs-backgroundremoval]   Inference Device: cpu
+19:33:44.792: [obs-backgroundremoval]   Num Threads: 2
+19:33:44.792: [obs-backgroundremoval]   Enable Threshold: true
+19:33:44.792: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:44.792: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:44.792: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:44.792: [obs-backgroundremoval]   Feather: 0.000000
+19:33:44.792: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:44.792: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:44.792: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:44.792: [obs-backgroundremoval]   Blur Background: 2
+19:33:44.792: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:44.792: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:44.792: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:44.792: [obs-backgroundremoval]   Disabled: true
+19:33:44.792: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:45.325: [obs-backgroundremoval] Background filter updated
+19:33:45.325: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:45.325: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:45.325: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:45.325: [obs-backgroundremoval]   Inference Device: cpu
+19:33:45.325: [obs-backgroundremoval]   Num Threads: 2
+19:33:45.325: [obs-backgroundremoval]   Enable Threshold: true
+19:33:45.325: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:45.325: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:45.325: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:45.325: [obs-backgroundremoval]   Feather: 0.000000
+19:33:45.325: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:45.325: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:45.325: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:45.325: [obs-backgroundremoval]   Blur Background: 2
+19:33:45.325: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:45.325: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:45.325: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:45.325: [obs-backgroundremoval]   Disabled: true
+19:33:45.325: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:46.158: [obs-backgroundremoval] Background filter updated
+19:33:46.159: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:46.159: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:46.159: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:46.159: [obs-backgroundremoval]   Inference Device: cpu
+19:33:46.159: [obs-backgroundremoval]   Num Threads: 2
+19:33:46.159: [obs-backgroundremoval]   Enable Threshold: true
+19:33:46.159: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:46.159: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:46.159: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:46.159: [obs-backgroundremoval]   Feather: 0.000000
+19:33:46.159: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:46.159: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:46.159: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:46.159: [obs-backgroundremoval]   Blur Background: 3
+19:33:46.159: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:46.159: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:46.159: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:46.159: [obs-backgroundremoval]   Disabled: true
+19:33:46.159: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:46.625: [obs-backgroundremoval] Background filter updated
+19:33:46.625: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:46.625: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:46.625: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:46.625: [obs-backgroundremoval]   Inference Device: cpu
+19:33:46.625: [obs-backgroundremoval]   Num Threads: 2
+19:33:46.625: [obs-backgroundremoval]   Enable Threshold: true
+19:33:46.625: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:46.625: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:46.625: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:46.625: [obs-backgroundremoval]   Feather: 0.000000
+19:33:46.625: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:46.625: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:46.625: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:46.625: [obs-backgroundremoval]   Blur Background: 3
+19:33:46.625: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:46.625: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:46.625: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:46.625: [obs-backgroundremoval]   Disabled: true
+19:33:46.625: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:46.725: [obs-backgroundremoval] Background filter updated
+19:33:46.725: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:46.725: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:46.725: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:46.725: [obs-backgroundremoval]   Inference Device: cpu
+19:33:46.725: [obs-backgroundremoval]   Num Threads: 2
+19:33:46.725: [obs-backgroundremoval]   Enable Threshold: true
+19:33:46.725: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:46.725: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:46.725: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:46.725: [obs-backgroundremoval]   Feather: 0.000000
+19:33:46.725: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:46.725: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:46.725: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:46.725: [obs-backgroundremoval]   Blur Background: 4
+19:33:46.725: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:46.725: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:46.725: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:46.725: [obs-backgroundremoval]   Disabled: true
+19:33:46.725: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:47.192: [obs-backgroundremoval] Background filter updated
+19:33:47.192: [obs-backgroundremoval] Background Removal Filter Options:
+19:33:47.192: [obs-backgroundremoval]   Source: Remoção de Fundo
+19:33:47.192: [obs-backgroundremoval]   Model: models/mediapipe.onnx
+19:33:47.192: [obs-backgroundremoval]   Inference Device: cpu
+19:33:47.192: [obs-backgroundremoval]   Num Threads: 2
+19:33:47.192: [obs-backgroundremoval]   Enable Threshold: true
+19:33:47.192: [obs-backgroundremoval]   Threshold: 0.500000
+19:33:47.192: [obs-backgroundremoval]   Contour Filter: 0.050000
+19:33:47.192: [obs-backgroundremoval]   Smooth Contour: 0.500000
+19:33:47.192: [obs-backgroundremoval]   Feather: 0.000000
+19:33:47.192: [obs-backgroundremoval]   Mask Every X Frames: 1
+19:33:47.192: [obs-backgroundremoval]   Enable Image Similarity: true
+19:33:47.192: [obs-backgroundremoval]   Image Similarity Threshold: 35.000000
+19:33:47.192: [obs-backgroundremoval]   Blur Background: 4
+19:33:47.192: [obs-backgroundremoval]   Enable Focal Blur: false
+19:33:47.192: [obs-backgroundremoval]   Blur Focus Point: 0.100000
+19:33:47.192: [obs-backgroundremoval]   Blur Focus Depth: 0.000000
+19:33:47.192: [obs-backgroundremoval]   Disabled: true
+19:33:47.192: [obs-backgroundremoval]   Model file path: /usr/share/obs/obs-plugins/obs-backgroundremoval/models/mediapipe.onnx
+19:33:59.733: ==== Shutting down ==================================================
+19:33:59.736: [pipewire] Stream 0x5555cf578570 state: "paused" (error: none)
+19:33:59.736: [pipewire] Stream 0x5555cf578570 state: "unconnected" (error: none)
+19:33:59.737: [pipewire] Stream 0x5555cf5f9e40 state: "paused" (error: none)
+19:33:59.737: [pipewire] Stream 0x5555cf5f9e40 state: "unconnected" (error: none)
+19:33:59.738: [pipewire] Stream 0x5555cf5b8760 state: "paused" (error: none)
+19:33:59.738: [pipewire] Stream 0x5555cf5b8760 state: "unconnected" (error: none)
+19:33:59.739: pulse-input: Stopped recording from 'alsa_output.pci-0000_03_00.1.hdmi-stereo-extra3.monitor'
+19:33:59.739: pulse-input: Got 8366 packets with 10039200 frames
+19:33:59.739: pulse-input: Stopped recording from 'alsa_input.usb-FIFINE_Microphones_Fifine_K658_Microphone_REV1.1-00.analog-stereo'
+19:33:59.739: pulse-input: Got 8364 packets with 10036800 frames
+19:33:59.739: [obs-backgroundremoval] Background filter destroyed
+19:33:59.742: v4l2-input: /dev/video0: Stopped capture after 3213 frames
+19:33:59.780: All scene data cleared
+19:33:59.780: ------------------------------------------------
+19:33:59.864: [obs-backgroundremoval] plugin unloaded
+19:33:59.883: [Scripting] Total detached callbacks: 0
+19:33:59.883: Freeing OBS context data
+19:33:59.900: == Profiler Results =============================
+19:33:59.900: run_program_init: 936.508 ms
+19:33:59.900:  ┣OBSApp::AppInit: 12.13 ms
+19:33:59.900:  ┃ ┗OBSApp::InitLocale: 0.948 ms
+19:33:59.900:  ┗OBSApp::OBSInit: 821.063 ms
+19:33:59.900:    ┣obs_startup: 1.511 ms
+19:33:59.900:    ┗OBSBasic::OBSInit: 794.301 ms
+19:33:59.900:      ┣OBSBasic::InitBasicConfig: 0.38 ms
+19:33:59.900:      ┣OBSBasic::ResetAudio: 0.182 ms
+19:33:59.900:      ┣OBSBasic::ResetVideo: 44.95 ms
+19:33:59.900:      ┃ ┗obs_init_graphics: 42.615 ms
+19:33:59.900:      ┃   ┗shader compilation: 25.441 ms
+19:33:59.900:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+19:33:59.900:      ┣OBSBasic::InitHotkeys: 0.025 ms
+19:33:59.900:      ┣obs_load_all_modules2: 678.049 ms
+19:33:59.900:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+19:33:59.900:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+19:33:59.900:      ┃ ┣obs_init_module(decklink.so): 0.075 ms
+19:33:59.900:      ┃ ┣obs_init_module(frontend-tools.so): 51.584 ms
+19:33:59.900:      ┃ ┣obs_init_module(image-source.so): 0.01 ms
+19:33:59.900:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+19:33:59.900:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+19:33:59.900:      ┃ ┣obs_init_module(linux-jack.so): 0.003 ms
+19:33:59.900:      ┃ ┣obs_init_module(linux-pipewire.so): 9.407 ms
+19:33:59.900:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.008 ms
+19:33:59.900:      ┃ ┣obs_init_module(linux-v4l2.so): 2.726 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-backgroundremoval.so): 263.951 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-ffmpeg.so): 10.24 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-filters.so): 0.022 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-nvenc.so): 0.063 ms
+19:33:59.900:      ┃ ┃ ┗nvenc_check: 0.057 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-outputs.so): 0.004 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-qsv11.so): 7.188 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-transitions.so): 0.006 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-vaapi.so): 8.599 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-vst.so): 0.004 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-webrtc.so): 0.005 ms
+19:33:59.900:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+19:33:59.900:      ┃ ┣obs_init_module(rtmp-services.so): 0.614 ms
+19:33:59.900:      ┃ ┗obs_init_module(text-freetype2.so): 0.007 ms
+19:33:59.900:      ┣OBSBasic::InitService: 0.92 ms
+19:33:59.900:      ┣OBSBasic::ResetOutputs: 0.156 ms
+19:33:59.900:      ┣OBSBasic::CreateHotkeys: 0.02 ms
+19:33:59.900:      ┣OBSBasic::InitPrimitives: 0.223 ms
+19:33:59.900:      ┗OBSBasic::Load: 15.168 ms
+19:33:59.900: obs_hotkey_thread(25 ms): min=0 ms, median=0.001 ms, max=0.016 ms, 99th percentile=0.002 ms, 100% below 25 ms
+19:33:59.900: audio_thread(Audio): min=0.013 ms, median=0.172 ms, max=15.347 ms, 99th percentile=0.788 ms
+19:33:59.900: obs_graphics_thread(33.3333 ms): min=0.083 ms, median=2.147 ms, max=1050.19 ms, 99th percentile=20.884 ms, 99.7907% below 33.333 ms
+19:33:59.900:  ┣tick_sources: min=0.001 ms, median=0.028 ms, max=1049.87 ms, 99th percentile=17.765 ms
+19:33:59.900:  ┣output_frame: min=0.024 ms, median=0.666 ms, max=31.948 ms, 99th percentile=2.286 ms
+19:33:59.900:  ┃ ┗gs_context(video->graphics): min=0.024 ms, median=0.664 ms, max=31.946 ms, 99th percentile=2.283 ms
+19:33:59.900:  ┃   ┣render_video: min=0.008 ms, median=0.409 ms, max=16.082 ms, 99th percentile=1.791 ms
+19:33:59.900:  ┃   ┃ ┗render_main_texture: min=0.007 ms, median=0.4 ms, max=16.073 ms, 99th percentile=1.778 ms
+19:33:59.900:  ┃   ┗gs_flush: min=0.002 ms, median=0.183 ms, max=15.838 ms, 99th percentile=0.465 ms
+19:33:59.900:  ┗render_displays: min=0.001 ms, median=1.098 ms, max=274.128 ms, 99th percentile=2.817 ms
+19:33:59.900: =================================================
+19:33:59.900: == Profiler Time Between Calls ==================
+19:33:59.900: obs_hotkey_thread(25 ms): min=25.011 ms, median=25.082 ms, max=28.197 ms, 99.6775% within ±2% of 25 ms (0% lower, 0.322465% higher)
+19:33:59.900: obs_graphics_thread(33.3333 ms): min=4.456 ms, median=33.333 ms, max=1050.2 ms, 99.5007% within ±2% of 33.333 ms (0.25769% lower, 0.241585% higher)
+19:33:59.900: =================================================
+19:33:59.911: Number of memory leaks: 2
