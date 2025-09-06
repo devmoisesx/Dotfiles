@@ -1,0 +1,175 @@
+* {
+  font-size: 12px;
+  /* min-height: 0; */
+  /* border-radius: 1rem; */
+  /* padding: 0.1rem; */
+  color: white;
+}
+
+window#waybar {
+  background: rgb(59, 59, 59);
+  color: white;
+}
+
+tooltip {
+  background: rgb(59, 59, 59);
+}
+tooltip label {
+  color: white;
+}
+
+/* #workspaces {
+  padding: 2px 12px;
+  margin: 5px;
+} */
+
+#workspaces button {
+  all: initial;
+  padding: 0 6px;
+  margin: 0 1.5px;
+  min-width: 9px;
+}
+
+#workspaces button.empty {
+  opacity: 0.5;
+}
+
+/* #workspaces button.hover {
+  background: rgba(75, 75, 75, 0.527);
+  transition: all 0.1s linear;
+}
+
+#workspaces button.focused {
+  background: #64727d;
+  transition: all 0.1s linear;
+} */
+
+/* #mode,
+#clock,
+#battery {
+  padding: 0 10px;
+} */
+
+#mode {
+  background: #64727d;
+  border-bottom: 3px solid white;
+}
+
+/* #tray {
+  width: 12px;
+} */
+
+/* #clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#mpd {
+  margin: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #000000;
+} */
+
+#network {
+  margin-right: 6px;
+} 
+
+#pulseaudio {
+  margin: 0 6px;
+} 
+
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+#clock {
+  margin-left: 4px;
+  margin-right: 6px;
+}
+
+#battery icon {
+  color: red;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #ffffff;
+  background-color: #26a65b;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+#battery.warning:not(.charging) {
+  background-color: #f53c3c;
+  color: #ffffff;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+  color: #ffffff;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+#network.disconnected {
+  background-color: #f53c3c;
+}
+
+#temperature.critical {
+  background-color: #eb4d4b;
+}
+
+#idle_inhibitor.activated {
+  background-color: #ecf0f1;
+  color: #2d3436;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: #eb4d4b;
+}
+
+#custom-os_button {
+  font-size: 32px;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#custom-os_button:hover {
+  background: white;
+  color: black;
+}

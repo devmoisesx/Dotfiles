@@ -1,0 +1,176 @@
+13:38:34.025: [Safe Mode] Unclean shutdown detected!
+13:38:35.095: [Safe Mode] User elected to launch normally.
+13:38:35.095: Platform: Wayland
+13:38:35.096: CPU Name: 12th Gen Intel(R) Core(TM) i5-12400F
+13:38:35.096: CPU Speed: 600.000MHz
+13:38:35.097: Physical Cores: 6, Logical Cores: 12
+13:38:35.097: Physical Memory: 15795MB Total, 11652MB Free
+13:38:35.097: Kernel Version: Linux 6.16.3-arch1-1
+13:38:35.097: Distribution: "Arch Linux" Unknown
+13:38:35.097: Desktop Environment: Hyprland (hyprland)
+13:38:35.097: Session Type: wayland
+13:38:35.105: Current Date/Time: 2025-08-28, 13:38:35
+13:38:35.105: Browser Hardware Acceleration: true
+13:38:35.105: Qt Version: 6.9.1 (runtime), 6.9.1 (compiled)
+13:38:35.105: Portable mode: false
+13:38:35.170: OBS 31.1.2 (linux)
+13:38:35.170: ---------------------------------
+13:38:35.171: ---------------------------------
+13:38:35.171: audio settings reset:
+13:38:35.171: 	samples per sec: 48000
+13:38:35.171: 	speakers:        2
+13:38:35.171: 	max buffering:   960 milliseconds
+13:38:35.171: 	buffering type:  dynamically increasing
+13:38:35.177: ---------------------------------
+13:38:35.177: Initializing OpenGL...
+13:38:35.177: Using EGL/Wayland
+13:38:35.211: Initialized EGL 1.5
+13:38:35.221: Loading up OpenGL on adapter AMD AMD Radeon RX 5700 (radeonsi, navi10, LLVM 20.1.8, DRM 3.64, 6.16.3-arch1-1)
+13:38:35.221: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.2.1-arch1.2, shading language 4.60
+13:38:35.255: ---------------------------------
+13:38:35.255: video settings reset:
+13:38:35.255: 	base resolution:   1920x1080
+13:38:35.255: 	output resolution: 1920x1080
+13:38:35.255: 	downscale filter:  Bicubic
+13:38:35.255: 	fps:               30/1
+13:38:35.255: 	format:            NV12
+13:38:35.255: 	YUV mode:          Rec. 709/Partial
+13:38:35.255: NV12 texture support enabled
+13:38:35.255: P010 texture support not available
+13:38:35.257: Audio monitoring device:
+13:38:35.257: 	name: Padrão
+13:38:35.257: 	id: default
+13:38:35.259: ---------------------------------
+13:38:35.267: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:38:35.275: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:38:35.281: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:38:35.281: Failed to initialize module 'decklink.so'
+13:38:35.499: [pipewire] Available capture sources:
+13:38:35.499: [pipewire]     - Monitor source
+13:38:35.499: [pipewire]     - Window source
+13:38:35.527: v4l2loopback not installed, virtual camera not registered
+13:38:36.197: VAAPI: API version 1.22
+13:38:36.197: FFmpeg VAAPI H264 encoding supported
+13:38:36.203: FFmpeg VAAPI AV1 encoding not supported
+13:38:36.206: FFmpeg VAAPI HEVC encoding supported
+13:38:36.515: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+13:38:36.515: 
+13:38:36.515: NVENC not supported
+13:38:36.515: Failed to initialize module 'obs-nvenc.so'
+13:38:36.793: [obs-vaapi] version: 0.4.2, gst-runtime: 1.26.5
+13:38:36.908: [obs-vaapi] found vah264enc
+13:38:36.908: [obs-vaapi] found vah265enc
+13:38:36.909: [obs-vaapi] found vaapih265enc
+13:38:36.909: [obs-vaapi] found vaapih264enc
+13:38:37.209: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+13:38:37.209: 
+13:38:37.209: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+13:38:37.500: ---------------------------------
+13:38:37.501:   Loaded Modules:
+13:38:37.501:     text-freetype2.so
+13:38:37.501:     rtmp-services.so
+13:38:37.501:     obs-x264.so
+13:38:37.501:     obs-webrtc.so
+13:38:37.501:     obs-vst.so
+13:38:37.501:     obs-vaapi.so
+13:38:37.501:     obs-transitions.so
+13:38:37.501:     obs-qsv11.so
+13:38:37.501:     obs-outputs.so
+13:38:37.501:     obs-libfdk.so
+13:38:37.501:     obs-filters.so
+13:38:37.501:     obs-ffmpeg.so
+13:38:37.501:     linux-v4l2.so
+13:38:37.501:     linux-pulseaudio.so
+13:38:37.501:     linux-pipewire.so
+13:38:37.501:     linux-jack.so
+13:38:37.501:     linux-capture.so
+13:38:37.501:     linux-alsa.so
+13:38:37.501:     image-source.so
+13:38:37.501:     frontend-tools.so
+13:38:37.501:     decklink-output-ui.so
+13:38:37.501:     decklink-captions.so
+13:38:37.501: ---------------------------------
+13:38:37.501: ---------------------------------
+13:38:37.501: Available Encoders:
+13:38:37.501:   Video Encoders:
+13:38:37.501: 	- ffmpeg_svt_av1 (SVT-AV1)
+13:38:37.501: 	- ffmpeg_aom_av1 (AOM AV1)
+13:38:37.501: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+13:38:37.501: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+13:38:37.516: 	- obs-va-vah264enc (VAAPI H.264 on Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT])
+13:38:37.520: 	- obs-va-vah265enc (VAAPI H.265 on Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT])
+13:38:37.520: 	- obs-vaapi-vaapih265enc (VAAPI H.265  (Legacy))
+13:38:37.520: 	- obs-vaapi-vaapih264enc (VAAPI H.264  (Legacy))
+13:38:37.520: 	- obs_x264 (x264)
+13:38:37.520:   Audio Encoders:
+13:38:37.520: 	- ffmpeg_aac (FFmpeg AAC)
+13:38:37.521: 	- ffmpeg_opus (FFmpeg Opus)
+13:38:37.521: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+13:38:37.521: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+13:38:37.521: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+13:38:37.521: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+13:38:37.521: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+13:38:37.521: 	- libfdk_aac (libfdk AAC)
+13:38:37.521: ==== Startup complete ===============================================
+13:38:37.673: All scene data cleared
+13:38:37.673: ------------------------------------------------
+13:38:37.679: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.7) 15.0.0'
+13:38:37.679: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+13:38:37.679: pulse-input: Started recording from 'alsa_output.pci-0000_03_00.1.hdmi-stereo-extra2.monitor' (default)
+13:38:37.679: [Loaded global audio device]: 'Áudio do desktop'
+13:38:37.680: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.7) 15.0.0'
+13:38:37.680: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+13:38:37.680: pulse-input: Started recording from 'alsa_input.usb-FIFINE_Microphones_Fifine_K658_Microphone_REV1.1-00.analog-stereo' (default)
+13:38:37.680: [Loaded global audio device]: 'Mic/Aux'
+13:38:37.680:     - filter: 'Filtro de ruídos' (noise_gate_filter)
+13:38:37.681: PipeWire initialized
+13:38:37.681: v4l2-input: Start capture from /dev/video0
+13:38:37.682: v4l2-input: Unable to open device
+13:38:37.682: v4l2-input: Initialization failed, errno: Arquivo ou diretório inexistente
+13:38:37.684: Switched to scene 'Cena'
+13:38:37.684: ------------------------------------------------
+13:38:37.684: Loaded scenes:
+13:38:37.685: - scene 'Cena':
+13:38:37.685:     - source: 'Captura de monitor (PipeWire)' (pipewire-screen-capture-source)
+13:38:37.685: - scene 'Cena 2':
+13:38:37.685:     - source: 'Dispositivo de captura de vídeo (V4L2)' (v4l2_input)
+13:38:37.685: ------------------------------------------------
+13:38:37.725: [pipewire] Screencast session created
+13:38:37.768: [pipewire] Asking for monitor and window
+13:38:37.807: [pipewire] source selected, setting up screencast
+13:38:37.812: [pipewire] Server version: 1.4.7
+13:38:37.812: [pipewire] Library version: 1.4.7
+13:38:37.812: [pipewire] Header version: 1.4.7
+13:38:37.812: [pipewire] Created stream 0x5586785c8b80
+13:38:37.812: [pipewire] Stream 0x5586785c8b80 state: "connecting" (error: none)
+13:38:37.813: [pipewire] Playing stream 0x5586785c8b80
+13:38:37.813: [pipewire] Stream 0x5586785c8b80 state: "paused" (error: none)
+13:38:37.823: [pipewire] Negotiated format:
+13:38:37.823: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:38:37.823: [pipewire]     Modifier: 0x0
+13:38:37.823: [pipewire]     Size: 1920x1080
+13:38:37.823: [pipewire]     Framerate: 0/1
+13:38:37.824: [pipewire] Negotiated format:
+13:38:37.824: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:38:37.824: [pipewire]     Modifier: 0x20000000096bb02
+13:38:37.824: [pipewire]     Size: 1920x1080
+13:38:37.824: [pipewire]     Framerate: 0/1
+13:38:37.825: [pipewire] Stream 0x5586785c8b80 state: "streaming" (error: none)
+13:38:37.827: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+13:38:37.827: [pipewire] Renegotiating stream
+13:38:37.827: [pipewire] Stream 0x5586785c8b80 state: "paused" (error: none)
+13:38:37.827: [pipewire] Negotiated format:
+13:38:37.827: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:38:37.827: [pipewire]     Modifier: 0x20000000096bb02
+13:38:37.827: [pipewire]     Size: 1920x1080
+13:38:37.827: [pipewire]     Framerate: 0/1
+13:38:37.828: [pipewire] Negotiated format:
+13:38:37.828: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+13:38:37.828: [pipewire]     Modifier: 0x200000000801b02
+13:38:37.828: [pipewire]     Size: 1920x1080
+13:38:37.828: [pipewire]     Framerate: 0/1
+13:38:37.829: [pipewire] Stream 0x5586785c8b80 state: "streaming" (error: none)
+13:38:38.243: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Áudio do desktop)
+13:38:38.243: 
+13:46:21.006: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Áudio do desktop)
+13:46:21.006: 

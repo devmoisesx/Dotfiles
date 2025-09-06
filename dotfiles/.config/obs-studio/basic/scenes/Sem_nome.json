@@ -45,7 +45,7 @@
         "volume": 1.0,
         "balance": 0.5,
         "enabled": true,
-        "muted": false,
+        "muted": true,
         "push-to-mute": false,
         "push-to-mute-delay": 0,
         "push-to-talk": false,
@@ -87,8 +87,8 @@
             }
         ]
     },
-    "current_scene": "Cena 2",
-    "current_program_scene": "Cena 2",
+    "current_scene": "Cena",
+    "current_program_scene": "Cena",
     "scene_order": [
         {
             "name": "Cena"
@@ -227,7 +227,7 @@
                     {
                         "name": "Dispositivo de captura de vídeo (V4L2)",
                         "source_uuid": "cfe828bb-09e5-498f-be1e-b10126428488",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -365,7 +365,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -11,
+    "scaling_level": -14,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "modules": {
