@@ -20,7 +20,7 @@
     "hyprland/workspaces": {
         "on-click": "activate",
         "persistent-workspaces": {
-            "*": [
+            "DP-2": [
                 1,
                 2,
                 3,
@@ -33,6 +33,13 @@
                 8,
                 9,
                 10
+            ],
+            "DP-3": [
+                11,
+                12,
+                13,
+                14,
+                15
             ]
         },
         "active-only": false,
@@ -59,7 +66,6 @@
     },
     "clock": {
         "format": "{:%H:%M %A %d/%m}",
-        // "format-alt": "{:%A, %B %d, %Y (%R)}  ",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "calendar": {
             "mode": "month",
@@ -73,6 +79,13 @@
                 "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
                 "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
             }
+        },
+        "actions": {
+            "on-click-right": "mode"
+            // "on-scroll-up": "tz_up",
+            // "on-scroll-down": "tz_down",
+            // "on-scroll-up": "shift_up",
+            // "on-scroll-down": "shift_down"
         }
     },
     "network": {
@@ -143,11 +156,16 @@
         "on-click": "blueberry"
     },
     "pulseaudio": {
-        "format": "{icon}",
+        // "format": "{icon}  {volume}% {format_source}",
+        "format-bluetooth": " {icon}   {volume}% {format_source}",
+        "format-bluetooth-muted": "  {icon} {format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": "",
+        "format": "{icon}   {volume}%  {format_source}",
         "on-click": "pavucontrol",
         "on-click-right": "pamixer -t",
         "tooltip-format": "Playing at {volume}%",
-        "scroll-step": 5,
+        "scroll-step": 2,
         "format-muted": "󰝟",
         "format-icons": {
             "default": [
