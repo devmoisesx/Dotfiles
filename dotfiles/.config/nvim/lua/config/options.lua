@@ -1,3 +1,11 @@
+-- call plug#begin(s:plug_dir)
+-- Plug 'neovim/nvim-lspconfig'
+-- Plug 'hrsh7th/cmp-nvim-lsp'
+-- Plug 'hrsh7th/cmp-buffer'
+-- Plug 'hrsh7th/cmp-path'
+-- Plug 'hrsh7th/cmp-cmdline'
+-- Plug 'hrsh7th/nvim-cmp'
+
 local o = vim.opt
 
 -- Habilitar Word Wrap
@@ -30,3 +38,18 @@ vim.opt.ignorecase = true -- Case insensitive searching UNLESS /C or capital in 
 vim.opt.title = true
 
 -- vim.lsp.inline_completion.enable(true)
+
+-- o.autocomplete = true
+--
+-- vim.cmd("set completeopt+=noselect")
+--
+-- vim.api.nvim_create_autocmd("LspAttach", {
+--   callback = function(ev)
+--     local client = vim.lsp.get_client_by_id(ev.data.client_id)
+--     if client ~= nil and client:supports_method("textDocument/completion") then
+--       vim.lsp.completion.enable(true, client.id, ev.buf, { autotrigger = true })
+--     end
+--   end,
+-- })
+--
+-- vim.g.lazyvim_cmp = "nvim-cmp"

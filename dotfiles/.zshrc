@@ -14,9 +14,16 @@ alias gp="git push"
 alias ga="git add "
 alias gc="git commit -m "
 
+# alias nvim="/home/moises/AppImages/neovim.appimage"
+# export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 export PATH="$HOME/.local/bin:$PATH"
+
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+	exec tmux new-session -A -s terminal
+fi
 
 # source /path/to/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 skip_global_compinit=1
@@ -60,3 +67,4 @@ export FZF_CTRL_T_OPTS="
   --bind 'ctrl-/:change-preview-window(down|hidden|)'"
 export DOTNET_ROOT=/usr/share/dotnet
 
+eval "$(starship init zsh)"
