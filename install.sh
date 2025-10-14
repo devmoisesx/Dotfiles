@@ -14,7 +14,7 @@ source scripts/checks/check_arch.sh
 source scripts/checks/check_internet.sh
 
 # Backup
-source scripts/configs/backup.sh
+# source scripts/configs/backup.sh
 
 # Install
 source scripts/install/install_hyprland.sh
@@ -24,8 +24,7 @@ source scripts/install/install_packages.sh
 source scripts/install/install_flatpaks.sh
 source scripts/install/install_cursor.sh
 source scripts/install/install_fonts.sh
-source scripts/install/ohmyzsh/install_ohmyzsh.sh
-source scripts/install/ohmyzsh/install_plugins.sh
+
 
 # Configs
 source scripts/configs/config_git.sh
@@ -38,10 +37,14 @@ source scripts/copy_settings.sh
 source scripts/default-apps.sh
 
 # Chroot
-source scripts/change_terminal.sh
+#source scripts/change_terminal.sh
 
 # Update
 sudo pacman -Syu --noconfirm
+
+
+#source scripts/install/ohmyzsh/install_ohmyzsh.sh
+#source scripts/install/ohmyzsh/install_plugins.sh
 
 # Reboot
 clear
