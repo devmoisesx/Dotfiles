@@ -2,14 +2,14 @@ echo "=== Copying Settings ==="
 
 # Copy config files to ~/.config
 if compgen -G "~/Dotfiles/dotfiles/.config/*" >/dev/null; then
-    echo "Copying dotfiles to ~/.config ..."
-    ln -sf ~/Dotfiles/dotfiles/.config/* ~/.config/
+  echo "Copying dotfiles to ~/.config ..."
+  ln -sf ~/Dotfiles/dotfiles/.config/* ~/.config/
 fi
 
 # Copy .zshrc file to ~/
 if ! [[ -d ~/.zshrc ]]; then
-    echo "Copying .zshrc to ~/ ..."
-    ln -sf ~/Dotfiles/dotfiles/.zshrc ~/
+  echo "Copying .zshrc to ~/ ..."
+  ln -sf ~/Dotfiles/dotfiles/.zshrc ~/
 fi
 
 # # Copy nvim folder to ~/
@@ -20,29 +20,30 @@ fi
 # fi
 
 if ! [[ -d ~/.tmux.conf ]]; then
-    echo "Copying .tmux.conf to ~/ ..."
-    ln -sf ~/Dotfiles/dotfiles/.tmux.conf ~/
+  echo "Copying .tmux.conf to ~/ ..."
+  ln -sf ~/Dotfiles/dotfiles/.tmux.conf ~/
 fi
 
 if ! [[ -d ~/.tmux ]]; then
-    echo "Copying .tmux to ~/ ..."
-    ln -sf ~/Dotfiles/dotfiles/.tmux ~/
+  echo "Copying .tmux to ~/ ..."
+  ln -sf ~/Dotfiles/dotfiles/.tmux ~/
+  ln -sf ~/Dotfiles/dotfiles/.tmux.conf ~/
 fi
 
 # Copy .icons file to ~/
 if ! [[ -d ~/.icons ]]; then
-    echo "Copying dotfiles to ~/.config ..."
-    ln -sf ~/Dotfiles/dotfiles/.icons ~/
+  echo "Copying dotfiles to ~/.config ..."
+  ln -sf ~/Dotfiles/dotfiles/.icons ~/
 fi
 
 if ! [[ -d ~/.local ]]; then
-    echo "Copying dotfiles to ~/.config ..."
-    ln -sf ~/Dotfiles/dotfiles/.local ~/
+  echo "Copying dotfiles to ~/.config ..."
+  ln -sf ~/Dotfiles/dotfiles/.local ~/
 fi
 
 if ! [[ -d ~/.themes ]]; then
-    echo "Copying dotfiles to ~/.config ..."
-    ln -sf ~/Dotfiles/dotfiles/.themes ~/
+  echo "Copying dotfiles to ~/.config ..."
+  ln -sf ~/Dotfiles/dotfiles/.themes ~/
 fi
 
 # if ! [[ -d ~/.themes ]]; then
@@ -52,3 +53,4 @@ fi
 #     # ln -sf ~/Dotfiles/dotfiles/.local/share/applications/msedge-whatsappWeb.desktop ~/.local/share/applications/
 # fi
 ln -sf ~/Dotfiles/dotfiles/.local/share/applications/* ~/.local/share/applications/
+
