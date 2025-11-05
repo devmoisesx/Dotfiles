@@ -1,0 +1,79 @@
+Tmux detach session - Prefix + d
+Tmux rename session - Prefix + $
+Tmux show all sessions - Prefix + s
+Tmux session and window preview - Prefix + w
+Tmux move to previous session - Prefix + (
+Tmux move to next session - Prefix + )
+Tmux create window - Prefix + c
+Tmux rename current window - Prefix + ,
+Tmux close current window - Prefix + &
+Tmux list windows - Prefix + W
+Tmux previous window - Prefix + p
+Tmux next window - Prefix + n
+Tmux switch window by number - Prefix + 0-9
+Tmux toggle last active window - Prefix + |
+Tmux split window horizontally - Prefix + |
+Tmux split window vertically - Prefix + -
+Tmux switch to next pane - Prefix + o
+Tmux switch to previous pane - Prefix + ;
+Tmux resize pane up - Prefix + Ctrl + ↑
+Tmux resize pane down - Prefix + Ctrl + ↓
+Tmux resize pane left - Prefix + Ctrl + ←
+Tmux resize pane right - Prefix + Ctrl + →
+Tmux maximize/minimize current pane - Prefix + z
+Tmux close current pane - Prefix + x
+Tmux swap current pane with another - Prefix + { or }
+Tmux move pane to a new window - Prefix + !
+Tmux show pane numbers - Prefix + q
+Tmux copy mode (scroll/search) - Prefix + [
+Tmux paste buffer - Prefix + ]
+Tmux list buffers - Prefix + =
+Tmux kill all sessions - Prefix + : then type kill-server
+Tmux reload config file - Prefix + : then type source-file ~/.tmux.conf
+
+LazyVim toggle file explorer (Neotree) - Leader + e
+LazyVim find files (Telescope) - Leader + f
+LazyVim find text in files (live grep) - Leader + F
+LazyVim find buffers (open files) - Leader + b
+LazyVim find recently opened files - Leader + r
+LazyVim find commands - Leader + :
+LazyVim find help - Leader + h
+LazyVim switch to previous buffer - Leader + p
+LazyVim switch to next buffer - Leader + n
+LazyVim close current buffer - Leader + x
+LazyVim close all buffers except current - Leader + X
+LazyVim toggle diagnostics - Leader + d
+LazyVim show diagnostics for current file - Leader + D
+LazyVim go to next diagnostic - ]d
+LazyVim go to previous diagnostic - [d
+LazyVim format current file - Leader + m
+LazyVim code actions (LSP) - Leader + a
+LazyVim rename symbol - Leader + R
+LazyVim show references - Leader + r
+LazyVim show implementations - Leader + i
+LazyVim show type definition - Leader + t
+LazyVim toggle terminal - Leader + \
+LazyVim toggle lazy plugin manager - Leader + L
+LazyVim toggle which-key (help menu) - Leader + ?
+LazyVim split window vertically - Leader + v
+LazyVim split window horizontally - Leader + s
+LazyVim maximize current window - Leader + =
+LazyVim close current window - Leader + q
+LazyVim comment current line/block - gc
+LazyVim toggle comment - gcc
+LazyVim undo tree - Leader + u
+LazyVim session manager (save/load) - Leader + S
+LazyVim open dashboard - Leader + ;
+LazyVim open cheatsheet (which-key) - Leader + ?
+LazyVim jump to word (hop/flash) - s
+LazyVim jump to line (hop/flash) - S
+LazyVim yank to system clipboard - "+y
+LazyVim paste from system clipboard - "+p
+
+LazyVim-Mult-Cursor select words - Ctrl-N 
+LazyVim-Mult-Cursor create cursors vertically - Ctrl-Down/Ctrl-Up
+LazyVim-Mult-Cursor select one character at a time - Shift-Arrows
+LazyVim-Mult-Cursor next/previous occurrence - n/N
+LazyVim-Mult-Cursor select next/previous cursor - /
+LazyVim-Mult-Cursor skip current and get next occurrence - q
+LazyVim-Mult-Cursor remove current cursor/selection - Q
