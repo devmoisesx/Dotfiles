@@ -17,7 +17,7 @@ alias n="nvim"
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 export PATH="$HOME/.local/bin:$PATH"
-
+export TERMINAL="kitty"
 # if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
 # 	exec tmux new-session -A -s terminal
 # fi
