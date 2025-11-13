@@ -52,7 +52,7 @@ button {
     border-radius: 0;
     background: transparent;
     padding: 0;
-    margin: 4px 0px 0px 0px;
+    /* margin: 4px 0px 0px 0px; */
 }
 
 #workspaces {
